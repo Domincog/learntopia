@@ -1,0 +1,56 @@
+{
+  "course": "fitness",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "spine-mri": {
+      "id": "spine-mri",
+      "file": "spine-mri.jpg",
+      "src": "content/media/fitness/spine-mri.jpg?v=88f4872a",
+      "width": 500,
+      "height": 586,
+      "bytes": 49948,
+      "sha256": "88f4872a33767a322ca4eea0081b001fcb1b16cb386515799f954cf2ce403768",
+      "small": {
+        "file": "spine-mri.480.jpg",
+        "src": "content/media/fitness/spine-mri.480.jpg?v=5407ac58",
+        "width": 410,
+        "height": 480,
+        "bytes": 29535,
+        "sha256": "5407ac58e1242e1dfb868deb02b9847e0b7346618a40392c07a4cd5439ad119a"
+      },
+      "title": "File:Lumbar MRI t2-tse-rst-sagittal 06.jpg",
+      "requested": "File:Lumbar MRI t2-tse-rst-sagittal 06.jpg",
+      "name": "MRI of a lower back, seen from the side",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lumbar_MRI_t2-tse-rst-sagittal_06.jpg",
+      "author": "Stillwaterising",
+      "authorDerived": "Stillwaterising",
+      "authorApi": "Stillwaterising",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?",
+      "credit": "Own work",
+      "date": "2014-07-24",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 799,
+        "height": 937,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 586
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    }
+  }
+}

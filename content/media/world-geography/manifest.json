@@ -1,0 +1,697 @@
+{
+  "course": "world-geography",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "baarle-cafe": {
+      "id": "baarle-cafe",
+      "file": "baarle-cafe.jpg",
+      "src": "content/media/world-geography/baarle-cafe.jpg?v=44d6b119",
+      "width": 960,
+      "height": 650,
+      "bytes": 179543,
+      "sha256": "44d6b119cba0506c69e7e7f53dd1c390885e044b357617558cfc8be741eb7567",
+      "small": {
+        "file": "baarle-cafe.480.jpg",
+        "src": "content/media/world-geography/baarle-cafe.480.jpg?v=e36f0042",
+        "width": 480,
+        "height": 325,
+        "bytes": 41100,
+        "sha256": "e36f0042c6fa2eda002cc5e2cc7101bf70767f5fd4175a6d8eebbd93c386df5d"
+      },
+      "title": "File:Baarle-Nassau frontière café.jpg",
+      "requested": "File:Baarle-Nassau frontière café.jpg",
+      "name": "The border between Belgium and the Netherlands in Baarle",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baarle-Nassau_fronti%C3%A8re_caf%C3%A9.jpg",
+      "author": "Jérôme",
+      "credit": "Own work",
+      "date": "2001-09",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1143,
+        "height": 774,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 650
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Jérôme",
+      "authorApi": "User:Jérôme"
+    },
+    "berlin-conference": {
+      "id": "berlin-conference",
+      "file": "berlin-conference.jpg",
+      "src": "content/media/world-geography/berlin-conference.jpg?v=b009c378",
+      "width": 973,
+      "height": 748,
+      "bytes": 178553,
+      "sha256": "b009c378b8f9569f8c5b1b30fc98b2139cc3b548e80d483c24468cf4693e2b59",
+      "small": {
+        "file": "berlin-conference.480.jpg",
+        "src": "content/media/world-geography/berlin-conference.480.jpg?v=e1d7b123",
+        "width": 480,
+        "height": 369,
+        "bytes": 45345,
+        "sha256": "e1d7b123cae48d17a4c49fdc354249b8361a1df705f9cf7b8ec5c2cabcde5289"
+      },
+      "title": "File:Kongokonferenz.jpg",
+      "requested": "File:Kongokonferenz.jpg",
+      "name": "The Berlin Conference of 1884 to 1885 (drawing by Adalbert von Rößler)",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kongokonferenz.jpg",
+      "author": "Adalbert von Roessler",
+      "credit": "Über Land und Meer. Allgemeine Illustrierte Zeitung, Jg. 27 (Oktober 1884-1885), Bd. 53, Nr. 14, 308).",
+      "date": "1884",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3631,
+        "height": 2790,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 984
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Adalbert von Roessler",
+      "authorApi": "Adalbert von Roessler"
+    },
+    "blue-marble": {
+      "id": "blue-marble",
+      "file": "blue-marble.jpg",
+      "src": "content/media/world-geography/blue-marble.jpg?v=e6226b38",
+      "width": 972,
+      "height": 973,
+      "bytes": 170813,
+      "sha256": "e6226b388820a406df88f9b791c39047dcccc8c358bafec9cede24e990b1b1ac",
+      "small": {
+        "file": "blue-marble.480.jpg",
+        "src": "content/media/world-geography/blue-marble.480.jpg?v=a9171f82",
+        "width": 480,
+        "height": 480,
+        "bytes": 42469,
+        "sha256": "a9171f82443780d3b2cfb5214f1928e81627923ed751c33f74188eba7c58d0eb"
+      },
+      "title": "File:The Earth seen from Apollo 17.jpg",
+      "requested": "File:The Earth seen from Apollo 17.jpg",
+      "name": "The Blue Marble (Apollo 17)",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+      "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+      "credit": "https://web.archive.org/web/20160112123725/http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001138.html (image link); see also…",
+      "date": "7 December 1972",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3000,
+        "height": 3002,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1281
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+      "authorApi": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans"
+    },
+    "earth-night": {
+      "id": "earth-night",
+      "file": "earth-night.jpg",
+      "src": "content/media/world-geography/earth-night.jpg?v=2e4591a9",
+      "width": 960,
+      "height": 624,
+      "bytes": 76495,
+      "sha256": "2e4591a9db68bdcc17d1f89d8a824a73852c391f61fb27e6826c49a515fb189d",
+      "small": {
+        "file": "earth-night.480.jpg",
+        "src": "content/media/world-geography/earth-night.480.jpg?v=ae7ff2ec",
+        "width": 480,
+        "height": 312,
+        "bytes": 15707,
+        "sha256": "ae7ff2ec3596c949a4043a896bc4dafc3a0c13d1f42a8b0ff8684088b9723a29"
+      },
+      "title": "File:BlackMarble20161km.jpg",
+      "requested": "File:BlackMarble20161km.jpg",
+      "name": "Earth at night, 2016 (NASA Black Marble)",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BlackMarble20161km.jpg",
+      "author": "NASA Earth Observatory / Joshua Stevens",
+      "credit": "NASA https://www.nasa.gov/feature/goddard/2017/new-night-lights-maps-open-up-possible-real-time-applications (image link)",
+      "date": "2017-03-23 12:40:11",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 43200,
+        "height": 21600,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1920,
+        "height": 960
+      },
+      "options": {
+        "crop": [
+          0.4306,
+          0.1,
+          0.9306,
+          0.75
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel…",
+      "authorApi": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA's Goddard Space Flight Center",
+      "authorOverride": "NASA Earth Observatory / Joshua Stevens"
+    },
+    "everest": {
+      "id": "everest",
+      "file": "everest.jpg",
+      "src": "content/media/world-geography/everest.jpg?v=90c93119",
+      "width": 1280,
+      "height": 696,
+      "bytes": 154503,
+      "sha256": "90c93119e9aafc3bae1692c6733f3cf2a467f12b07d067689e0f33ec4bd4f3a7",
+      "small": {
+        "file": "everest.480.jpg",
+        "src": "content/media/world-geography/everest.480.jpg?v=68a4e98a",
+        "width": 480,
+        "height": 261,
+        "bytes": 28532,
+        "sha256": "68a4e98aaae657cc6e961688fe42c78af37f8ebd65d8a8c6d8ef30c8702d777a"
+      },
+      "title": "File:Mount Everest as seen from Drukair2 PLW edit.jpg",
+      "requested": "File:Mount Everest as seen from Drukair2 PLW edit.jpg",
+      "name": "Mount Everest from the air",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg",
+      "author": "shrimpo1967; derivative work: Papa Lima Whiskey 2",
+      "credit": "This file was derived from: Mount Everest as seen from Drukair2.jpg:",
+      "date": "2012-02-03 11:18",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2971,
+        "height": 1615,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 696
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "shrimpo1967; derivative work: Papa Lima Whiskey 2",
+      "authorApi": "Mount_Everest_as_seen_from_Drukair2.jpg: shrimpo1967 derivative work: Papa Lima Whiskey 2 (talk)"
+    },
+    "harrison-h1": {
+      "id": "harrison-h1",
+      "file": "harrison-h1.jpg",
+      "src": "content/media/world-geography/harrison-h1.jpg?v=3523a901",
+      "width": 947,
+      "height": 720,
+      "bytes": 122292,
+      "sha256": "3523a90137cd120c960698c689e7326d18482b1880c217f62bf86bebc9dd1394",
+      "small": {
+        "file": "harrison-h1.480.jpg",
+        "src": "content/media/world-geography/harrison-h1.480.jpg?v=d0b396ed",
+        "width": 480,
+        "height": 365,
+        "bytes": 34432,
+        "sha256": "d0b396ed378e7464e2dbe83902597bcb3901270ced1d910c93bc4e22585c43b9"
+      },
+      "title": "File:Clock that changed the world (H1, 1730-35) - Flickr - Tatters ❀.jpg",
+      "requested": "File:Clock that changed the world (H1, 1730-35) - Flickr - Tatters ❀.jpg",
+      "name": "Harrison's first sea clock, H1",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clock_that_changed_the_world_(H1,_1730-35)_-_Flickr_-_Tatters_%E2%9D%80.jpg",
+      "author": "Tatters ❀",
+      "credit": "Clock that changed the world (H1, 1730-35)",
+      "date": "2016-09-20 12:57",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1440,
+        "height": 1080,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 960
+      },
+      "options": {
+        "crop": [
+          0.14,
+          0.25,
+          0.88,
+          1
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Tatters ❀",
+      "authorApi": "Tatters ❀ from Brisbane, Australia"
+    },
+    "harrison-h4": {
+      "id": "harrison-h4",
+      "file": "harrison-h4.jpg",
+      "src": "content/media/world-geography/harrison-h4.jpg?v=aec6b1c7",
+      "width": 1280,
+      "height": 853,
+      "bytes": 171238,
+      "sha256": "aec6b1c742afc7f65832be1fb2eb5999fc063d302e8838b6605833da35d2d824",
+      "small": {
+        "file": "harrison-h4.480.jpg",
+        "src": "content/media/world-geography/harrison-h4.480.jpg?v=2ae05613",
+        "width": 480,
+        "height": 320,
+        "bytes": 19352,
+        "sha256": "2ae05613cc369b4b282c92191ba37e6cc31c70a3c4aa9a7e57d4fdfaacaa67d0"
+      },
+      "title": "File:Clock that changed the world (H4, 1759) - Flickr - Tatters ❀.jpg",
+      "requested": "File:Clock that changed the world (H4, 1759) - Flickr - Tatters ❀.jpg",
+      "name": "Harrison's sea watch, H4",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clock_that_changed_the_world_(H4,_1759)_-_Flickr_-_Tatters_%E2%9D%80.jpg",
+      "author": "Tatters ❀",
+      "credit": "Clock that changed the world (H4, 1759)",
+      "date": "2016-09-20 12:58",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1620,
+        "height": 1080,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Tatters ❀",
+      "authorApi": "Tatters ❀ from Brisbane, Australia"
+    },
+    "himalaya-space": {
+      "id": "himalaya-space",
+      "file": "himalaya-space.jpg",
+      "src": "content/media/world-geography/himalaya-space.jpg?v=4dbac744",
+      "width": 845,
+      "height": 758,
+      "bytes": 176227,
+      "sha256": "4dbac744c7e2ec62e437655e02e9e5e184804fea2c7d2a882f16d05a23655135",
+      "small": {
+        "file": "himalaya-space.480.jpg",
+        "src": "content/media/world-geography/himalaya-space.480.jpg?v=9004c35b",
+        "width": 480,
+        "height": 431,
+        "bytes": 43654,
+        "sha256": "9004c35bb1f20f948b4e8aa43b4f51344343f9be1db8e9888dd323593c0fcc67"
+      },
+      "title": "File:Tibetan Plateau, Himalaya Mountains, and Indo-Gangetic Plain (MODIS 2018-10-28).jpg",
+      "requested": "File:Tibetan Plateau, Himalaya Mountains, and Indo-Gangetic Plain (MODIS 2018-10-28).jpg",
+      "name": "The Tibetan Plateau, the Himalaya and the plain of the Ganges from space",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tibetan_Plateau,_Himalaya_Mountains,_and_Indo-Gangetic_Plain_(MODIS_2018-10-28).jpg",
+      "author": "MODIS Land Rapid Response Team, NASA GSFC",
+      "credit": "This image or video was catalogued by Goddard Space Flight Center of the United States National Aeronautics and Space Administration (NASA) under Photo ID…",
+      "date": "Taken on 25 October 2018",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 7753,
+        "height": 6958,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1149
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "MODIS Land Rapid Response Team, NASA GSFC",
+      "authorApi": "MODIS Land Rapid Response Team, NASA GSFC"
+    },
+    "korea-night": {
+      "id": "korea-night",
+      "file": "korea-night.jpg",
+      "src": "content/media/world-geography/korea-night.jpg?v=7d718381",
+      "width": 1186,
+      "height": 1280,
+      "bytes": 162769,
+      "sha256": "7d718381d133476f9ca1d9da6cc40f70300a9dcea6989a5e32596e175fdac493",
+      "small": {
+        "file": "korea-night.480.jpg",
+        "src": "content/media/world-geography/korea-night.480.jpg?v=075cb6f2",
+        "width": 445,
+        "height": 480,
+        "bytes": 22913,
+        "sha256": "075cb6f2d15b2a9447c5b7b970d87a36afacce5d8e1a9d10ae66974d61e910dd"
+      },
+      "title": "File:Korean Peninsula at night from space.jpg",
+      "requested": "File:Korean Peninsula at night from space.jpg",
+      "name": "The Korean peninsula at night",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_Peninsula_at_night_from_space.jpg",
+      "author": "NASA Earth Observatory / Joshua Stevens",
+      "credit": "Derived from image from NASA (direct link)",
+      "date": "2016",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1345,
+        "height": 1452,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1382
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel…",
+      "authorApi": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA's Goddard Space Flight Center",
+      "authorOverride": "NASA Earth Observatory / Joshua Stevens"
+    },
+    "mercator-1569": {
+      "id": "mercator-1569",
+      "file": "mercator-1569.jpg",
+      "src": "content/media/world-geography/mercator-1569.jpg?v=7a76f935",
+      "width": 845,
+      "height": 537,
+      "bytes": 183038,
+      "sha256": "7a76f9352577559a5d7610589f6a4d0a625ac4e1b213d488bc64b8a3e2f5775e",
+      "small": {
+        "file": "mercator-1569.480.jpg",
+        "src": "content/media/world-geography/mercator-1569.480.jpg?v=011321cd",
+        "width": 480,
+        "height": 305,
+        "bytes": 42384,
+        "sha256": "011321cdde7bd15ab5c34437ced134b60cda31d33fa6a3e66544f8efff5a976d"
+      },
+      "title": "File:Mercator 1569 world map composite.jpg",
+      "requested": "File:Mercator 1569 world map composite.jpg",
+      "name": "Mercator's world map of 1569",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercator_1569_world_map_composite.jpg",
+      "author": "Gerardus Mercator",
+      "credit": "Basel copy of the 1569 world map photographed by Wilhelm Krucken. He holds the copyright for the high definition photographs but he permits use of these…",
+      "date": "2012-03-19",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 5433,
+        "height": 3450,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 813
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Gerardus Mercator",
+      "authorApi": "Gerardus Mercator"
+    },
+    "nile-night": {
+      "id": "nile-night",
+      "file": "nile-night.jpg",
+      "src": "content/media/world-geography/nile-night.jpg?v=957b72b0",
+      "width": 1280,
+      "height": 852,
+      "bytes": 158809,
+      "sha256": "957b72b05d67f603a8fa4574e4605f31e3c26ac2d97dbcf34cb51f9d267c14e5",
+      "small": {
+        "file": "nile-night.480.jpg",
+        "src": "content/media/world-geography/nile-night.480.jpg?v=64faad20",
+        "width": 480,
+        "height": 320,
+        "bytes": 20464,
+        "sha256": "64faad2014893f7c1f86a0892d6ef61b7d2b0876e02f8ea8ba9ca19f068040ad"
+      },
+      "title": "File:Nile River Delta at Night.JPG",
+      "requested": "File:Nile River Delta at Night.JPG",
+      "name": "The Nile valley and delta at night, from the International Space Station",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nile_River_Delta_at_Night.JPG",
+      "author": "ISS Expedition 25 crew",
+      "credit": "NASA Earth Observatory",
+      "date": "2010-10-28",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 4256,
+        "height": 2832,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 852
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "ISS Expedition 25 crew",
+      "authorApi": "ISS Expedition 25 crew"
+    },
+    "tabula-rogeriana": {
+      "id": "tabula-rogeriana",
+      "file": "tabula-rogeriana.jpg",
+      "src": "content/media/world-geography/tabula-rogeriana.jpg?v=762ee6b6",
+      "width": 973,
+      "height": 441,
+      "bytes": 173690,
+      "sha256": "762ee6b62c9ed9ac5825d2d6a506cfcfb8fb3389ece7ec55b4f2b957a567b432",
+      "small": {
+        "file": "tabula-rogeriana.480.jpg",
+        "src": "content/media/world-geography/tabula-rogeriana.480.jpg?v=ed8ca7b8",
+        "width": 480,
+        "height": 218,
+        "bytes": 42650,
+        "sha256": "ed8ca7b8d44d630da4cb7e4eaa1acff2900947c62a259de024d5e3699afee9e6"
+      },
+      "title": "File:TabulaRogeriana.jpg",
+      "requested": "File:TabulaRogeriana.jpg",
+      "name": "Tabula Rogeriana (al-Idrisi, 1154; copy by Konrad Miller, 1928)",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TabulaRogeriana.jpg",
+      "author": "al-Idrisi (1154); copy by Konrad Miller (1928)",
+      "authorDerived": "Konrad Miller (copy and transliteration)",
+      "authorOverride": "al-Idrisi (1154); copy by Konrad Miller (1928)",
+      "authorApi": "Konrad Miller (copy and transliteration)",
+      "credit": "Konrad Miller's collage of the Bodleian MS. Pococke 375 or possibly another based on the French National Library's MS. Arabe 2221",
+      "date": "1929",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 4128,
+        "height": 1872,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 580
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    },
+    "waldseemuller": {
+      "id": "waldseemuller",
+      "file": "waldseemuller.jpg",
+      "src": "content/media/world-geography/waldseemuller.jpg?v=e34b9f6e",
+      "width": 973,
+      "height": 543,
+      "bytes": 181159,
+      "sha256": "e34b9f6e6433446050260c63d8971228808b7f303a98541c7921d1c545a8a8cd",
+      "small": {
+        "file": "waldseemuller.480.jpg",
+        "src": "content/media/world-geography/waldseemuller.480.jpg?v=9f99aa68",
+        "width": 480,
+        "height": 268,
+        "bytes": 44605,
+        "sha256": "9f99aa68cd8ee7c8f7e1fd10ef027dd195ff42c0e742e31dbe402df80de85145"
+      },
+      "title": "File:UniversalisCosmographia.jpg",
+      "requested": "File:UniversalisCosmographia.jpg",
+      "name": "Universalis Cosmographia (Waldseemüller map, 1507)",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:UniversalisCosmographia.jpg",
+      "author": "Martin Waldseemüller",
+      "credit": "Library of Congress (website https://www.loc.gov/rr/geogmap/waldexh.html)",
+      "date": "1507",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2048,
+        "height": 1144,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 715
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Martin Waldseemüller",
+      "authorApi": "Martin Waldseemüller"
+    },
+    "windcatchers": {
+      "id": "windcatchers",
+      "file": "windcatchers.jpg",
+      "src": "content/media/world-geography/windcatchers.jpg?v=bf63905f",
+      "width": 1280,
+      "height": 928,
+      "bytes": 144775,
+      "sha256": "bf63905fb67daa89a7b07622e8f65cbc24a79c9f8059518c9479e344b2e6d088",
+      "small": {
+        "file": "windcatchers.480.jpg",
+        "src": "content/media/world-geography/windcatchers.480.jpg?v=24c72bb2",
+        "width": 480,
+        "height": 348,
+        "bytes": 24876,
+        "sha256": "24c72bb2f8b2314071d87e7acc9bebcf9597dba6a8926204f901f7ddb11135fa"
+      },
+      "title": "File:Iran - Yazd - Fahadan - Badgir (Windcatcher) - panoramio.jpg",
+      "requested": "File:Iran - Yazd - Fahadan - Badgir (Windcatcher) - panoramio.jpg",
+      "name": "Wind-catchers in the old town of Yazd, Iran",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iran_-_Yazd_-_Fahadan_-_Badgir_(Windcatcher)_-_panoramio.jpg",
+      "author": "Alireza Javaheri",
+      "credit": "https://web.archive.org/web/20161025023650/http://www.panoramio.com/photo/74228760",
+      "date": "Taken on 11 November 2011",
+      "license": "CC BY 3.0",
+      "licenseCode": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2000,
+        "height": 1450,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 928
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Alireza Javaheri",
+      "authorApi": "Alireza Javaheri",
+      "attributionApi": "Alireza Javaheri"
+    }
+  }
+}

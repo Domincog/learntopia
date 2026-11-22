@@ -1,0 +1,159 @@
+{
+  "course": "first-aid",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "aed-cabinet": {
+      "id": "aed-cabinet",
+      "file": "aed-cabinet.jpg",
+      "src": "content/media/first-aid/aed-cabinet.jpg?v=e69bfc46",
+      "width": 1014,
+      "height": 1082,
+      "bytes": 173835,
+      "sha256": "e69bfc46206fb92a602a5be7a28df992e4f3a88850c9294bf84a93b1485a770c",
+      "small": {
+        "file": "aed-cabinet.480.jpg",
+        "src": "content/media/first-aid/aed-cabinet.480.jpg?v=c1d916d7",
+        "width": 450,
+        "height": 480,
+        "bytes": 33234,
+        "sha256": "c1d916d78de0fa0b0558091a2622c06fcd60642979efe4b5e622afc56405622a"
+      },
+      "title": "File:DAE Almada Forum 02.jpg",
+      "requested": "File:DAE Almada Forum 02.jpg",
+      "name": "DAE Almada Forum 02",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DAE_Almada_Forum_02.jpg",
+      "author": "DiogoBaptista",
+      "authorDerived": "DiogoBaptista",
+      "authorApi": "DiogoBaptista",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?",
+      "credit": "Own work",
+      "date": "2025-03-13 22:07:45",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3024,
+        "height": 4032,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1920,
+        "height": 2560
+      },
+      "options": {
+        "crop": [
+          0.06,
+          0.24,
+          0.66,
+          0.72
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14"
+    },
+    "auto-injector": {
+      "id": "auto-injector",
+      "file": "auto-injector.jpg",
+      "src": "content/media/first-aid/auto-injector.jpg?v=0b0e8501",
+      "width": 1280,
+      "height": 319,
+      "bytes": 63526,
+      "sha256": "0b0e85014a123bbdd3fe5cc2ce0b96dfbd317ecb686c978e8536fee0ba854d23",
+      "small": {
+        "file": "auto-injector.480.jpg",
+        "src": "content/media/first-aid/auto-injector.480.jpg?v=5445df18",
+        "width": 480,
+        "height": 120,
+        "bytes": 8491,
+        "sha256": "5445df1850a0883e6d48f9698c40022c74ee41919c35ba8a5e1e997ffccfed51"
+      },
+      "title": "File:Jext300-Autoinjektor-02 (cropped).jpg",
+      "requested": "File:Jext300-Autoinjektor-02 (cropped).jpg",
+      "name": "Jext300-Autoinjektor-02 (cropped)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jext300-Autoinjektor-02_(cropped).jpg",
+      "author": "CEphoto, Uwe Aranas",
+      "authorDerived": "CEphoto, Uwe Aranas or alternatively © CEphoto, Uwe Aranas",
+      "authorApi": "CEphoto, Uwe Aranas",
+      "attributionApi": "Photo by CEphoto, Uwe Aranas or alternatively © CEphoto, Uwe Aranas",
+      "credit": "Own work",
+      "date": "2015-03-01",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3349,
+        "height": 835,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 319
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorOverride": "CEphoto, Uwe Aranas"
+    },
+    "recovery-position": {
+      "id": "recovery-position",
+      "file": "recovery-position.jpg",
+      "src": "content/media/first-aid/recovery-position.jpg?v=0db19bf5",
+      "width": 960,
+      "height": 507,
+      "bytes": 71671,
+      "sha256": "0db19bf5bf0d77ddea281235400b6c739aa67a176d736274a214fd886547cc12",
+      "small": {
+        "file": "recovery-position.480.jpg",
+        "src": "content/media/first-aid/recovery-position.480.jpg?v=43de56f4",
+        "width": 480,
+        "height": 254,
+        "bytes": 17617,
+        "sha256": "43de56f4bec722a5ce003a1599d6a2d69a5acd76ba839d47c8bd994e013644aa"
+      },
+      "title": "File:Stabile seitenlage.png",
+      "requested": "File:Stabile seitenlage.png",
+      "name": "Stabile seitenlage",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stabile_seitenlage.png",
+      "author": "Grummelbacke",
+      "authorDerived": "Grummelbacke",
+      "authorApi": "Grummelbacke",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?",
+      "credit": "Own work",
+      "date": "2025-02-25",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1249,
+        "height": 659,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 507
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    }
+  }
+}

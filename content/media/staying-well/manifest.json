@@ -1,0 +1,115 @@
+{
+  "course": "staying-well",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "disk-test": {
+      "id": "disk-test",
+      "file": "disk-test.jpg",
+      "src": "content/media/staying-well/disk-test.jpg?v=8e09cd5d",
+      "width": 883,
+      "height": 598,
+      "bytes": 82812,
+      "sha256": "8e09cd5dba60976830dfa41d0614f5554f8f1e83aba9003f3eeeca55dd2a0d05",
+      "small": {
+        "file": "disk-test.480.jpg",
+        "src": "content/media/staying-well/disk-test.480.jpg?v=fb433a1e",
+        "width": 480,
+        "height": 325,
+        "bytes": 20277,
+        "sha256": "fb433a1efc86eae1d38be8655160557c75d831f37c8134b04bd34397b292b566"
+      },
+      "title": "File:Antibiotic susceptibility disk diffusion.jpg",
+      "requested": "File:Antibiotic susceptibility disk diffusion.jpg",
+      "name": "Antibiotic susceptibility test by disk diffusion",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antibiotic_susceptibility_disk_diffusion.jpg",
+      "author": "Microrao",
+      "authorDerived": "Microrao",
+      "authorApi": "Microrao",
+      "credit": "Own work",
+      "date": "2012-07-23 10:03:33",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2592,
+        "height": 1552,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1920,
+        "height": 1150
+      },
+      "options": {
+        "crop": [
+          0.03,
+          0.48,
+          0.49,
+          1
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14"
+    },
+    "snow-map": {
+      "id": "snow-map",
+      "file": "snow-map.jpg",
+      "src": "content/media/staying-well/snow-map.jpg?v=47bc8646",
+      "width": 1280,
+      "height": 1036,
+      "bytes": 302573,
+      "sha256": "47bc8646a46dcd1c1195595aa703d5655c54f3029f139537a6ccefe4bb91f0b5",
+      "small": {
+        "file": "snow-map.480.jpg",
+        "src": "content/media/staying-well/snow-map.480.jpg?v=1b32917a",
+        "width": 480,
+        "height": 389,
+        "bytes": 44021,
+        "sha256": "1b32917afe910ca0590456cf89b130d9a3cdf52b3acf03b5c30cf51b9b7b8b41"
+      },
+      "title": "File:Snow-cholera-map-1.jpg",
+      "requested": "File:Snow-cholera-map-1.jpg",
+      "name": "Map of the 1854 cholera outbreak around Broad Street, London",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg",
+      "author": "John Snow",
+      "authorDerived": "John Snow",
+      "authorApi": "John Snow",
+      "creditLabel": "Map",
+      "credit": "Map of the book \"On the Mode of Communication of Cholera\" by John Snow, originally published in 1854 by C.F. Cheffins, Lith, Southhampton Buildings, London…",
+      "date": "1854",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 20124,
+        "height": 18877,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1920,
+        "height": 1801
+      },
+      "options": {
+        "crop": [
+          0.25,
+          0.17,
+          0.98,
+          0.8
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280,
+        "budget": 327680
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14"
+    }
+  }
+}

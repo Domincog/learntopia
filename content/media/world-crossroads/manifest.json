@@ -1,0 +1,1132 @@
+{
+  "course": "world-crossroads",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "algebra-page": {
+      "id": "algebra-page",
+      "file": "algebra-page.jpg",
+      "src": "content/media/world-crossroads/algebra-page.jpg?v=77adc251",
+      "width": 960,
+      "height": 693,
+      "bytes": 146533,
+      "sha256": "77adc2517ec45d115329f49637c6e209fdedce8790746689569af663245ead67",
+      "small": {
+        "file": "algebra-page.480.jpg",
+        "src": "content/media/world-crossroads/algebra-page.480.jpg?v=e356344f",
+        "width": 480,
+        "height": 347,
+        "bytes": 42243,
+        "sha256": "e356344fb0d6891d10ff6b271cdf9b2a4f143124f9b994e49abef695c8f570f6"
+      },
+      "title": "File:Bodleian MS. Huntington 214 roll332 frame36.jpg",
+      "requested": "File:Bodleian MS. Huntington 214 roll332 frame36.jpg",
+      "name": "Al-Jabr",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodleian_MS._Huntington_214_roll332_frame36.jpg",
+      "author": "Muḥammad ibn Musa al-Khwarizmi",
+      "credit": "Bodleian Libraries",
+      "date": "2015-09-17 09:53:41",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1000,
+        "height": 722,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 693
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Muḥammad ibn Musa al-Khwarizmi",
+      "authorApi": "Muḥammad ibn Musa al-Khwarizmi"
+    },
+    "astrolabe": {
+      "id": "astrolabe",
+      "file": "astrolabe.jpg",
+      "src": "content/media/world-crossroads/astrolabe.jpg?v=f8b1c53a",
+      "width": 833,
+      "height": 1023,
+      "bytes": 181269,
+      "sha256": "f8b1c53a60544bc74a70a5d11ecba2cc1278872bf0257c06d3751e113ec7f5f4",
+      "small": {
+        "file": "astrolabe.480.jpg",
+        "src": "content/media/world-crossroads/astrolabe.480.jpg?v=4c8ee107",
+        "width": 391,
+        "height": 480,
+        "bytes": 38751,
+        "sha256": "4c8ee1073907faa5a129893a749b25e9a32ae24fda13ce3eb2996bf97b34b8ce"
+      },
+      "title": "File:Astrolabe of ‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari MET DP170386.jpg",
+      "requested": "File:Astrolabe of ‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari MET DP170386.jpg",
+      "name": "Astrolabe of ‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Astrolabe_of_%E2%80%98Umar_ibn_Yusuf_ibn_%E2%80%98Umar_ibn_%E2%80%98Ali_ibn_Rasul_al-Muzaffari_MET_DP170386.jpg",
+      "author": "‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy",
+      "date": "dated A.H. 690/ A.D. 1291",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2995,
+        "height": 4000,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1710
+      },
+      "options": {
+        "crop": [
+          0.14,
+          0.18,
+          0.88,
+          0.86
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari",
+      "authorApi": "Creator:‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari"
+    },
+    "banknote": {
+      "id": "banknote",
+      "file": "banknote.jpg",
+      "src": "content/media/world-crossroads/banknote.jpg?v=ca81ad47",
+      "width": 973,
+      "height": 709,
+      "bytes": 175364,
+      "sha256": "ca81ad476cac4c4839903c06fc677522b1ff954e6e6e3b937ded387150a70c26",
+      "small": {
+        "file": "banknote.480.jpg",
+        "src": "content/media/world-crossroads/banknote.480.jpg?v=9ba84a0a",
+        "width": 480,
+        "height": 350,
+        "bytes": 41945,
+        "sha256": "9ba84a0ab1fb7dc66cf1b0d5d8f3dbe494ade087bb7bf2e6cdfa013b349e7c54"
+      },
+      "title": "File:Yuan dynasty banknote with its printing plate 1287.jpg",
+      "requested": "File:Yuan dynasty banknote with its printing plate 1287.jpg",
+      "name": "Yuan dynasty banknote with its printing plate 1287",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuan_dynasty_banknote_with_its_printing_plate_1287.jpg",
+      "author": "PHGCOM",
+      "credit": "Own work, photographed at Tokyo Currency Museum",
+      "date": "2007",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2631,
+        "height": 1918,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 933
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "PHGCOM",
+      "authorApi": "PHGCOM"
+    },
+    "chartres": {
+      "id": "chartres",
+      "file": "chartres.jpg",
+      "src": "content/media/world-crossroads/chartres.jpg?v=6e95b088",
+      "width": 1126,
+      "height": 733,
+      "bytes": 173429,
+      "sha256": "6e95b0889fb264304c79263b0cde3f2ecd5c676a10014c4bd53cd9c00644c34d",
+      "small": {
+        "file": "chartres.480.jpg",
+        "src": "content/media/world-crossroads/chartres.480.jpg?v=362af68d",
+        "width": 480,
+        "height": 312,
+        "bytes": 38418,
+        "sha256": "362af68d1eec39aa1cb51683e420052debc721d370db2ca9a58bd63b2fc07b97"
+      },
+      "title": "File:Chartres - cathédrale - chevet.jpg",
+      "requested": "File:Chartres - cathédrale - chevet.jpg",
+      "name": "Chartres - cathédrale - chevet",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres_-_cath%C3%A9drale_-_chevet.jpg",
+      "author": "Florestan",
+      "credit": "Own work",
+      "date": "2009-02-07",
+      "license": "CC BY 3.0",
+      "licenseCode": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4191,
+        "height": 2729,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 833
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Florestan",
+      "authorApi": "Florestan"
+    },
+    "cliff-palace": {
+      "id": "cliff-palace",
+      "file": "cliff-palace.jpg",
+      "src": "content/media/world-crossroads/cliff-palace.jpg?v=31935bf2",
+      "width": 973,
+      "height": 554,
+      "bytes": 173132,
+      "sha256": "31935bf225bebe53f7958c617cf2c2fa20ba62a77622638e8dd2010c8e2e2de3",
+      "small": {
+        "file": "cliff-palace.480.jpg",
+        "src": "content/media/world-crossroads/cliff-palace.480.jpg?v=186013ef",
+        "width": 480,
+        "height": 273,
+        "bytes": 41031,
+        "sha256": "186013ef0ee6a883b2be4b04a111dfbf50d8ae6b08db71a2b3c730df15e878ef"
+      },
+      "title": "File:Cliff Palace-Colorado-Mesa Verde NP.jpg",
+      "requested": "File:Cliff Palace-Colorado-Mesa Verde NP.jpg",
+      "name": "Cliff Palace-Colorado-Mesa Verde NP",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cliff_Palace-Colorado-Mesa_Verde_NP.jpg",
+      "author": "Tobi 87",
+      "credit": "Own work",
+      "date": "08.07.2007",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4000,
+        "height": 2279,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 729
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Tobi 87",
+      "authorApi": "Tobi 87"
+    },
+    "cordoba-mosque": {
+      "id": "cordoba-mosque",
+      "file": "cordoba-mosque.jpg",
+      "src": "content/media/world-crossroads/cordoba-mosque.jpg?v=29f66c7a",
+      "width": 1280,
+      "height": 960,
+      "bytes": 176902,
+      "sha256": "29f66c7a21859cab0e10b4dca056ab1983143ce28ec885371d65ee879c944ccf",
+      "small": {
+        "file": "cordoba-mosque.480.jpg",
+        "src": "content/media/world-crossroads/cordoba-mosque.480.jpg?v=d7675167",
+        "width": 480,
+        "height": 360,
+        "bytes": 41322,
+        "sha256": "d76751677bc6862ba4f778c1011315066ad78384154e83834c359c2b4847ca88"
+      },
+      "title": "File:Mosque Cordoba.jpg",
+      "requested": "File:Mosque Cordoba.jpg",
+      "name": "Mosque Cordoba",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosque_Cordoba.jpg",
+      "author": "Timor Espallargas",
+      "credit": "Own work",
+      "date": "2004-12-29",
+      "license": "CC BY-SA 2.5",
+      "licenseCode": "cc-by-sa-2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2592,
+        "height": 1944,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 960
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Timor Espallargas",
+      "authorApi": "Timor Espallargas"
+    },
+    "diamond-sutra": {
+      "id": "diamond-sutra",
+      "file": "diamond-sutra.jpg",
+      "src": "content/media/world-crossroads/diamond-sutra.jpg?v=2c5baa9d",
+      "width": 845,
+      "height": 591,
+      "bytes": 182833,
+      "sha256": "2c5baa9d4905b53caf034ff16ef067f3d82ebd95a40cde4f67ea829f52c4f39f",
+      "small": {
+        "file": "diamond-sutra.480.jpg",
+        "src": "content/media/world-crossroads/diamond-sutra.480.jpg?v=daf7bde5",
+        "width": 480,
+        "height": 336,
+        "bytes": 43982,
+        "sha256": "daf7bde5a59531e292bf143587d590ba3b4afd1e44dc44f26e09d042337297f1"
+      },
+      "title": "File:Jingangjing.jpg",
+      "requested": "File:Jingangjing.jpg",
+      "name": "Jingangjing",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingangjing.jpg",
+      "author": "printed for Wang Jie, 868 CE",
+      "credit": "Zoomable image from the British Library's Online Gallery. Originally uploaded to en:Wikipedia (log) in January 2008 by Fconaway (talk) and in November 2009 by…",
+      "date": "0868",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 4917,
+        "height": 3438,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 895
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "The colophon, at the inner end, reads: Reverently [caused to be] made for universal free…",
+      "authorApi": "The colophon, at the inner end, reads: Reverently [caused to be] made for universal free distribution by Wang Jie on behalf of his two parents on the 13th of the 4th moon of the 9th year of Xiantong [i.e. 11th May, CE 868 ].",
+      "authorOverride": "printed for Wang Jie, 868 CE"
+    },
+    "ger": {
+      "id": "ger",
+      "file": "ger.jpg",
+      "src": "content/media/world-crossroads/ger.jpg?v=a763d309",
+      "width": 1280,
+      "height": 850,
+      "bytes": 173451,
+      "sha256": "a763d309f2d3c9e57816f0ff8b386d0dfb67fc35de2f66e985aa53ff05279946",
+      "small": {
+        "file": "ger.480.jpg",
+        "src": "content/media/world-crossroads/ger.480.jpg?v=d748d157",
+        "width": 480,
+        "height": 319,
+        "bytes": 30660,
+        "sha256": "d748d15701fc7497a15b29431041a98ea1b0ffdf3ea8ac9cb0ffe0a058c8bf35"
+      },
+      "title": "File:Mongolian Ger.jpg",
+      "requested": "File:Mongolian Ger.jpg",
+      "name": "Mongolian Ger",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mongolian_Ger.jpg",
+      "author": "Mark Fischer",
+      "credit": "https://www.flickr.com/photos/fischerfotos/7432304674/",
+      "date": "2010-07-06",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4288,
+        "height": 2848,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 850
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Mark Fischer",
+      "authorApi": "Mark Fischer"
+    },
+    "great-zimbabwe": {
+      "id": "great-zimbabwe",
+      "file": "great-zimbabwe.jpg",
+      "src": "content/media/world-crossroads/great-zimbabwe.jpg?v=d0026268",
+      "width": 845,
+      "height": 531,
+      "bytes": 169625,
+      "sha256": "d00262680b7dcab34eef31f56f4cdb5200e72ec2b0ae62ee0e0c1b897e168d1d",
+      "small": {
+        "file": "great-zimbabwe.480.jpg",
+        "src": "content/media/world-crossroads/great-zimbabwe.480.jpg?v=4cfde6d7",
+        "width": 480,
+        "height": 302,
+        "bytes": 45201,
+        "sha256": "4cfde6d731fb6c1a81fb6fe0b49c19b0600f76a58cb65b8f27ebc83dbffcc45e"
+      },
+      "title": "File:Western Entrance to the Great Enclosure - Great Zimbabwe II (46698655045).jpg",
+      "requested": "File:Western Entrance to the Great Enclosure - Great Zimbabwe II (46698655045).jpg",
+      "name": "Western Entrance to the Great Enclosure - Great Zimbabwe II (46698655045)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Entrance_to_the_Great_Enclosure_-_Great_Zimbabwe_II_(46698655045).jpg",
+      "author": "Andrew Moore",
+      "credit": "Western Entrance to the Great Enclosure - Great Zimbabwe II",
+      "date": "2019-03-26 17:04",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 5351,
+        "height": 3362,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 804
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Andrew Moore",
+      "authorApi": "Andrew Moore from Johannesburg, South Africa"
+    },
+    "hagia-sophia": {
+      "id": "hagia-sophia",
+      "file": "hagia-sophia.jpg",
+      "src": "content/media/world-crossroads/hagia-sophia.jpg?v=cd1de10e",
+      "width": 1126,
+      "height": 752,
+      "bytes": 169962,
+      "sha256": "cd1de10e2466c4525b23a60b86f66bf88c391a22a3d035983129d979cdc4cc26",
+      "small": {
+        "file": "hagia-sophia.480.jpg",
+        "src": "content/media/world-crossroads/hagia-sophia.480.jpg?v=a5f35c4b",
+        "width": 480,
+        "height": 320,
+        "bytes": 30795,
+        "sha256": "a5f35c4b17c4ee065d1b5d70ad91b2263bfe2b0b801a921f1808839636c621db"
+      },
+      "title": "File:Hagia Sophia Mars 2013.jpg",
+      "requested": "File:Hagia Sophia Mars 2013.jpg",
+      "name": "Hagia Sophia Mars 2013",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+      "author": "Arild Vågen",
+      "credit": "Own work",
+      "date": "2013-03-01 11:25:10",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 5514,
+        "height": 3681,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 854
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Arild Vågen",
+      "authorApi": "Arild Vågen"
+    },
+    "ife-head": {
+      "id": "ife-head",
+      "file": "ife-head.jpg",
+      "src": "content/media/world-crossroads/ife-head.jpg?v=a68fbbf9",
+      "width": 330,
+      "height": 572,
+      "bytes": 37394,
+      "sha256": "a68fbbf901be9aba87605e88e841e43a625061f43ca3b3372d9a7805baa6f64c",
+      "small": {
+        "file": "ife-head.480.jpg",
+        "src": "content/media/world-crossroads/ife-head.480.jpg?v=00ab6482",
+        "width": 277,
+        "height": 480,
+        "bytes": 20724,
+        "sha256": "00ab6482fa27e7f8a984ce3d899fd8d7e5c339efdb526d05c32381f926a1320e"
+      },
+      "title": "File:Ife Kings Head.jpg",
+      "requested": "File:Ife Kings Head.jpg",
+      "name": "Ife Kings Head",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ife_Kings_Head.jpg",
+      "author": "Ukabia at English Wikipedia",
+      "credit": "English Wikipedia",
+      "date": "2008-03-19",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 470,
+        "height": 815,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 330,
+        "height": 572
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Ukabia at English Wikipedia",
+      "authorApi": "User:Ukabia",
+      "attributionApi": "​English Wikipedia user Ukabia"
+    },
+    "lalibela": {
+      "id": "lalibela",
+      "file": "lalibela.jpg",
+      "src": "content/media/world-crossroads/lalibela.jpg?v=ac61de78",
+      "width": 755,
+      "height": 973,
+      "bytes": 170022,
+      "sha256": "ac61de787b4076bd7a3f1bb35a476bb6b97e7fe6e9c2bc3d5e3bb837de70101c",
+      "small": {
+        "file": "lalibela.480.jpg",
+        "src": "content/media/world-crossroads/lalibela.480.jpg?v=f971d126",
+        "width": 372,
+        "height": 480,
+        "bytes": 42942,
+        "sha256": "f971d126f49e1aac133e484af0bc33976846003ab6df81a7a3be052a0de8ea00"
+      },
+      "title": "File:Bete Giyorgis 03.jpg",
+      "requested": "File:Bete Giyorgis 03.jpg",
+      "name": "Bete Giyorgis 03",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bete_Giyorgis_03.jpg",
+      "author": "Bernard Gagnon",
+      "credit": "Own work",
+      "date": "2012-11-08",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2372,
+        "height": 3057,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1650
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Bernard Gagnon",
+      "authorApi": "Bernard Gagnon"
+    },
+    "machu-picchu": {
+      "id": "machu-picchu",
+      "file": "machu-picchu.jpg",
+      "src": "content/media/world-crossroads/machu-picchu.jpg?v=0215ebe9",
+      "width": 973,
+      "height": 649,
+      "bytes": 167068,
+      "sha256": "0215ebe902a6c21875e65f47a4e6f7e6a9d56c574acb53d638873e48ac2ed78a",
+      "small": {
+        "file": "machu-picchu.480.jpg",
+        "src": "content/media/world-crossroads/machu-picchu.480.jpg?v=1960f724",
+        "width": 480,
+        "height": 320,
+        "bytes": 43537,
+        "sha256": "1960f724f1add74f14b592eec65c172e52c1ad141c525738bf5adb8b33db6429"
+      },
+      "title": "File:Machu Picchu, Peru.jpg",
+      "requested": "File:Machu Picchu, Peru.jpg",
+      "name": "Machu Picchu, Peru",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Peru.jpg",
+      "author": "Pedro Szekely",
+      "credit": "https://www.flickr.com/photos/pedrosz/2115782565/",
+      "date": "2007-08-25",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1600,
+        "height": 1067,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 854
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Pedro Szekely",
+      "authorApi": "Pedro Szekely at https://www.flickr.com/photos/pedrosz/"
+    },
+    "mansa-musa": {
+      "id": "mansa-musa",
+      "file": "mansa-musa.jpg",
+      "src": "content/media/world-crossroads/mansa-musa.jpg?v=56fbe44d",
+      "width": 1126,
+      "height": 803,
+      "bytes": 177961,
+      "sha256": "56fbe44d8bf07ab6bbcebea8efcc0a4f620fbcee4b91066bcad4a5a4c8833e3e",
+      "small": {
+        "file": "mansa-musa.480.jpg",
+        "src": "content/media/world-crossroads/mansa-musa.480.jpg?v=d3df0b00",
+        "width": 480,
+        "height": 342,
+        "bytes": 40916,
+        "sha256": "d3df0b00167812d34f8bf89b646049f74e7f96f8bbf92ce27a79e4dfe935ca78"
+      },
+      "title": "File:Catalan Atlas BNF Sheet 6 Mansa Musa.jpg",
+      "requested": "File:Catalan Atlas BNF Sheet 6 Mansa Musa.jpg",
+      "name": "Detail from the Catalan Atlas Sheet 6 showing Mansa Musa",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF_Sheet_6_Mansa_Musa.jpg",
+      "author": "attributed to Abraham Cresques",
+      "credit": "This file comes from Gallica Digital Library and is available under the digital ID btv1b55002481n",
+      "date": "1375 AD",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3712,
+        "height": 2647,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 913
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "attributed to Abraham Cresques",
+      "authorApi": "attributed to Abraham Cresques"
+    },
+    "maqamat-ship": {
+      "id": "maqamat-ship",
+      "file": "maqamat-ship.jpg",
+      "src": "content/media/world-crossroads/maqamat-ship.jpg?v=c703d3a0",
+      "width": 892,
+      "height": 1126,
+      "bytes": 175403,
+      "sha256": "c703d3a0779c6a2f258fcb6cfa06c3a7ced16d0f1aa26a089afdadfa2624ecd5",
+      "small": {
+        "file": "maqamat-ship.480.jpg",
+        "src": "content/media/world-crossroads/maqamat-ship.480.jpg?v=8b69dcf8",
+        "width": 380,
+        "height": 480,
+        "bytes": 41272,
+        "sha256": "8b69dcf8e911444de5ac46d9fc46a67d948db4b9b4a639ddab4cb7c22a8fa713"
+      },
+      "title": "File:Arab ship or Indian ocean ship from 13th century Maqamat al-Hariri, reproduced in 1883 French edition of Ajayib al-Hind.jpg",
+      "requested": "File:Arab ship or Indian ocean ship from 13th century Maqamat al-Hariri, reproduced in 1883 French edition of Ajayib al-Hind.jpg",
+      "name": "Arab ship or Indian ocean ship from 13th century Maqamat al-Hariri, reproduced in 1883 French edition of Ajayib al-Hind",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arab_ship_or_Indian_ocean_ship_from_13th_century_Maqamat_al-Hariri,_reproduced_in_1883_French_edition_of_Ajayib_al-Hind.jpg",
+      "author": "after Yaḥyā ibn Maḥmūd al-Wāsiṭī (1237)",
+      "credit": "https://archive.org/details/kitabajayibalhin00buzu/page/n115/mode/2up",
+      "date": "Circa 13th century AD",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1454,
+        "height": 1834,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1615
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Yaḥyā ibn Maḥmūd al-Wāsiṭī (painter), Abū Muhammad al-Qāsim ibn Alī ibn Muhammad ibn…",
+      "authorApi": "Yaḥyā ibn Maḥmūd al-Wāsiṭī (painter), Abū Muhammad al-Qāsim ibn Alī ibn Muhammad ibn Uthmān al-Harīrī (book author)",
+      "authorOverride": "after Yaḥyā ibn Maḥmūd al-Wāsiṭī (1237)"
+    },
+    "march": {
+      "id": "march",
+      "file": "march.jpg",
+      "src": "content/media/world-crossroads/march.jpg?v=23464c8a",
+      "width": 698,
+      "height": 1126,
+      "bytes": 174160,
+      "sha256": "23464c8af400b94eabe188d8c3fab0e251d29e78e9058706a5942bba7cf632a7",
+      "small": {
+        "file": "march.480.jpg",
+        "src": "content/media/world-crossroads/march.480.jpg?v=ab5718f3",
+        "width": 297,
+        "height": 480,
+        "bytes": 35870,
+        "sha256": "ab5718f338a95f5fe23227d52fd6d54d12fe9954c2b19ba7daf714bf12ad5fcd"
+      },
+      "title": "File:Les Très Riches Heures du duc de Berry mars.jpg",
+      "requested": "File:Les Très Riches Heures du duc de Berry mars.jpg",
+      "name": "Très Riches Heures du duc de Berry Folio 3, verso: March",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_mars.jpg",
+      "author": "Limbourg brothers / Barthélemy d'Eyck",
+      "credit": "R.M.N. / R.-G. Ojéda",
+      "date": "between 1412 and 1416 and circa 1440",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1144,
+        "height": 1847,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 1550
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Limbourg brothers / Barthélemy d'Eyck",
+      "authorApi": "Limbourg brothers / Barthélemy d'Eyck"
+    },
+    "paiza": {
+      "id": "paiza",
+      "file": "paiza.jpg",
+      "src": "content/media/world-crossroads/paiza.jpg?v=0ae55ce5",
+      "width": 371,
+      "height": 923,
+      "bytes": 130393,
+      "sha256": "0ae55ce5a6c3270c7fadf37f628eb6ca7ad4aaeabfef755cdc266fb3bcb807c7",
+      "small": {
+        "file": "paiza.480.jpg",
+        "src": "content/media/world-crossroads/paiza.480.jpg?v=b9ed1df7",
+        "width": 193,
+        "height": 480,
+        "bytes": 28316,
+        "sha256": "b9ed1df71c3ff7fac4242500295bb98aae1dd413dd9ed2751a5a5142c67e9b7b"
+      },
+      "title": "File:Paiza of Uzbek khan Golden Horde GIM.jpg",
+      "requested": "File:Paiza of Uzbek khan Golden Horde GIM.jpg",
+      "name": "Paiza of Uzbek khan Golden Horde GIM",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paiza_of_Uzbek_khan_Golden_Horde_GIM.jpg",
+      "author": "Лапоть",
+      "credit": "Own work",
+      "date": "2012-12-24 12:15:16",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1653,
+        "height": 1921,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1488
+      },
+      "options": {
+        "crop": [
+          0.36,
+          0.16,
+          0.65,
+          0.78
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Лапоть",
+      "authorApi": "Лапоть",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?"
+    },
+    "qingming-bridge": {
+      "id": "qingming-bridge",
+      "file": "qingming-bridge.jpg",
+      "src": "content/media/world-crossroads/qingming-bridge.jpg?v=d363c373",
+      "width": 973,
+      "height": 623,
+      "bytes": 176746,
+      "sha256": "d363c373a6304b1f46828ccec97a352656cae9dfba0ee25ffa81af256c78cd56",
+      "small": {
+        "file": "qingming-bridge.480.jpg",
+        "src": "content/media/world-crossroads/qingming-bridge.480.jpg?v=e336d1ef",
+        "width": 480,
+        "height": 308,
+        "bytes": 41183,
+        "sha256": "e336d1efb08914f2b32789a4f4c4f0358f8820e2123e671d9077de49bae97149"
+      },
+      "title": "File:Qingming shanghe tu bridge.jpg",
+      "requested": "File:Qingming shanghe tu bridge.jpg",
+      "name": "Qingming shanghe tu bridge",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qingming_shanghe_tu_bridge.jpg",
+      "author": "Zhang Zeduan",
+      "credit": "own replica --Immanuel Giel 09:38, 8 November 2006 (UTC)",
+      "date": "2006-11-08 09:38:45",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1876,
+        "height": 1202,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 820
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Zhang Zeduan",
+      "authorApi": "Zhang Zeduan"
+    },
+    "quipu": {
+      "id": "quipu",
+      "file": "quipu.jpg",
+      "src": "content/media/world-crossroads/quipu.jpg?v=d817d150",
+      "width": 500,
+      "height": 304,
+      "bytes": 48592,
+      "sha256": "d817d1501028a3d0647124b9b7c2c1eea0e0280a1aa3d8012ddc9f9e9ece5142",
+      "small": {
+        "file": "quipu.480.jpg",
+        "src": "content/media/world-crossroads/quipu.480.jpg?v=e357f885",
+        "width": 480,
+        "height": 292,
+        "bytes": 35120,
+        "sha256": "e357f8855fe6793bde5f428b5c9bfd1c13cf6047756234f71743b3d9172e7dfb"
+      },
+      "title": "File:Inca Quipu.jpg",
+      "requested": "File:Inca Quipu.jpg",
+      "name": "Inca Quipu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inca_Quipu.jpg",
+      "author": "Lyndsaruell at English Wikipedia",
+      "credit": "enWiki, hochgeladen von User Lyndsaruell; siehe http://en.wikipedia.org/wiki/Image:Inca_Quipu.jpg",
+      "date": "2007-10-29",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 625,
+        "height": 380,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 304
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Claus Ableiter nur hochgeladen aus enWiki",
+      "authorApi": "Claus Ableiter nur hochgeladen aus enWiki",
+      "authorOverride": "Lyndsaruell at English Wikipedia"
+    },
+    "quran-folio": {
+      "id": "quran-folio",
+      "file": "quran-folio.jpg",
+      "src": "content/media/world-crossroads/quran-folio.jpg?v=1a76b688",
+      "width": 973,
+      "height": 662,
+      "bytes": 180071,
+      "sha256": "1a76b688cd35068440d3d977a951e046700c5c433019ccabb8462723217a14b2",
+      "small": {
+        "file": "quran-folio.480.jpg",
+        "src": "content/media/world-crossroads/quran-folio.480.jpg?v=0ecf326a",
+        "width": 480,
+        "height": 327,
+        "bytes": 42879,
+        "sha256": "0ecf326a23ea1aece9849b9a9886707ab7e2c699450a74e2cdb42be773c3f2b8"
+      },
+      "title": "File:Folio Blue Quran Met 2004.88.jpg",
+      "requested": "File:Folio Blue Quran Met 2004.88.jpg",
+      "name": "Folio from the \"Blue Qur'an\" (MET 2004.88)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Folio_Blue_Quran_Met_2004.88.jpg",
+      "author": "Marie-Lan Nguyen",
+      "credit": "Marie-Lan Nguyen (2011)",
+      "date": "9th century –10th century",
+      "license": "CC BY 2.5",
+      "licenseCode": "cc-by-2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3791,
+        "height": 2581,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 871
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Marie-Lan Nguyen",
+      "authorApi": "Unknown author"
+    },
+    "round-earth": {
+      "id": "round-earth",
+      "file": "round-earth.jpg",
+      "src": "content/media/world-crossroads/round-earth.jpg?v=8b4e3c4a",
+      "width": 844,
+      "height": 846,
+      "bytes": 183672,
+      "sha256": "8b4e3c4a7c9246736c8b38bf3eb5cc310f3523138f33eeb44c225bb2803d2259",
+      "small": {
+        "file": "round-earth.480.jpg",
+        "src": "content/media/world-crossroads/round-earth.480.jpg?v=34c53e60",
+        "width": 422,
+        "height": 422,
+        "bytes": 44371,
+        "sha256": "34c53e60ef0640c324c76b4ebd71159ca7af28c0ae6f76226f237778970497a6"
+      },
+      "title": "File:Gossuin de Metz - L'image du monde - BNF Fr. 574 fo42.jpg",
+      "requested": "File:Gossuin de Metz - L'image du monde - BNF Fr. 574 fo42.jpg",
+      "name": "L'image du monde, BNF Fr. 574 folio 42",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gossuin_de_Metz_-_L%27image_du_monde_-_BNF_Fr._574_fo42.jpg",
+      "author": "Gossuin de Metz",
+      "credit": "BnF Gallica",
+      "date": "between circa 1340 and circa 1350",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3626,
+        "height": 5296,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1920,
+        "height": 2804
+      },
+      "options": {
+        "crop": [
+          0.03,
+          0.298,
+          0.47,
+          0.6
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Gossuin de Metz",
+      "authorApi": "Gossuin de Metz"
+    },
+    "tang-camel": {
+      "id": "tang-camel",
+      "file": "tang-camel.jpg",
+      "src": "content/media/world-crossroads/tang-camel.jpg?v=703c7211",
+      "width": 627,
+      "height": 810,
+      "bytes": 109246,
+      "sha256": "703c7211507bc1a580c61bbd2eab69eed2591c2ae9f15441827b726afe063a9e",
+      "small": {
+        "file": "tang-camel.480.jpg",
+        "src": "content/media/world-crossroads/tang-camel.480.jpg?v=58f555c7",
+        "width": 372,
+        "height": 480,
+        "bytes": 36866,
+        "sha256": "58f555c78f9681510ca2d5e67d5fdf05bc0564026085e7535bf9998c10dca75e"
+      },
+      "title": "File:Tang Sancai Camel & Musicians (40523696943).jpg",
+      "requested": "File:Tang Sancai Camel & Musicians (40523696943).jpg",
+      "name": "Tang Sancai Camel & Musicians (40523696943)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tang_Sancai_Camel_%26_Musicians_(40523696943).jpg",
+      "author": "Gary Todd",
+      "credit": "Tang Sancai Camel & Musicians",
+      "date": "2019-03-23 16:28",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 6000,
+        "height": 4000,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": [
+          0.27,
+          0.05,
+          0.76,
+          1
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Gary Todd",
+      "authorApi": "Gary Todd from Xinzheng, China"
+    },
+    "tenochtitlan-map": {
+      "id": "tenochtitlan-map",
+      "file": "tenochtitlan-map.jpg",
+      "src": "content/media/world-crossroads/tenochtitlan-map.jpg?v=e988d92f",
+      "width": 664,
+      "height": 718,
+      "bytes": 179671,
+      "sha256": "e988d92ffc4ab27a1b550664c7c72dd9817d540bab52cbef43c3019f1c4a81b2",
+      "small": {
+        "file": "tenochtitlan-map.480.jpg",
+        "src": "content/media/world-crossroads/tenochtitlan-map.480.jpg?v=e76d8db0",
+        "width": 391,
+        "height": 422,
+        "bytes": 44102,
+        "sha256": "e76d8db016edb16d84f1167539c668415e1b394160a715328ad6f8bd9e4e3225"
+      },
+      "title": "File:Map of Tenochtitlan, 1524.jpg",
+      "requested": "File:Map of Tenochtitlan, 1524.jpg",
+      "name": "Map of Tenochtitlan, 1524",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Tenochtitlan,_1524.jpg",
+      "author": "Friedrich Peypus (1485–1534)",
+      "credit": "Immediate image source: [1]. Original is at the Newberry Library, Chicago, inventory number Ayer 655.51.C8 1524b (or 1524c or 1524d). See also [2], and [3]…",
+      "date": "1524",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3029,
+        "height": 1931,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 816
+      },
+      "options": {
+        "crop": [
+          0.41,
+          0,
+          1,
+          1
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Friedrich Peypus (1485–1534)",
+      "authorApi": "Friedrich Peypus (1485–1534), probably after drawing made by one of Cortez' men."
+    }
+  }
+}

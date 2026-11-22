@@ -1,0 +1,151 @@
+{
+  "course": "sleep-mind",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "cassiopea": {
+      "id": "cassiopea",
+      "file": "cassiopea.jpg",
+      "src": "content/media/sleep-mind/cassiopea.jpg?v=012dbb99",
+      "width": 1280,
+      "height": 853,
+      "bytes": 180864,
+      "sha256": "012dbb9968f0e185ed37ceb949ef5655811a63313c7cedb8ac1aca84a3a1fb0e",
+      "small": {
+        "file": "cassiopea.480.jpg",
+        "src": "content/media/sleep-mind/cassiopea.480.jpg?v=114be934",
+        "width": 480,
+        "height": 320,
+        "bytes": 43552,
+        "sha256": "114be934fa213c07b8e1e9c88b4e529e645cce40c847f0b5631a3d77d538d553"
+      },
+      "title": "File:Upside-down jellyfish (Cassiopea xamachana).jpg",
+      "requested": "File:Upside-down jellyfish (Cassiopea xamachana).jpg",
+      "name": "Upside-down jellyfish (Cassiopea xamachana)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Upside-down_jellyfish_(Cassiopea_xamachana).jpg",
+      "author": "Marco Almbauer",
+      "authorDerived": "Marco Almbauer",
+      "authorApi": "Marco Almbauer",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?",
+      "credit": "Own work",
+      "date": "2016-06-25 13:24:34",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3676,
+        "height": 2451,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": null,
+        "aspect": 1.5,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    },
+    "cpap": {
+      "id": "cpap",
+      "file": "cpap.jpg",
+      "src": "content/media/sleep-mind/cpap.jpg?v=3121b045",
+      "width": 1280,
+      "height": 853,
+      "bytes": 173383,
+      "sha256": "3121b0451dbeea4b0f01a4a1ecff92a527a73e6a6b8de520581c1d01dcb75eb4",
+      "small": {
+        "file": "cpap.480.jpg",
+        "src": "content/media/sleep-mind/cpap.480.jpg?v=7386c2e0",
+        "width": 480,
+        "height": 320,
+        "bytes": 21444,
+        "sha256": "7386c2e0b9c222d3525a9bd62dfae3c662d822f9994ed6f4fa25fa385ca9cb15"
+      },
+      "title": "File:CPAP-machine-resmedS9.jpg",
+      "requested": "File:CPAP-machine-resmedS9.jpg",
+      "name": "CPAP-machine-resmedS9",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CPAP-machine-resmedS9.jpg",
+      "author": "Zboralski",
+      "authorDerived": "Zboralski",
+      "authorApi": "Zboralski",
+      "credit": "Own work",
+      "date": "2013-10-09 18:02:46",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4000,
+        "height": 3000,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 960
+      },
+      "options": {
+        "crop": null,
+        "aspect": 1.5,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14"
+    },
+    "mimosa": {
+      "id": "mimosa",
+      "file": "mimosa.jpg",
+      "src": "content/media/sleep-mind/mimosa.jpg?v=2c09acab",
+      "width": 1280,
+      "height": 853,
+      "bytes": 155108,
+      "sha256": "2c09acabdb1c30759955e080078a0e52e2a6ed7367d2754b1f5791dd18b4d023",
+      "small": {
+        "file": "mimosa.480.jpg",
+        "src": "content/media/sleep-mind/mimosa.480.jpg?v=44c5d8b2",
+        "width": 480,
+        "height": 320,
+        "bytes": 23053,
+        "sha256": "44c5d8b201c4a239d5ff12f3ea8ce23e3b3b5b48f30946bc4b4d0e34acd7b477"
+      },
+      "title": "File:Mimosa pudica leaves close up.jpg",
+      "requested": "File:Mimosa pudica leaves close up.jpg",
+      "name": "Mimosa pudica leaves close up",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mimosa_pudica_leaves_close_up.jpg",
+      "author": "NonNerd",
+      "authorDerived": "NonNerd",
+      "authorApi": "NonNerd",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?",
+      "credit": "Own work",
+      "date": "2017",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 4320,
+        "height": 3240,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 960
+      },
+      "options": {
+        "crop": null,
+        "aspect": 1.5,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14"
+    }
+  }
+}

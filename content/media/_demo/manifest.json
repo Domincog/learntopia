@@ -1,0 +1,295 @@
+{
+  "course": "_demo",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "angkor-wat": {
+      "id": "angkor-wat",
+      "file": "angkor-wat.jpg",
+      "src": "content/media/_demo/angkor-wat.jpg?v=2cfe3b93",
+      "width": 968,
+      "height": 645,
+      "bytes": 147267,
+      "sha256": "2cfe3b93df56c38040703105b58fcf9358d49425e1fe32e3ab18da7be13c59cd",
+      "small": {
+        "file": "angkor-wat.480.jpg",
+        "src": "content/media/_demo/angkor-wat.480.jpg?v=7b052329",
+        "width": 480,
+        "height": 320,
+        "bytes": 30519,
+        "sha256": "7b0523291b0da593fe91310030bd686de151dc196a5b45e9dbf1234e7830d90b"
+      },
+      "title": "File:Angkor Wat with its reflection (cropped).jpg",
+      "requested": "File:Angkor Wat with its reflection (cropped).jpg",
+      "name": "Angkor Wat with its reflection (cropped)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_with_its_reflection_(cropped).jpg",
+      "author": "Satdeep Gill",
+      "credit": "Own work",
+      "date": "2022-09-09 16:46:31",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 7956,
+        "height": 4009,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 645
+      },
+      "options": {
+        "crop": null,
+        "aspect": 1.5,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Satdeep Gill",
+      "authorApi": "Satdeep Gill"
+    },
+    "earth-apollo-17": {
+      "id": "earth-apollo-17",
+      "file": "earth-apollo-17.jpg",
+      "src": "content/media/_demo/earth-apollo-17.jpg?v=e6226b38",
+      "width": 972,
+      "height": 973,
+      "bytes": 170813,
+      "sha256": "e6226b388820a406df88f9b791c39047dcccc8c358bafec9cede24e990b1b1ac",
+      "small": {
+        "file": "earth-apollo-17.480.jpg",
+        "src": "content/media/_demo/earth-apollo-17.480.jpg?v=a9171f82",
+        "width": 480,
+        "height": 480,
+        "bytes": 42469,
+        "sha256": "a9171f82443780d3b2cfb5214f1928e81627923ed751c33f74188eba7c58d0eb"
+      },
+      "title": "File:The Earth seen from Apollo 17.jpg",
+      "requested": "File:The Earth seen from Apollo 17.jpg",
+      "name": "The Blue Marble",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+      "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+      "credit": "https://web.archive.org/web/20160112123725/http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001138.html (image link); see also…",
+      "date": "7 December 1972",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3000,
+        "height": 3002,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1281
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+      "authorApi": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans"
+    },
+    "great-wave": {
+      "id": "great-wave",
+      "file": "great-wave.jpg",
+      "src": "content/media/_demo/great-wave.jpg?v=c6ddeadc",
+      "width": 973,
+      "height": 654,
+      "bytes": 166520,
+      "sha256": "c6ddeadcc331af4a0ceb8e4c8f95116a39f8e0b018ed13176fcbf348105989dd",
+      "small": {
+        "file": "great-wave.480.jpg",
+        "src": "content/media/_demo/great-wave.480.jpg?v=e9ee12a1",
+        "width": 480,
+        "height": 323,
+        "bytes": 45532,
+        "sha256": "e9ee12a14e83e60c854c56178be8ad711e7ed0d66e017a6069d450d99bab2bfb"
+      },
+      "title": "File:Tsunami by hokusai 19th century.jpg",
+      "requested": "File:Tsunami by hokusai 19th century.jpg",
+      "name": "The Great Wave off Kanagawa",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg",
+      "author": "Katsushika Hokusai",
+      "credit": "Metropolitan Museum of Art: entry 45434",
+      "date": "First publication: between circa 1830 and circa 1832.",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3859,
+        "height": 2594,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 860
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Katsushika Hokusai",
+      "authorApi": "Katsushika Hokusai"
+    },
+    "machu-picchu": {
+      "id": "machu-picchu",
+      "file": "machu-picchu.jpg",
+      "src": "content/media/_demo/machu-picchu.jpg?v=e04cdec0",
+      "width": 1126,
+      "height": 749,
+      "bytes": 171926,
+      "sha256": "e04cdec0e7fd4f531425c033283d92a1c4e273bee47d7aa4a733ee3e13a21f9f",
+      "small": {
+        "file": "machu-picchu.480.jpg",
+        "src": "content/media/_demo/machu-picchu.480.jpg?v=4a4b8c98",
+        "width": 480,
+        "height": 319,
+        "bytes": 35092,
+        "sha256": "4a4b8c9840c5e35f4254ca17bc4ae66797e321d6d835b1ab90f2e3680b9ac5aa"
+      },
+      "title": "File:Machu Picchu, Perú, 2015-07-30, DD 47.JPG",
+      "requested": "File:Machu Picchu, Perú, 2015-07-30, DD 47.JPG",
+      "name": "Machu Picchu, Perú, 2015-07-30, DD 47",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Per%C3%BA,_2015-07-30,_DD_47.JPG",
+      "author": "Diego Delso",
+      "credit": "Own work",
+      "date": "2015-07-30 16:01:04",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 8669,
+        "height": 5763,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 851
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Diego Delso",
+      "authorApi": "Diego Delso",
+      "attributionApi": "Diego Delso"
+    },
+    "parthenon": {
+      "id": "parthenon",
+      "file": "parthenon.jpg",
+      "src": "content/media/_demo/parthenon.jpg?v=d33b7878",
+      "width": 960,
+      "height": 675,
+      "bytes": 183335,
+      "sha256": "d33b78788a5e971b075500e03087ed825f651b84a61e4c07661ec6d147877438",
+      "small": {
+        "file": "parthenon.480.jpg",
+        "src": "content/media/_demo/parthenon.480.jpg?v=5287aba9",
+        "width": 480,
+        "height": 338,
+        "bytes": 41230,
+        "sha256": "5287aba9c2fcd21434646fe914c39ca6ff7f0ef09f41e9985f75e89bffd4996b"
+      },
+      "title": "File:The Parthenon in Athens.jpg",
+      "requested": "File:The Parthenon in Athens.jpg",
+      "name": "The Parthenon in Athens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
+      "author": "Steve Swayne",
+      "credit": "File:O Partenon de Atenas.jpg, originally posted to Flickr as The Parthenon Athens",
+      "date": "1978-08-26 13:45:00",
+      "license": "CC BY 2.0",
+      "licenseCode": "cc-by-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1144,
+        "height": 804,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 675
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Steve Swayne",
+      "authorApi": "Steve Swayne"
+    },
+    "taj-mahal": {
+      "id": "taj-mahal",
+      "file": "taj-mahal.jpg",
+      "src": "content/media/_demo/taj-mahal.jpg?v=be626a5b",
+      "width": 1280,
+      "height": 842,
+      "bytes": 151334,
+      "sha256": "be626a5b9f6e078158dedfccec5be4faa6616da352e7a2ab7c0e8b0ff23135d1",
+      "small": {
+        "file": "taj-mahal.480.jpg",
+        "src": "content/media/_demo/taj-mahal.480.jpg?v=19410da9",
+        "width": 480,
+        "height": 316,
+        "bytes": 26719,
+        "sha256": "19410da9a30186a14e80dd0a37fc532c0a3ce34cc8a253ae73eb404679dfb004"
+      },
+      "title": "File:Taj Mahal (Edited).jpeg",
+      "requested": "File:Taj Mahal (Edited).jpeg",
+      "name": "Taj Mahal (Edited)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+      "author": "Yann Forget",
+      "credit": "Edited version of File:Taj Mahal, Agra, India.jpg",
+      "date": "2010",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3840,
+        "height": 2525,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 842
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Yann Forget",
+      "authorApi": "Yann; edited by Jim Carter",
+      "attributionApi": "This file is not in the public domain. Therefore you are requested to use the following next to the image if you reuse this file: © Yann Forget / Wikimedia Commons"
+    }
+  }
+}

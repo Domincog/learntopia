@@ -1,0 +1,974 @@
+{
+  "course": "world-ancient",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "beer-tablet": {
+      "id": "beer-tablet",
+      "file": "beer-tablet.jpg",
+      "src": "content/media/world-ancient/beer-tablet.jpg?v=22117f75",
+      "width": 1280,
+      "height": 981,
+      "bytes": 174784,
+      "sha256": "22117f7501d485464f77c37073801b7b01221b632c75ca6acd3e2b72ce0309ff",
+      "small": {
+        "file": "beer-tablet.480.jpg",
+        "src": "content/media/world-ancient/beer-tablet.480.jpg?v=e143a628",
+        "width": 480,
+        "height": 368,
+        "bytes": 36404,
+        "sha256": "e143a628d107987a8c04e3697b8abc8dc7aaf30ba99034fc118d47bcef88dd62"
+      },
+      "title": "File:Early writing tablet recording the allocation of beer.jpg",
+      "requested": "File:Early writing tablet recording the allocation of beer.jpg",
+      "name": "Early writing tablet recording the allocation of beer",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Early_writing_tablet_recording_the_allocation_of_beer.jpg",
+      "author": "BabelStone",
+      "credit": "Own work",
+      "date": "2012-03-25",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2191,
+        "height": 1679,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 981
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "BabelStone",
+      "authorApi": "BabelStone"
+    },
+    "chauvet-lions": {
+      "id": "chauvet-lions",
+      "file": "chauvet-lions.jpg",
+      "src": "content/media/world-ancient/chauvet-lions.jpg?v=2606dd93",
+      "width": 973,
+      "height": 831,
+      "bytes": 181568,
+      "sha256": "2606dd93572ca6a541ccdda9186f5b09e7cda5b4aa7d290b7e3637acf10a588a",
+      "small": {
+        "file": "chauvet-lions.480.jpg",
+        "src": "content/media/world-ancient/chauvet-lions.480.jpg?v=50d2afcf",
+        "width": 480,
+        "height": 410,
+        "bytes": 46000,
+        "sha256": "50d2afcf308ce9d6101bee392d157b8cd6034f16234ad75f1e02159d22d0eb9d"
+      },
+      "title": "File:Lions painting, Chauvet Cave (museum replica).jpg",
+      "requested": "File:Lions painting, Chauvet Cave (museum replica).jpg",
+      "name": "Lions painting, Chauvet Cave (museum replica)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lions_painting,_Chauvet_Cave_(museum_replica).jpg",
+      "author": "HTO",
+      "credit": "Self-photographed",
+      "date": "2009-06-12",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2015,
+        "height": 1721,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1093
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "HTO",
+      "authorApi": "HTO"
+    },
+    "gandhara-buddha": {
+      "id": "gandhara-buddha",
+      "file": "gandhara-buddha.jpg",
+      "src": "content/media/world-ancient/gandhara-buddha.jpg?v=8649d732",
+      "width": 768,
+      "height": 1252,
+      "bytes": 139390,
+      "sha256": "8649d7321449305d71e91a3a308f3415197689041b7f9136a7d3782f8f9d473f",
+      "small": {
+        "file": "gandhara-buddha.480.jpg",
+        "src": "content/media/world-ancient/gandhara-buddha.480.jpg?v=17026f64",
+        "width": 294,
+        "height": 480,
+        "bytes": 28390,
+        "sha256": "17026f6453d09b6904312aaf72057353bb1fe7ee684e9ec13a61b332acd91efc"
+      },
+      "title": "File:Gandhara Buddha (tnm).jpeg",
+      "requested": "File:Gandhara Buddha (tnm).jpeg",
+      "name": "Gandhara Buddha (tnm)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gandhara_Buddha_(tnm).jpeg",
+      "author": "World Imaging",
+      "credit": "Own work",
+      "date": "2004",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1746,
+        "height": 2894,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 2122
+      },
+      "options": {
+        "crop": [
+          0.2,
+          0.03,
+          0.8,
+          0.62
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "World Imaging",
+      "authorApi": "World Imaging",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?"
+    },
+    "giza": {
+      "id": "giza",
+      "file": "giza.jpg",
+      "src": "content/media/world-ancient/giza.jpg?v=4ace58a2",
+      "width": 1280,
+      "height": 851,
+      "bytes": 163679,
+      "sha256": "4ace58a2221885eaf3ab1cbef61743ac9c4f6020db4e8310c3c2edb804e3302b",
+      "small": {
+        "file": "giza.480.jpg",
+        "src": "content/media/world-ancient/giza.480.jpg?v=cc86525a",
+        "width": 480,
+        "height": 319,
+        "bytes": 21013,
+        "sha256": "cc86525ab2224d06f1b75277009d9df9026ea2f67edeba433cc994e72c47d7bc"
+      },
+      "title": "File:All Gizah Pyramids.jpg",
+      "requested": "File:All Gizah Pyramids.jpg",
+      "name": "All Gizah Pyramids",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+      "author": "Ricardo Liberato",
+      "credit": "All Gizah Pyramids",
+      "date": "19 June 2006, 14:01 (according to Exif data)",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4372,
+        "height": 2906,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 851
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Ricardo Liberato",
+      "authorApi": "Ricardo Liberato"
+    },
+    "gobekli-tepe": {
+      "id": "gobekli-tepe",
+      "file": "gobekli-tepe.jpg",
+      "src": "content/media/world-ancient/gobekli-tepe.jpg?v=65dc9309",
+      "width": 973,
+      "height": 646,
+      "bytes": 171933,
+      "sha256": "65dc9309e10d44e56fa9b5cda564dbc06e2da8d723b5e6f5a801a1e576c0aee8",
+      "small": {
+        "file": "gobekli-tepe.480.jpg",
+        "src": "content/media/world-ancient/gobekli-tepe.480.jpg?v=ee27ddf6",
+        "width": 480,
+        "height": 319,
+        "bytes": 44367,
+        "sha256": "ee27ddf6e39870a2177c6a99cac546d351fb5f46300f40a51c18edfb9f150c44"
+      },
+      "title": "File:Göbekli Tepe, Urfa.jpg",
+      "requested": "File:Göbekli Tepe, Urfa.jpg",
+      "name": "Göbekli Tepe, Urfa",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg",
+      "author": "Teomancimit",
+      "credit": "Own work",
+      "date": "2011-09-06",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4288,
+        "height": 2848,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 850
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Teomancimit",
+      "authorApi": "Teomancimit"
+    },
+    "great-bath": {
+      "id": "great-bath",
+      "file": "great-bath.jpg",
+      "src": "content/media/world-ancient/great-bath.jpg?v=8ba6907e",
+      "width": 1126,
+      "height": 845,
+      "bytes": 175070,
+      "sha256": "8ba6907e5a3edef404f3f404791612cc5bbb3fc4d3e41caac021d7cb911df79d",
+      "small": {
+        "file": "great-bath.480.jpg",
+        "src": "content/media/world-ancient/great-bath.480.jpg?v=854f3f45",
+        "width": 480,
+        "height": 360,
+        "bytes": 33644,
+        "sha256": "854f3f45b254a05f74d963f59f04c460957d44874538d5bfaed84c1ca464adff"
+      },
+      "title": "File:Mohenjo-daro.jpg",
+      "requested": "File:Mohenjo-daro.jpg",
+      "name": "Mohenjo-daro",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohenjo-daro.jpg",
+      "author": "Saqib Qayyum",
+      "credit": "Own work",
+      "date": "2014-03-08 12:06:15",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3648,
+        "height": 2736,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 960
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Saqib Qayyum",
+      "authorApi": "Saqib Qayyum"
+    },
+    "hokulea": {
+      "id": "hokulea",
+      "file": "hokulea.jpg",
+      "src": "content/media/world-ancient/hokulea.jpg?v=1c4e6458",
+      "width": 500,
+      "height": 375,
+      "bytes": 42042,
+      "sha256": "1c4e6458919498e9edddb091acf78062437f81e450939cd3200b496780077416",
+      "small": {
+        "file": "hokulea.480.jpg",
+        "src": "content/media/world-ancient/hokulea.480.jpg?v=8c6e00f5",
+        "width": 480,
+        "height": 360,
+        "bytes": 29774,
+        "sha256": "8c6e00f5b9242dd54239f0b24cbd0e385efcb433b1bb6a9621ab6a8532f11d9b"
+      },
+      "title": "File:Hokule'aSailing2009.jpg",
+      "requested": "File:Hokule'aSailing2009.jpg",
+      "name": "Hokule'aSailing2009",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hokule%27aSailing2009.jpg",
+      "author": "HongKongHuey",
+      "credit": "originally posted to Flickr as Princess Taiping Sails with the Hokule'a in Hawaii",
+      "date": "2009-01-22 12:20:39",
+      "license": "CC BY 2.0",
+      "licenseCode": "cc-by-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 955,
+        "height": 716,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 375
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "HongKongHuey",
+      "authorApi": "HongKongHuey"
+    },
+    "isaiah-scroll": {
+      "id": "isaiah-scroll",
+      "file": "isaiah-scroll.jpg",
+      "src": "content/media/world-ancient/isaiah-scroll.jpg?v=12c02e43",
+      "width": 1280,
+      "height": 404,
+      "bytes": 183857,
+      "sha256": "12c02e43611fb5048cf186b029e948caa970ba39c3874c36e72827ad50c3d612",
+      "small": {
+        "file": "isaiah-scroll.480.jpg",
+        "src": "content/media/world-ancient/isaiah-scroll.480.jpg?v=2a066f4c",
+        "width": 480,
+        "height": 152,
+        "bytes": 16975,
+        "sha256": "2a066f4c29adc59a369621a39575b43866e51ce36f4b7d80f7cb3ee84b6d7c2f"
+      },
+      "title": "File:Great Isaiah Scroll.jpg",
+      "requested": "File:Great Isaiah Scroll.jpg",
+      "name": "Great Isaiah Scroll",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Isaiah_Scroll.jpg",
+      "author": "Ardon Bar Hama",
+      "credit": "Website of The Israel Museum, Jerusalem, see link.",
+      "date": "+/- second century BC",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 12540,
+        "height": 3960,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 404
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Ardon Bar Hama",
+      "authorApi": "Photographs by Ardon Bar Hama, author of original document is unknown."
+    },
+    "lion-capital": {
+      "id": "lion-capital",
+      "file": "lion-capital.jpg",
+      "src": "content/media/world-ancient/lion-capital.jpg?v=c267b15e",
+      "width": 717,
+      "height": 1280,
+      "bytes": 162547,
+      "sha256": "c267b15e7bb1c3799abb903b75a6fddd563ed34822a0e7092b2fe541530f56a0",
+      "small": {
+        "file": "lion-capital.480.jpg",
+        "src": "content/media/world-ancient/lion-capital.480.jpg?v=64423521",
+        "width": 269,
+        "height": 480,
+        "bytes": 24460,
+        "sha256": "64423521335107d9c2ca93b4492d0a46d87277ccec5d52036474defa74fae3ef"
+      },
+      "title": "File:Sarnath capital.jpg",
+      "requested": "File:Sarnath capital.jpg",
+      "name": "Sarnath capital",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarnath_capital.jpg",
+      "author": "Chrisi1964",
+      "credit": "Detail of this file:",
+      "date": "2011-07-09",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2667,
+        "height": 4760,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 2285
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Chrisi1964",
+      "authorApi": "Chrisi1964"
+    },
+    "maize-teosinte": {
+      "id": "maize-teosinte",
+      "file": "maize-teosinte.jpg",
+      "src": "content/media/world-ancient/maize-teosinte.jpg?v=237c6db4",
+      "width": 960,
+      "height": 595,
+      "bytes": 96042,
+      "sha256": "237c6db437516e85ab3ededa61ca17a3b2d33f40fe3fcb0a48ba8f3f2bc5c41a",
+      "small": {
+        "file": "maize-teosinte.480.jpg",
+        "src": "content/media/world-ancient/maize-teosinte.480.jpg?v=257c5553",
+        "width": 480,
+        "height": 298,
+        "bytes": 24291,
+        "sha256": "257c5553678dace29a0b7ec6f6ccbe631fc0900d6a421e906aa261b5590fc281"
+      },
+      "title": "File:Maize-teosinte.jpg",
+      "requested": "File:Maize-teosinte.jpg",
+      "name": "Maize-teosinte",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maize-teosinte.jpg",
+      "author": "John Doebley",
+      "credit": "http://teosinte.wisc.edu/images.html",
+      "date": "2015-05-24 08:44:51",
+      "license": "CC BY 3.0",
+      "licenseCode": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1037,
+        "height": 643,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 595
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "John Doebley",
+      "authorApi": "John Doebley"
+    },
+    "maya-glyphs": {
+      "id": "maya-glyphs",
+      "file": "maya-glyphs.jpg",
+      "src": "content/media/world-ancient/maya-glyphs.jpg?v=1a9b529e",
+      "width": 500,
+      "height": 348,
+      "bytes": 65344,
+      "sha256": "1a9b529e92063cae4e53bc5bcfdba3a2c935feb8ea44120c094de97a103f7e54",
+      "small": {
+        "file": "maya-glyphs.480.jpg",
+        "src": "content/media/world-ancient/maya-glyphs.480.jpg?v=6147c5fb",
+        "width": 480,
+        "height": 334,
+        "bytes": 41541,
+        "sha256": "6147c5fbd69ead815ea12b4e276af10f462d3f15b99b5e48c24070f10d579095"
+      },
+      "title": "File:Palenque glyphs-edit1.jpg",
+      "requested": "File:Palenque glyphs-edit1.jpg",
+      "name": "Palenque glyphs-edit1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palenque_glyphs-edit1.jpg",
+      "author": "Kwamikagami",
+      "credit": "English Wikipedia",
+      "date": "2004",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 896,
+        "height": 624,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 348
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Kwamikagami",
+      "authorApi": "User:Kwamikagami",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?"
+    },
+    "oracle-bone": {
+      "id": "oracle-bone",
+      "file": "oracle-bone.jpg",
+      "src": "content/media/world-ancient/oracle-bone.jpg?v=0a4f8700",
+      "width": 831,
+      "height": 1280,
+      "bytes": 177624,
+      "sha256": "0a4f8700f142cb23f491214a6e72a912a8fcc56bffe833fa8a78d0a5af81c962",
+      "small": {
+        "file": "oracle-bone.480.jpg",
+        "src": "content/media/world-ancient/oracle-bone.480.jpg?v=15c794b8",
+        "width": 312,
+        "height": 480,
+        "bytes": 27648,
+        "sha256": "15c794b8d80a2de071b3c095ed618b6d568b1674a8bd30d1108e69202e325fa3"
+      },
+      "title": "File:Shang dynasty inscribed scapula.jpg",
+      "requested": "File:Shang dynasty inscribed scapula.jpg",
+      "name": "Shang dynasty inscribed scapula",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shang_dynasty_inscribed_scapula.jpg",
+      "author": "BabelStone",
+      "credit": "BabelStone",
+      "date": "circa 1200 BC",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1733,
+        "height": 2669,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1971
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "BabelStone"
+    },
+    "parthenon": {
+      "id": "parthenon",
+      "file": "parthenon.jpg",
+      "src": "content/media/world-ancient/parthenon.jpg?v=d33b7878",
+      "width": 960,
+      "height": 675,
+      "bytes": 183335,
+      "sha256": "d33b78788a5e971b075500e03087ed825f651b84a61e4c07661ec6d147877438",
+      "small": {
+        "file": "parthenon.480.jpg",
+        "src": "content/media/world-ancient/parthenon.480.jpg?v=5287aba9",
+        "width": 480,
+        "height": 338,
+        "bytes": 41230,
+        "sha256": "5287aba9c2fcd21434646fe914c39ca6ff7f0ef09f41e9985f75e89bffd4996b"
+      },
+      "title": "File:The Parthenon in Athens.jpg",
+      "requested": "File:The Parthenon in Athens.jpg",
+      "name": "The Parthenon in Athens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
+      "author": "Steve Swayne",
+      "credit": "File:O Partenon de Atenas.jpg, originally posted to Flickr as The Parthenon Athens",
+      "date": "1978-08-26 13:45:00",
+      "license": "CC BY 2.0",
+      "licenseCode": "cc-by-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1144,
+        "height": 804,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 675
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Steve Swayne",
+      "authorApi": "Steve Swayne"
+    },
+    "persepolis-relief": {
+      "id": "persepolis-relief",
+      "file": "persepolis-relief.jpg",
+      "src": "content/media/world-ancient/persepolis-relief.jpg?v=e9581f4c",
+      "width": 973,
+      "height": 651,
+      "bytes": 182628,
+      "sha256": "e9581f4c52ec46f4fefdd496e1b58e67c611ecf46adc1f52f54c15ed7c069195",
+      "small": {
+        "file": "persepolis-relief.480.jpg",
+        "src": "content/media/world-ancient/persepolis-relief.480.jpg?v=6d0e51fe",
+        "width": 480,
+        "height": 321,
+        "bytes": 40236,
+        "sha256": "6d0e51fe251873c37b2fcc190b37f651849eb14639879034085c8edc6ce0d909"
+      },
+      "title": "File:Persepolis stairs of the Apadana relief.jpg",
+      "requested": "File:Persepolis stairs of the Apadana relief.jpg",
+      "name": "Persepolis stairs of the Apadana relief",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persepolis_stairs_of_the_Apadana_relief.jpg",
+      "author": "Phillip Maiwald (Nikopol)",
+      "credit": "Own work",
+      "date": "2008-09-03",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3509,
+        "height": 2349,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 857
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Phillip Maiwald (Nikopol)",
+      "authorApi": "Phillip Maiwald (Nikopol)"
+    },
+    "pont-du-gard": {
+      "id": "pont-du-gard",
+      "file": "pont-du-gard.jpg",
+      "src": "content/media/world-ancient/pont-du-gard.jpg?v=54efd497",
+      "width": 1280,
+      "height": 494,
+      "bytes": 168791,
+      "sha256": "54efd49737aec3ab0bc19eae8c8d363502975461f38114a48e4ff6f764741334",
+      "small": {
+        "file": "pont-du-gard.480.jpg",
+        "src": "content/media/world-ancient/pont-du-gard.480.jpg?v=bf44124d",
+        "width": 480,
+        "height": 185,
+        "bytes": 27466,
+        "sha256": "bf44124d1a43e98b5dd5619ca3040578ff49b30e5e6a602bea7898e2171d05ca"
+      },
+      "title": "File:Pont du Gard BLS.jpg",
+      "requested": "File:Pont du Gard BLS.jpg",
+      "name": "Pont du Gard BLS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg",
+      "author": "Benh LIEU SONG (Flickr)",
+      "credit": "Pont du Gard",
+      "date": "2014-06-11 20:05:40",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 12648,
+        "height": 4882,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 494
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Benh LIEU SONG (Flickr)",
+      "authorApi": "Benh LIEU SONG (Flickr)"
+    },
+    "rosetta-stone": {
+      "id": "rosetta-stone",
+      "file": "rosetta-stone.jpg",
+      "src": "content/media/world-ancient/rosetta-stone.jpg?v=2b71e002",
+      "width": 831,
+      "height": 973,
+      "bytes": 173156,
+      "sha256": "2b71e00213d6de583a6ceecfe323efc0db586c3b5738cace69393b783d27bd52",
+      "small": {
+        "file": "rosetta-stone.480.jpg",
+        "src": "content/media/world-ancient/rosetta-stone.480.jpg?v=1f76bebf",
+        "width": 410,
+        "height": 480,
+        "bytes": 40373,
+        "sha256": "1f76bebf6ae8c7a75768c665495540389375504d7f916a200f7c092a5b88fd86"
+      },
+      "title": "File:Rosetta Stone.JPG",
+      "requested": "File:Rosetta Stone.JPG",
+      "name": "Rosetta Stone",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+      "author": "Hans Hillewaert",
+      "credit": "Own work",
+      "date": "21 November 2007",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3665,
+        "height": 4288,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1498
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Hans Hillewaert",
+      "authorApi": "Hans Hillewaert",
+      "attributionApi": "© Hans Hillewaert"
+    },
+    "shang-ding": {
+      "id": "shang-ding",
+      "file": "shang-ding.jpg",
+      "src": "content/media/world-ancient/shang-ding.jpg?v=6016f3c6",
+      "width": 865,
+      "height": 1126,
+      "bytes": 173037,
+      "sha256": "6016f3c60bc79f15e748852eeadc380dc0d392e42d6ac8abafa7b6f8fe2c03af",
+      "small": {
+        "file": "shang-ding.480.jpg",
+        "src": "content/media/world-ancient/shang-ding.480.jpg?v=5e3fc3e6",
+        "width": 369,
+        "height": 480,
+        "bytes": 38270,
+        "sha256": "5e3fc3e644ed64dfbdb1da080fc8348576507750c4d27533038b38db5b6f0723"
+      },
+      "title": "File:HouMuWuDingFullView.jpg",
+      "requested": "File:HouMuWuDingFullView.jpg",
+      "name": "HouMuWuDingFullView",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HouMuWuDingFullView.jpg",
+      "author": "Mlogic",
+      "credit": "Own work",
+      "date": "2011-08-07",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3380,
+        "height": 4400,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1666
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Mlogic",
+      "authorApi": "Mlogic"
+    },
+    "standard-of-ur": {
+      "id": "standard-of-ur",
+      "file": "standard-of-ur.jpg",
+      "src": "content/media/world-ancient/standard-of-ur.jpg?v=fdc85e07",
+      "width": 1280,
+      "height": 586,
+      "bytes": 180189,
+      "sha256": "fdc85e074d771939b762938a36b6547a6a05941c85bf5ed6b6869ba60f382b35",
+      "small": {
+        "file": "standard-of-ur.480.jpg",
+        "src": "content/media/world-ancient/standard-of-ur.480.jpg?v=dd6fe812",
+        "width": 480,
+        "height": 220,
+        "bytes": 39123,
+        "sha256": "dd6fe812ead415d43ea83143b115e823e3f7ddb388ba3cce9c2b90c7ba7c3c50"
+      },
+      "title": "File:Standard of Ur - Peace.jpg",
+      "requested": "File:Standard of Ur - Peace.jpg",
+      "name": "Standard of Ur - Peace",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Standard_of_Ur_-_Peace.jpg",
+      "author": "LeastCommonAncestor",
+      "credit": "Own work",
+      "date": "2012-08-31 19:18:46",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4312,
+        "height": 1975,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 586
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "LeastCommonAncestor",
+      "authorApi": "LeastCommonAncestor"
+    },
+    "sulawesi-hands": {
+      "id": "sulawesi-hands",
+      "file": "sulawesi-hands.jpg",
+      "src": "content/media/world-ancient/sulawesi-hands.jpg?v=946d53cd",
+      "width": 844,
+      "height": 634,
+      "bytes": 119101,
+      "sha256": "946d53cd1a47c5653525a7fe5f3e185c8e69bf5bf0b9fd063a196b70870593f0",
+      "small": {
+        "file": "sulawesi-hands.480.jpg",
+        "src": "content/media/world-ancient/sulawesi-hands.480.jpg?v=3a5bcf8d",
+        "width": 480,
+        "height": 361,
+        "bytes": 36044,
+        "sha256": "3a5bcf8d2ab343d02453402355c76a6ad1819968f48343be2f89830a4249e9c5"
+      },
+      "title": "File:Hands in Pettakere Cave.jpg",
+      "requested": "File:Hands in Pettakere Cave.jpg",
+      "name": "Hands in Pettakere Cave",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hands_in_Pettakere_Cave.jpg",
+      "author": "Cahyo",
+      "credit": "Own work",
+      "date": "2014-02-14 10:54:41",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3264,
+        "height": 2448,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1920,
+        "height": 1440
+      },
+      "options": {
+        "crop": [
+          0.28,
+          0.2,
+          0.72,
+          0.64
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Cahyo",
+      "authorApi": "Cahyo"
+    },
+    "terracotta-army": {
+      "id": "terracotta-army",
+      "file": "terracotta-army.jpg",
+      "src": "content/media/world-ancient/terracotta-army.jpg?v=05f55689",
+      "width": 1126,
+      "height": 751,
+      "bytes": 175391,
+      "sha256": "05f55689c5db6208b3e8a2d96db396126edc2ac0c7b883995b2b68b574332cc4",
+      "small": {
+        "file": "terracotta-army.480.jpg",
+        "src": "content/media/world-ancient/terracotta-army.480.jpg?v=27b11a90",
+        "width": 480,
+        "height": 320,
+        "bytes": 38174,
+        "sha256": "27b11a903587399e1be9e9adf65460344e1a95f90f54009e888a6c3758b99a52"
+      },
+      "title": "File:Terracotta Army, View of Pit 1.jpg",
+      "requested": "File:Terracotta Army, View of Pit 1.jpg",
+      "name": "Terracotta Army, View of Pit 1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terracotta_Army,_View_of_Pit_1.jpg",
+      "author": "Jmhullot",
+      "credit": "Own work",
+      "date": "2015-04-19 10:44:47",
+      "license": "CC BY 3.0",
+      "licenseCode": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 5472,
+        "height": 3648,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Jmhullot",
+      "authorApi": "Jmhullot"
+    }
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "course": "psychology",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "binet": {
+      "id": "binet",
+      "file": "binet.jpg",
+      "src": "content/media/psychology/binet.jpg?v=1b645e09",
+      "width": 996,
+      "height": 1280,
+      "bytes": 173121,
+      "sha256": "1b645e090b2c5535c1501ebab10ec6a08814d5ead8ca4e3f0eb45b6bb645d166",
+      "small": {
+        "file": "binet.480.jpg",
+        "src": "content/media/psychology/binet.480.jpg?v=631e3eb0",
+        "width": 373,
+        "height": 480,
+        "bytes": 21320,
+        "sha256": "631e3eb0e3fa4e77e9fcffe08910ea70804fd07e6b151a2b472084cf5ecd8ec9"
+      },
+      "title": "File:Alfred Binet.jpg",
+      "requested": "File:Alfred Binet.jpg",
+      "name": "Alfred Binet",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Binet.jpg",
+      "author": "Unidentified photographer",
+      "authorDerived": "Unidentified photographer",
+      "authorApi": "Unidentified photographer",
+      "credit": "http://ihm.nlm.nih.gov/images/B03049, http://rcswww.urz.tu-dresden.de/~dornhoef/binet.jpg via en:Image:Alfbinet.jpg",
+      "date": "19th century",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2188,
+        "height": 2812,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1645
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-15"
+    },
+    "clever-hans": {
+      "id": "clever-hans",
+      "file": "clever-hans.jpg",
+      "src": "content/media/psychology/clever-hans.jpg?v=6b340485",
+      "width": 500,
+      "height": 299,
+      "bytes": 73120,
+      "sha256": "6b340485ebc73026ea4441cd57dca7eb5a540cdc2d6539932ab4632d7ccb20aa",
+      "small": {
+        "file": "clever-hans.480.jpg",
+        "src": "content/media/psychology/clever-hans.480.jpg?v=c798ec36",
+        "width": 480,
+        "height": 287,
+        "bytes": 44229,
+        "sha256": "c798ec3692475a44f9c3cce81f6550cc3e9c63ec7bea035d4b91d5f98ed0df35"
+      },
+      "title": "File:Osten und Hans.jpg",
+      "requested": "File:Osten und Hans.jpg",
+      "name": "Osten und Hans",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osten_und_Hans.jpg",
+      "author": "Unknown photographer, about 1908",
+      "authorDerived": "Unknown author",
+      "authorApi": "Unknown author",
+      "credit": "www.kryptozoologie.net",
+      "date": "1908",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 804,
+        "height": 481,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 299
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-15",
+      "authorOverride": "Unknown photographer, about 1908"
+    },
+    "duck-rabbit": {
+      "id": "duck-rabbit",
+      "file": "duck-rabbit.jpg",
+      "src": "content/media/psychology/duck-rabbit.jpg?v=aa52519a",
+      "width": 1280,
+      "height": 1086,
+      "bytes": 182742,
+      "sha256": "aa52519a28694fde29503118dc7070772eff0faa6460e3b121e074ef3d22a1af",
+      "small": {
+        "file": "duck-rabbit.480.jpg",
+        "src": "content/media/psychology/duck-rabbit.480.jpg?v=bc33f104",
+        "width": 480,
+        "height": 407,
+        "bytes": 37160,
+        "sha256": "bc33f104812cfd727cb8455d0c5b72a49d53eb9bd01921429a2b3b117d535887"
+      },
+      "title": "File:Kaninchen und Ente.png",
+      "requested": "File:Kaninchen und Ente.png",
+      "name": "Kaninchen und Ente",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaninchen_und_Ente.png",
+      "author": "Unknown author",
+      "authorDerived": "Unknown author",
+      "authorApi": "Unknown artist",
+      "credit": "Detail from scanned page of Fliegende Blätter, full page: Flegende-Blatter-1892.png",
+      "date": "1892-10-23",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1414,
+        "height": 1200,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1086
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-15"
+    },
+    "pavlov-demo": {
+      "id": "pavlov-demo",
+      "file": "pavlov-demo.jpg",
+      "src": "content/media/psychology/pavlov-demo.jpg?v=71719b7d",
+      "width": 1126,
+      "height": 866,
+      "bytes": 179062,
+      "sha256": "71719b7d1716999289d70d01100450dffa74affb013c7f4998881f3cc6d64481",
+      "small": {
+        "file": "pavlov-demo.480.jpg",
+        "src": "content/media/psychology/pavlov-demo.480.jpg?v=de655421",
+        "width": 480,
+        "height": 369,
+        "bytes": 33906,
+        "sha256": "de65542186573be0b7ac30c01b3bbe4adf35cc9bfbb418a197e18985a32e0cc5"
+      },
+      "title": "File:I.P. Pavlov showing an experiment on a dog in the Wellcome L0022522.jpg",
+      "requested": "File:I.P. Pavlov showing an experiment on a dog in the Wellcome L0022522.jpg",
+      "name": "I.P. Pavlov showing an experiment on a dog in the",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:I.P._Pavlov_showing_an_experiment_on_a_dog_in_the_Wellcome_L0022522.jpg",
+      "author": "Wellcome Collection",
+      "authorDerived": "https://wellcomeimages.org/indexplus/obf_images/12/78/af6b941fa026f00030d1a31fcaea.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0022522.html…",
+      "credit": "https://wellcomeimages.org/indexplus/obf_images/12/78/af6b941fa026f00030d1a31fcaea.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0022522.html…",
+      "date": "2014-10-09 03:09:02",
+      "license": "CC BY 4.0",
+      "licenseCode": "cc-by-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1606,
+        "height": 1234,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 984
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-15",
+      "authorOverride": "Wellcome Collection"
+    },
+    "skinner-box": {
+      "id": "skinner-box",
+      "file": "skinner-box.jpg",
+      "src": "content/media/psychology/skinner-box.jpg?v=48a4e410",
+      "width": 330,
+      "height": 301,
+      "bytes": 30556,
+      "sha256": "48a4e4109a6f776b6e033d17d803464b07418eb534afee4431d8f380c581c48c",
+      "small": {
+        "file": "skinner-box.480.jpg",
+        "src": "content/media/psychology/skinner-box.480.jpg?v=45819ce6",
+        "width": 330,
+        "height": 301,
+        "bytes": 27355,
+        "sha256": "45819ce6b0d57bdc94a8fd30265bcb994c4eb3d493c22060846067d74b35a728"
+      },
+      "title": "File:Skinner box photo 02.jpg",
+      "requested": "File:Skinner box photo 02.jpg",
+      "name": "Skinner box photo 02",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skinner_box_photo_02.jpg",
+      "author": "Bd008",
+      "authorDerived": "Bd008",
+      "authorApi": "Bd008",
+      "attributionApi": "Bd008",
+      "credit": "Own work",
+      "date": "2008",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 499,
+        "height": 455,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 330,
+        "height": 301
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-15"
+    },
+    "wife-mother": {
+      "id": "wife-mother",
+      "file": "wife-mother.jpg",
+      "src": "content/media/psychology/wife-mother.jpg?v=6b284540",
+      "width": 810,
+      "height": 1126,
+      "bytes": 179782,
+      "sha256": "6b284540f1a37805fc9f4886209bcfe968f344a09163123d1f53dcbfd21402c3",
+      "small": {
+        "file": "wife-mother.480.jpg",
+        "src": "content/media/psychology/wife-mother.480.jpg?v=6ffdcb43",
+        "width": 345,
+        "height": 480,
+        "bytes": 35249,
+        "sha256": "6ffdcb43bdfb1869a2fc154a77d58597beff39f705f4bd6186726ba668dbf1d8"
+      },
+      "title": "File:My Wife and My Mother-in-Law.jpg",
+      "requested": "File:My Wife and My Mother-in-Law.jpg",
+      "name": "My Wife and My Mother-in-Law",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:My_Wife_and_My_Mother-in-Law.jpg",
+      "author": "W. E. Hill",
+      "authorDerived": "W. E. Hill",
+      "authorApi": "W. E. Hill",
+      "credit": "This image is available from the United States Library of Congress's Prints and Photographs division under the digital ID ds.00175. This tag does not indicate…",
+      "date": "1915-11-06",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3552,
+        "height": 4936,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1779
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-15"
+    }
+  }
+}

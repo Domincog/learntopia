@@ -1,0 +1,202 @@
+{
+  "course": "body-control",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "fundus": {
+      "id": "fundus",
+      "file": "fundus.jpg",
+      "src": "content/media/body-control/fundus.jpg?v=61b9ce21",
+      "width": 1280,
+      "height": 1280,
+      "bytes": 128086,
+      "sha256": "61b9ce21724d98aed10dc7c61341ae4abd976a3318418a2a6d03a5e401bf5c35",
+      "small": {
+        "file": "fundus.480.jpg",
+        "src": "content/media/body-control/fundus.480.jpg?v=5a03709e",
+        "width": 480,
+        "height": 480,
+        "bytes": 22054,
+        "sha256": "5a03709e41f15b750c3856ff1fbbe90ddbba73b507d49bf3e55dec2f4c7c1a2f"
+      },
+      "title": "File:Fundus photograph of normal right eye.jpg",
+      "requested": "File:Fundus photograph of normal right eye.jpg",
+      "name": "Fundus photograph of normal right eye",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fundus_photograph_of_normal_right_eye.jpg",
+      "author": "Mikael Häggström",
+      "authorDerived": "Mikael Häggström.",
+      "authorApi": "Mikael Häggström. When using this image in external works, it may be cited as: Häggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain. or By Mikael Häggström, used with permission.",
+      "credit": "Own work",
+      "date": "2012-03-21",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1411,
+        "height": 1411,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1280
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorOverride": "Mikael Häggström"
+    },
+    "hand-xray": {
+      "id": "hand-xray",
+      "file": "hand-xray.jpg",
+      "src": "content/media/body-control/hand-xray.jpg?v=3624877a",
+      "width": 901,
+      "height": 1280,
+      "bytes": 99171,
+      "sha256": "3624877a761589a04de35bf085c4437ef6bac717c0acd20212e69cd18ab7b890",
+      "small": {
+        "file": "hand-xray.480.jpg",
+        "src": "content/media/body-control/hand-xray.480.jpg?v=f2fb5287",
+        "width": 338,
+        "height": 480,
+        "bytes": 14053,
+        "sha256": "f2fb528793b98ab72488eebf4edbef20d22a2976b971cc6ecf61a0861b9308a2"
+      },
+      "title": "File:X-ray of normal hand by dorsoplantar projection.jpg",
+      "requested": "File:X-ray of normal hand by dorsoplantar projection.jpg",
+      "name": "X-ray of normal hand by dorsoplantar projection",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:X-ray_of_normal_hand_by_dorsoplantar_projection.jpg",
+      "author": "Mikael Häggström",
+      "authorDerived": "Mikael Häggström, M.D. Author info",
+      "authorApi": "Mikael Häggström, M.D. Author info - Reusing images - Conflicts of interest: None Mikael Häggström, M.D.",
+      "credit": "Own work (self-exam)",
+      "date": "2017-10-29",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1466,
+        "height": 2082,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1818
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorOverride": "Mikael Häggström",
+      "creditLabel": "X-ray"
+    },
+    "karyotype": {
+      "id": "karyotype",
+      "file": "karyotype.jpg",
+      "src": "content/media/body-control/karyotype.jpg?v=44bfb702",
+      "width": 1280,
+      "height": 1003,
+      "bytes": 33694,
+      "sha256": "44bfb702a26f3633fa03f054924758cbc22655b9b9ddd36e8313b396d2bce55d",
+      "small": {
+        "file": "karyotype.480.jpg",
+        "src": "content/media/body-control/karyotype.480.jpg?v=28049e34",
+        "width": 480,
+        "height": 376,
+        "bytes": 8585,
+        "sha256": "28049e347c233b81b6de47a9191db37cd9ad686c836ac2d25966e088c94f596c"
+      },
+      "title": "File:NHGRI human male karyotype.png",
+      "requested": "File:NHGRI human male karyotype.png",
+      "name": "NHGRI human male karyotype",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NHGRI_human_male_karyotype.png",
+      "author": "National Human Genome Research Institute",
+      "authorDerived": "Courtesy: National Human Genome Research Institute",
+      "authorApi": "Courtesy: National Human Genome Research Institute",
+      "credit": "Extracted image from http://www.genome.gov/glossary/resources/karyotype.pdf.",
+      "date": "2012-03-01 23:05:49",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3084,
+        "height": 2417,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1003
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorOverride": "National Human Genome Research Institute"
+    },
+    "neutrophil": {
+      "id": "neutrophil",
+      "file": "neutrophil.jpg",
+      "src": "content/media/body-control/neutrophil.jpg?v=5c89c79d",
+      "width": 1227,
+      "height": 1280,
+      "bytes": 183631,
+      "sha256": "5c89c79d4bdcde9ab1750ab08d4b29a23b19231edcb647d5b0ba44165b7041be",
+      "small": {
+        "file": "neutrophil.480.jpg",
+        "src": "content/media/body-control/neutrophil.480.jpg?v=bbee190f",
+        "width": 460,
+        "height": 480,
+        "bytes": 26407,
+        "sha256": "bbee190f1514893dc084843c567b1f57aa86b3a9d24ea4f1ce242faa3dd011a2"
+      },
+      "title": "File:Neutrophil with anthrax copy.jpg",
+      "requested": "File:Neutrophil with anthrax copy.jpg",
+      "name": "Neutrophil with anthrax copy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neutrophil_with_anthrax_copy.jpg",
+      "author": "Volker Brinkmann",
+      "authorDerived": "Volker Brinkmann",
+      "authorApi": "Volker Brinkmann",
+      "credit": "(November 2005). \"Neutrophil engulfing Bacillus anthracis\". PLoS Pathogens 1 (3): Cover page. DOI:10.1371. Archived from the original on 2015-01-09. Retrieved…",
+      "date": "2005-11",
+      "license": "CC BY 2.5",
+      "licenseCode": "cc-by-2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2304,
+        "height": 2403,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1335
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "creditLabel": "Micrograph"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# Runs the unit tests and the content validator on every push and pull request.
+# Neither needs any dependency: the project has none. (The browser smoke test
+# and the accessibility audit need Playwright and are run locally; see README.)
+name: Check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Unit tests
+        run: node --test
+      - name: Validate every course
+        run: node tools/validate.mjs
+      - name: Picture records match the files
+        run: node tools/fetch-image.mjs --verify
+      - name: Offline file list is up to date
+        run: |
+          node tools/gen-precache.mjs
+          git diff --exit-code precache.json src/dev/widget-list.js

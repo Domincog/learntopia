@@ -1,0 +1,205 @@
+{
+  "course": "money",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "mark-1923": {
+      "id": "mark-1923",
+      "file": "mark-1923.jpg",
+      "src": "content/media/money/mark-1923.jpg?v=6cbf48d8",
+      "width": 1126,
+      "height": 593,
+      "bytes": 171731,
+      "sha256": "6cbf48d87b623cdff7b7c46f11b71c31e82a11ca199e6381b4b1542ca88c84a7",
+      "small": {
+        "file": "mark-1923.480.jpg",
+        "src": "content/media/money/mark-1923.480.jpg?v=eaef41ca",
+        "width": 480,
+        "height": 253,
+        "bytes": 37050,
+        "sha256": "eaef41ca8945e5e2d9c700aeb7e442e96f69276e9fd29a35e3af7bc46ca35979"
+      },
+      "title": "File:GER-116-Reichsbanknote-10 Billion Mark (1923).jpg",
+      "requested": "File:GER-116-Reichsbanknote-10 Billion Mark (1923).jpg",
+      "name": "GER-116-Reichsbanknote-10 Billion Mark (1923)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GER-116-Reichsbanknote-10_Billion_Mark_(1923).jpg",
+      "author": "Reichsbankdirektorium Berlin",
+      "authorDerived": "Reichsbankdirektorium Berlin",
+      "authorApi": "Reichsbankdirektorium Berlin",
+      "credit": "Image by Godot13",
+      "date": "1923",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "restrictions": "currency",
+      "original": {
+        "width": 5687,
+        "height": 2996,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 674
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-15"
+    },
+    "ponzi": {
+      "id": "ponzi",
+      "file": "ponzi.jpg",
+      "src": "content/media/money/ponzi.jpg?v=9d88f1f5",
+      "width": 1024,
+      "height": 1280,
+      "bytes": 165734,
+      "sha256": "9d88f1f50a1a529e241bb912c62f8896dfe243dd7e2240752471611ef9aa4104",
+      "small": {
+        "file": "ponzi.480.jpg",
+        "src": "content/media/money/ponzi.480.jpg?v=31e05afe",
+        "width": 384,
+        "height": 480,
+        "bytes": 22707,
+        "sha256": "31e05afe6013e1bf3da12edc227c392aa9974e7aed640f750c1e8c3739ea4bee"
+      },
+      "title": "File:Chas. Ponzi LCCN2014711137.jpg",
+      "requested": "File:Chas. Ponzi LCCN2014711137.jpg",
+      "name": "Chas. Ponzi LCCN2014711137",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chas._Ponzi_LCCN2014711137.jpg",
+      "author": "Bain News Service, publisher",
+      "authorDerived": "Bain News Service, publisher",
+      "authorApi": "Bain News Service, publisher",
+      "credit": "Library of Congress Catalog: https://lccn.loc.gov/2014711137 Image download: https://cdn.loc.gov/service/pnp/ggbain/30900/30981v.jpg Original url…",
+      "date": "1915",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 4214,
+        "height": 5858,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1779
+      },
+      "options": {
+        "crop": null,
+        "aspect": 0.8,
+        "focus": [
+          0.5,
+          0.3
+        ],
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-15"
+    },
+    "share-1900": {
+      "id": "share-1900",
+      "file": "share-1900.jpg",
+      "src": "content/media/money/share-1900.jpg?v=908ef42c",
+      "width": 1280,
+      "height": 345,
+      "bytes": 151602,
+      "sha256": "908ef42cef03486bba65ed36d814a63c04fb3ff304ad68f75993a47ac848b0b8",
+      "small": {
+        "file": "share-1900.480.jpg",
+        "src": "content/media/money/share-1900.480.jpg?v=fb4f3c24",
+        "width": 480,
+        "height": 129,
+        "bytes": 19998,
+        "sha256": "fb4f3c245319389ef0ee9ace373d787be20a1275ac4f5f38558a274bb4997d1a"
+      },
+      "title": "File:Toledo and Ohio Central RW 1900.jpg",
+      "requested": "File:Toledo and Ohio Central RW 1900.jpg",
+      "name": "Toledo and Ohio Central RW 1900",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toledo_and_Ohio_Central_RW_1900.jpg",
+      "author": "EDHAC e.V. (scan of a certificate by unknown engravers)",
+      "authorDerived": "Unbekannte Autoren und Grafiker; Scan vom EDHAC e.V.",
+      "authorOverride": "EDHAC e.V. (scan of a certificate by unknown engravers)",
+      "authorApi": "Unbekannte Autoren und Grafiker; Scan vom EDHAC e.V.",
+      "credit": "Sammlung eines Mitglieds des Ersten Deutschen Historic-Actien-Clubs e.V. (EDHAC e.V.); (le)",
+      "date": "1900-12-28",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2373,
+        "height": 1406,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 758
+      },
+      "options": {
+        "crop": [
+          0,
+          0,
+          1,
+          0.455
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-15"
+    },
+    "zim-100-trillion": {
+      "id": "zim-100-trillion",
+      "file": "zim-100-trillion.jpg",
+      "src": "content/media/money/zim-100-trillion.jpg?v=5ec3873d",
+      "width": 973,
+      "height": 483,
+      "bytes": 177446,
+      "sha256": "5ec3873db5fce5035eb6974f1743607ca18facd79398839daa311d84d0520770",
+      "small": {
+        "file": "zim-100-trillion.480.jpg",
+        "src": "content/media/money/zim-100-trillion.480.jpg?v=ebe01f40",
+        "width": 480,
+        "height": 238,
+        "bytes": 34768,
+        "sha256": "ebe01f4084f762e634028d07d5c56f82d7332e3862c30f240f6dcf4244045d4a"
+      },
+      "title": "File:Zimbabwe $100 trillion 2009 Obverse.jpg",
+      "requested": "File:Zimbabwe $100 trillion 2009 Obverse.jpg",
+      "name": "Zimbabwe $100 trillion 2009 Obverse",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zimbabwe_$100_trillion_2009_Obverse.jpg",
+      "author": "Reserve Bank of Zimbabwe",
+      "authorDerived": "Reserve Bank of Zimbabwe",
+      "authorApi": "Reserve Bank of Zimbabwe",
+      "credit": "Self-scan by (Marianian) followed by minor Photoshop enhancements to improve appearance and reduce size. Second version scan by (Camp0s) with original color…",
+      "date": "2009",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "restrictions": "currency",
+      "original": {
+        "width": 1764,
+        "height": 875,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 635
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-15"
+    }
+  }
+}

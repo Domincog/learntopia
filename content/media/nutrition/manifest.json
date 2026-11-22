@@ -1,0 +1,151 @@
+{
+  "course": "nutrition",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "iodised-salt": {
+      "id": "iodised-salt",
+      "file": "iodised-salt.jpg",
+      "src": "content/media/nutrition/iodised-salt.jpg?v=5a9f9888",
+      "width": 960,
+      "height": 1280,
+      "bytes": 177629,
+      "sha256": "5a9f98889925048947bd1268a791e0af7070cfdae1e29f24b37ee5b0c6250b40",
+      "small": {
+        "file": "iodised-salt.480.jpg",
+        "src": "content/media/nutrition/iodised-salt.480.jpg?v=926f9ed4",
+        "width": 360,
+        "height": 480,
+        "bytes": 36935,
+        "sha256": "926f9ed4a7dfcee61ccc8a23e072e4253dad13ee0c15f07934cd5ec453db136b"
+      },
+      "title": "File:Fluoridiertes Jodsalz.JPG",
+      "requested": "File:Fluoridiertes Jodsalz.JPG",
+      "name": "Fluoridiertes Jodsalz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fluoridiertes_Jodsalz.JPG",
+      "author": "Wwbread",
+      "authorDerived": "Wwbread",
+      "authorApi": "Wwbread",
+      "credit": "Own work",
+      "date": "2017-03-22",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3024,
+        "height": 4032,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1707
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    },
+    "teishoku": {
+      "id": "teishoku",
+      "file": "teishoku.jpg",
+      "src": "content/media/nutrition/teishoku.jpg?v=cd073ffc",
+      "width": 1126,
+      "height": 848,
+      "bytes": 173415,
+      "sha256": "cd073ffcfd255f1caba677132b78958432db489087ccf318a7656b4570fbe9e9",
+      "small": {
+        "file": "teishoku.480.jpg",
+        "src": "content/media/nutrition/teishoku.480.jpg?v=a8a11ac6",
+        "width": 480,
+        "height": 362,
+        "bytes": 44605,
+        "sha256": "a8a11ac650f0d7bd509a34b7de666d602c0e0bfa2fe92224594aefa662d0f5d1"
+      },
+      "title": "File:Sakura Teishoku - Sakura Japanese Restaurant 2025-07-28.jpg",
+      "requested": "File:Sakura Teishoku - Sakura Japanese Restaurant 2025-07-28.jpg",
+      "name": "Sakura Teishoku - Sakura Japanese Restaurant 2025-07-28",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sakura_Teishoku_-_Sakura_Japanese_Restaurant_2025-07-28.jpg",
+      "author": "Andy Li",
+      "authorDerived": "Andy Li",
+      "authorApi": "Andy Li",
+      "credit": "Own work",
+      "date": "2025-07-28 19:05:59",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 8160,
+        "height": 6144,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 964
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorOverride": "Andy Li",
+      "creditLabel": "Photo"
+    },
+    "us-label": {
+      "id": "us-label",
+      "file": "us-label.jpg",
+      "src": "content/media/nutrition/us-label.jpg?v=cb5f108e",
+      "width": 500,
+      "height": 960,
+      "bytes": 92260,
+      "sha256": "cb5f108e2120e7e62ee1e8907e2dbcebf8c79cda9a97109529b399500069337c",
+      "small": {
+        "file": "us-label.480.jpg",
+        "src": "content/media/nutrition/us-label.480.jpg?v=118d9f8e",
+        "width": 250,
+        "height": 480,
+        "bytes": 33365,
+        "sha256": "118d9f8e52b3372054db17d1e1910213f8f81a8b6b58d2aaf8e910b415401be0"
+      },
+      "title": "File:FDA Nutrition Facts Label 2016.png",
+      "requested": "File:FDA Nutrition Facts Label 2016.png",
+      "name": "FDA Nutrition Facts Label 2016",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FDA_Nutrition_Facts_Label_2016.png",
+      "author": "U.S. Food and Drug Administration",
+      "authorDerived": "U.S. Food and Drug Administration",
+      "authorApi": "U.S. Food and Drug Administration",
+      "credit": "https://www.fda.gov/Food/GuidanceRegulation/GuidanceDocumentsRegulatoryInformation/LabelingNutrition/ucm385663.htm",
+      "date": "2016-05-20",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 752,
+        "height": 1444,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 960
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    }
+  }
+}

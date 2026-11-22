@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Learntopia — learn by doing</title>
+  <meta name="description" content="Free, open-source interactive lessons in math, logic, computer science, science, history, geography, health, psychology and money. Learn by doing, remember with spaced review. No ads, no accounts, no tracking.">
+  <meta name="theme-color" content="#FAF5EA">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Learntopia — learn by doing">
+  <meta property="og:description" content="Free, open-source interactive lessons in math, logic, computer science, science, history, geography, health, psychology and money.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learntopia.org/">
+  <meta property="og:image" content="https://learntopia.org/assets/icons/og.png">
+  <link rel="canonical" href="https://learntopia.org/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icons/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Learntopia">
+
+  <!-- Applies saved theme / text size before first paint (tiny, synchronous). -->
+  <script src="src/boot.js"></script>
+
+  <link rel="preload" href="assets/fonts/atkinson-hyperlegible-next-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/views.css">
+  <link rel="stylesheet" href="assets/css/player.css">
+  <link rel="stylesheet" href="assets/css/widgets.css">
+  <link rel="stylesheet" href="assets/css/puzzles.css">
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <!-- Fetch the core module graph in parallel instead of discovering it level by level. -->
+  <link rel="modulepreload" href="src/app.js">
+  <link rel="modulepreload" href="src/config.js">
+  <link rel="modulepreload" href="src/core/store.js">
+  <link rel="modulepreload" href="src/core/dates.js">
+  <link rel="modulepreload" href="src/core/router.js">
+  <link rel="modulepreload" href="src/core/dom.js">
+  <link rel="modulepreload" href="src/core/audio.js">
+  <link rel="modulepreload" href="src/core/progress.js">
+  <link rel="modulepreload" href="src/core/srs.js">
+  <link rel="modulepreload" href="src/core/achievements.js">
+  <link rel="modulepreload" href="src/core/content.js">
+  <link rel="modulepreload" href="src/core/mathexpr.js">
+  <link rel="modulepreload" href="src/core/rng.js">
+  <link rel="modulepreload" href="src/player/normalize.js">
+  <link rel="modulepreload" href="src/ui/shell.js">
+  <link rel="modulepreload" href="src/ui/icon.js">
+  <link rel="modulepreload" href="src/ui/icons.js">
+  <link rel="modulepreload" href="src/ui/mascot.js">
+  <link rel="modulepreload" href="src/ui/components.js">
+  <link rel="modulepreload" href="src/ui/toast.js">
+  <link rel="modulepreload" href="content/index.js">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div id="app">
+    <!-- Shown until the app boots; also the no-JavaScript message. -->
+    <div class="boot" id="boot">
+      <div class="boot-mark" aria-hidden="true">L</div>
+      <p class="boot-text">Loading…</p>
+      <noscript>
+        <p class="boot-text"><strong>Learntopia needs JavaScript.</strong><br>The lessons are interactive — sliders, graphs and puzzles run in your browser. Nothing is sent anywhere.</p>
+      </noscript>
+    </div>
+  </div>
+
+  <div id="overlay-root"></div>
+  <div id="toast-root" role="status" aria-live="polite"></div>
+  <div id="live-polite" class="sr-only" aria-live="polite"></div>
+  <div id="live-assertive" class="sr-only" aria-live="assertive"></div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

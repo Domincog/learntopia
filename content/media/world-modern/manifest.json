@@ -1,0 +1,966 @@
+{
+  "course": "world-modern",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "apartheid-sign": {
+      "id": "apartheid-sign",
+      "file": "apartheid-sign.jpg",
+      "src": "content/media/world-modern/apartheid-sign.jpg?v=c9c0d399",
+      "width": 500,
+      "height": 852,
+      "bytes": 76488,
+      "sha256": "c9c0d3997f6d64b3883e988d2fcc46d6a6c49563116854f8ccfd213b7d62cd31",
+      "small": {
+        "file": "apartheid-sign.480.jpg",
+        "src": "content/media/world-modern/apartheid-sign.480.jpg?v=eb5c233c",
+        "width": 282,
+        "height": 480,
+        "bytes": 25758,
+        "sha256": "eb5c233c709a63f72f102117c72227f4a80e1111c01ecec5ff89084322bd509d"
+      },
+      "title": "File:DurbanSign1989.jpg",
+      "requested": "File:DurbanSign1989.jpg",
+      "name": "DurbanSign1989",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DurbanSign1989.jpg",
+      "author": "Guinnog",
+      "credit": "Taken and donated by Guinnog.",
+      "date": "1989",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 587,
+        "height": 1000,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 852
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Guinnog",
+      "authorApi": "Guinnog"
+    },
+    "armenian-memorial": {
+      "id": "armenian-memorial",
+      "file": "armenian-memorial.jpg",
+      "src": "content/media/world-modern/armenian-memorial.jpg?v=3d764cce",
+      "width": 1126,
+      "height": 751,
+      "bytes": 181707,
+      "sha256": "3d764cce4e94c80bb15889a76134376ee4a8c72e75436c7655d1ce244af2737b",
+      "small": {
+        "file": "armenian-memorial.480.jpg",
+        "src": "content/media/world-modern/armenian-memorial.480.jpg?v=41c46507",
+        "width": 480,
+        "height": 320,
+        "bytes": 33488,
+        "sha256": "41c465079bc900c23eb8644bbd3fe85f3f87daaa0980532957df37b279950c80"
+      },
+      "title": "File:Yerevan Genocide Memorial 02.jpg",
+      "requested": "File:Armenian Genocide Memorial - Yerevan (2903025858).jpg",
+      "name": "Yerevan Genocide Memorial 02",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yerevan_Genocide_Memorial_02.jpg",
+      "author": "Rita Willaert",
+      "credit": "Armenian Genocide Memorial - Yerevan Uploaded by Szczebrzeszynski",
+      "date": "2008-09-02 16:17",
+      "license": "CC BY 2.0",
+      "licenseCode": "cc-by-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2679,
+        "height": 1786,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Rita Willaert",
+      "authorApi": "Rita Willaert from Belgium"
+    },
+    "berlin-conference": {
+      "id": "berlin-conference",
+      "file": "berlin-conference.jpg",
+      "src": "content/media/world-modern/berlin-conference.jpg?v=b009c378",
+      "width": 973,
+      "height": 748,
+      "bytes": 178553,
+      "sha256": "b009c378b8f9569f8c5b1b30fc98b2139cc3b548e80d483c24468cf4693e2b59",
+      "small": {
+        "file": "berlin-conference.480.jpg",
+        "src": "content/media/world-modern/berlin-conference.480.jpg?v=e1d7b123",
+        "width": 480,
+        "height": 369,
+        "bytes": 45345,
+        "sha256": "e1d7b123cae48d17a4c49fdc354249b8361a1df705f9cf7b8ec5c2cabcde5289"
+      },
+      "title": "File:Kongokonferenz.jpg",
+      "requested": "File:Kongokonferenz.jpg",
+      "name": "Kongokonferenz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kongokonferenz.jpg",
+      "author": "Adalbert von Roessler",
+      "credit": "Über Land und Meer. Allgemeine Illustrierte Zeitung, Jg. 27 (Oktober 1884-1885), Bd. 53, Nr. 14, 308).",
+      "date": "1884",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3631,
+        "height": 2790,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 984
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Adalbert von Roessler",
+      "authorApi": "Adalbert von Roessler"
+    },
+    "berlin-wall-1989": {
+      "id": "berlin-wall-1989",
+      "file": "berlin-wall-1989.jpg",
+      "src": "content/media/world-modern/berlin-wall-1989.jpg?v=34fe33f5",
+      "width": 960,
+      "height": 720,
+      "bytes": 173656,
+      "sha256": "34fe33f5acd2e00eb360a698a0ca76b6186cb8c663262ec73b7e066e70e0c267",
+      "small": {
+        "file": "berlin-wall-1989.480.jpg",
+        "src": "content/media/world-modern/berlin-wall-1989.480.jpg?v=59c7c843",
+        "width": 480,
+        "height": 360,
+        "bytes": 43335,
+        "sha256": "59c7c843bce084bb5b4971dbfea9f6f417809d28b7b012f97066a58a7263d513"
+      },
+      "title": "File:BerlinWall-BrandenburgGate.jpg",
+      "requested": "File:BerlinWall-BrandenburgGate.jpg",
+      "name": "BerlinWall-BrandenburgGate",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BerlinWall-BrandenburgGate.jpg",
+      "author": "Sue Ream",
+      "authorDerived": "Sue Ream",
+      "authorApi": "Sue Ream, photographer (San Francisco, California)",
+      "attributionApi": "Sue Ream",
+      "credit": "I Sue Ream created this work entirely by myself.",
+      "date": "photo taken 09 November 1989, which is obviously wrong as…",
+      "license": "CC BY 3.0",
+      "licenseCode": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1119,
+        "height": 1663,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 1427
+      },
+      "options": {
+        "crop": null,
+        "aspect": 1.3333333333333333,
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14"
+    },
+    "container-ship": {
+      "id": "container-ship",
+      "file": "container-ship.jpg",
+      "src": "content/media/world-modern/container-ship.jpg?v=081e23d2",
+      "width": 1280,
+      "height": 425,
+      "bytes": 150817,
+      "sha256": "081e23d23a8846190ab510e79d00345fe710c8a7a61f3b4cae7d6df4dedbc2dd",
+      "small": {
+        "file": "container-ship.480.jpg",
+        "src": "content/media/world-modern/container-ship.480.jpg?v=76451359",
+        "width": 480,
+        "height": 159,
+        "bytes": 15539,
+        "sha256": "76451359d209c51567c6ec0bf7cd662c60c7b6927f1af5610c612d6212c6544c"
+      },
+      "title": "File:Colombo.Express.wmt.jpg",
+      "requested": "File:Colombo.Express.wmt.jpg",
+      "name": "Colombo.Express.wmt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colombo.Express.wmt.jpg",
+      "author": "Wmeinhart",
+      "credit": "Foto wurde mit einem Panoramaprogramm aus drei Fotos zusammengesetzt",
+      "date": "2005-04-29",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1748,
+        "height": 581,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 425
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Wmeinhart",
+      "authorApi": "Wmeinhart"
+    },
+    "earthrise": {
+      "id": "earthrise",
+      "file": "earthrise.jpg",
+      "src": "content/media/world-modern/earthrise.jpg?v=fbff8ea2",
+      "width": 1280,
+      "height": 1280,
+      "bytes": 94534,
+      "sha256": "fbff8ea22b081bf18cd2d3d302e1e9d805970f2a22e982f39e51156967532989",
+      "small": {
+        "file": "earthrise.480.jpg",
+        "src": "content/media/world-modern/earthrise.480.jpg?v=6d2b81df",
+        "width": 480,
+        "height": 480,
+        "bytes": 11662,
+        "sha256": "6d2b81dfd8a1430ba810ae8908746cdb87b9d8e484ccfdf249c70c994eb26b50"
+      },
+      "title": "File:NASA-Apollo8-Dec24-Earthrise.jpg",
+      "requested": "File:NASA-Apollo8-Dec24-Earthrise.jpg",
+      "name": "Earthrise",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg",
+      "author": "NASA/Bill Anders",
+      "credit": "http://www.hq.nasa.gov/office/pao/History/alsj/a410/AS8-14-2383HR.jpg",
+      "date": "Taken on 24 December 1968, 16:40 UTC[10]",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2400,
+        "height": 2400,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1280
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "NASA/Bill Anders",
+      "authorApi": "NASA/Bill Anders"
+    },
+    "genbaku-dome": {
+      "id": "genbaku-dome",
+      "file": "genbaku-dome.jpg",
+      "src": "content/media/world-modern/genbaku-dome.jpg?v=e036e9db",
+      "width": 1126,
+      "height": 751,
+      "bytes": 175597,
+      "sha256": "e036e9db55a57069fd5a44e4902a3a9b49ae08f1dcd2bf65005a3fd7ac2a0f76",
+      "small": {
+        "file": "genbaku-dome.480.jpg",
+        "src": "content/media/world-modern/genbaku-dome.480.jpg?v=f105a47d",
+        "width": 480,
+        "height": 320,
+        "bytes": 35549,
+        "sha256": "f105a47dfce2d74d8d4d5cf26bdbb4f3aed04b348ccbe364abae85ea20a900b1"
+      },
+      "title": "File:Genbaku Dome04-r.JPG",
+      "requested": "File:Genbaku Dome04-r.JPG",
+      "name": "Genbaku Dome04-r",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
+      "author": "Oilstreet",
+      "credit": "Own work",
+      "date": "2013-12-12",
+      "license": "CC BY 2.5",
+      "licenseCode": "cc-by-2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 5040,
+        "height": 3360,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Oilstreet",
+      "authorApi": "Oilstreet"
+    },
+    "indian-troops-somme": {
+      "id": "indian-troops-somme",
+      "file": "indian-troops-somme.jpg",
+      "src": "content/media/world-modern/indian-troops-somme.jpg?v=bfb61541",
+      "width": 973,
+      "height": 774,
+      "bytes": 178456,
+      "sha256": "bfb61541c9b07fe19f192942b461a50ec3af9a5759def43dfa4c34b59551d97a",
+      "small": {
+        "file": "indian-troops-somme.480.jpg",
+        "src": "content/media/world-modern/indian-troops-somme.480.jpg?v=c8fec592",
+        "width": 480,
+        "height": 382,
+        "bytes": 42351,
+        "sha256": "c8fec5922a4ccadc2eb820d7825f93da5ff7723906b6ed833565bc66766ef1e3"
+      },
+      "title": "File:Indian bicycle troops Somme 1916 IWM Q 3983.jpg",
+      "requested": "File:Indian bicycle troops Somme 1916 IWM Q 3983.jpg",
+      "name": "Indian bicycle troops Somme 1916 IWM Q 3983",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_bicycle_troops_Somme_1916_IWM_Q_3983.jpg",
+      "author": "John Warwick Brooke",
+      "credit": "This photograph Q 3983 comes from the collections of the Imperial War Museums.",
+      "date": "1916-07",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3119,
+        "height": 2480,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1018
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "John Warwick Brooke",
+      "authorApi": "John Warwick Brooke"
+    },
+    "korea-night": {
+      "id": "korea-night",
+      "file": "korea-night.jpg",
+      "src": "content/media/world-modern/korea-night.jpg?v=2aa563d6",
+      "width": 1280,
+      "height": 1105,
+      "bytes": 153047,
+      "sha256": "2aa563d6a6ef6d45a52553031e1d823ba2fb68fc334356e3d5a83d861b31cfc7",
+      "small": {
+        "file": "korea-night.480.jpg",
+        "src": "content/media/world-modern/korea-night.480.jpg?v=84229c17",
+        "width": 480,
+        "height": 414,
+        "bytes": 21284,
+        "sha256": "84229c171a9017638077f3c2b6cbae777f4f43f9e25765221390193a6cb933e9"
+      },
+      "title": "File:Korean Peninsula at night from space.jpg",
+      "requested": "File:Korean Peninsula at night from space.jpg",
+      "name": "Korean Peninsula at night from space",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_Peninsula_at_night_from_space.jpg",
+      "author": "NASA Earth Observatory / Joshua Stevens",
+      "credit": "Derived from image from NASA (direct link)",
+      "date": "2016",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1345,
+        "height": 1452,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1382
+      },
+      "options": {
+        "crop": [
+          0,
+          0.08,
+          1,
+          0.88
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel…",
+      "authorApi": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA's Goddard Space Flight Center",
+      "authorOverride": "NASA Earth Observatory / Joshua Stevens"
+    },
+    "manchester-kersal": {
+      "id": "manchester-kersal",
+      "file": "manchester-kersal.jpg",
+      "src": "content/media/world-modern/manchester-kersal.jpg?v=222695d7",
+      "width": 1280,
+      "height": 820,
+      "bytes": 181405,
+      "sha256": "222695d71e5c02f1de5a334caada01367b100ec7923c58b855e4e8684057d81b",
+      "small": {
+        "file": "manchester-kersal.480.jpg",
+        "src": "content/media/world-modern/manchester-kersal.480.jpg?v=9b4ddd44",
+        "width": 480,
+        "height": 308,
+        "bytes": 27598,
+        "sha256": "9b4ddd44cb4c1f6cd40eccdccedc1fdd3275861b3c32aeab484d3522c5dc8445"
+      },
+      "title": "File:Wyld, William - Manchester from Kersal Moor, with rustic figures and goats - Google Art Project.jpg",
+      "requested": "File:Wyld, William - Manchester from Kersal Moor, with rustic figures and goats - Google Art Project.jpg",
+      "name": "Manchester from Kersal Moor, with rustic figures and goats",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wyld,_William_-_Manchester_from_Kersal_Moor,_with_rustic_figures_and_goats_-_Google_Art_Project.jpg",
+      "author": "William Wyld (1806–1889)",
+      "credit": "NgFNnVH0ukXcEQ at Google Cultural Institute maximum zoom level",
+      "date": "1852",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 6133,
+        "height": 3931,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 820
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "William Wyld (1806–1889)",
+      "authorApi": "Wyld, William (1806 - 1889) (English) Born in London. Died in Paris. Details on Google Art Project"
+    },
+    "meiji-train": {
+      "id": "meiji-train",
+      "file": "meiji-train.jpg",
+      "src": "content/media/world-modern/meiji-train.jpg?v=c704df2d",
+      "width": 1280,
+      "height": 637,
+      "bytes": 183522,
+      "sha256": "c704df2ddb127aa3e891bb89b6d1025d5333ca1a4513a4f7cab079822fd285de",
+      "small": {
+        "file": "meiji-train.480.jpg",
+        "src": "content/media/world-modern/meiji-train.480.jpg?v=7f2e3199",
+        "width": 480,
+        "height": 239,
+        "bytes": 31375,
+        "sha256": "7f2e31991728f16004d72c09c48788d8db9650997fedf6bbb8b6113c42dcab02"
+      },
+      "title": "File:Hiroshige III - 東京高輪海岸蒸氣車鐵道圖 (Steam Train on the Railway along the Tokyo-Takanawa Coastline) (1871).jpg",
+      "requested": "File:Hiroshige III - 東京高輪海岸蒸氣車鐵道圖 (Steam Train on the Railway along the Tokyo-Takanawa Coastline) (1871).jpg",
+      "name": "Steam Train on the Railway along the Tokyo-Takanawa Coastline",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshige_III_-_%E6%9D%B1%E4%BA%AC%E9%AB%98%E8%BC%AA%E6%B5%B7%E5%B2%B8%E8%92%B8%E6%B0%A3%E8%BB%8A%E9%90%B5%E9%81%93%E5%9C%96_(Steam_Train_on_the_Railway_along_the_Tokyo-Takanawa_Coastline)_(1871).jpg",
+      "author": "Hiroshige III",
+      "credit": "Geographicus, accessed 2024-09-27",
+      "date": "1871",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 8612,
+        "height": 4289,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 637
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Hiroshige III",
+      "authorApi": "Hiroshige III"
+    },
+    "mule-spinning": {
+      "id": "mule-spinning",
+      "file": "mule-spinning.jpg",
+      "src": "content/media/world-modern/mule-spinning.jpg?v=4b1d6f4b",
+      "width": 500,
+      "height": 343,
+      "bytes": 46635,
+      "sha256": "4b1d6f4b2d02f002d4a108179d27d952f92ce642f3a8c52f34e0080629556413",
+      "small": {
+        "file": "mule-spinning.480.jpg",
+        "src": "content/media/world-modern/mule-spinning.480.jpg?v=d3f6c3fd",
+        "width": 480,
+        "height": 329,
+        "bytes": 36185,
+        "sha256": "d3f6c3fd0423f66fc76329a55d5e5a157b5e28a9b3b8979a361a6a856cf3c09f"
+      },
+      "title": "File:Baines 1835-Mule spinning.png",
+      "requested": "File:Baines 1835-Mule spinning.png",
+      "name": "Baines 1835-Mule spinning",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baines_1835-Mule_spinning.png",
+      "author": "Baines",
+      "credit": "www.handweaving.net Upload User:ClemRutter",
+      "date": "Published 1835",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 756,
+        "height": 518,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 343
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Baines",
+      "authorApi": "Baines"
+    },
+    "rights-of-man": {
+      "id": "rights-of-man",
+      "file": "rights-of-man.jpg",
+      "src": "content/media/world-modern/rights-of-man.jpg?v=04654c5b",
+      "width": 767,
+      "height": 973,
+      "bytes": 180352,
+      "sha256": "04654c5b1749ce97ed7735ec448dc0969c9f2aa692992d0029b381b69413f227",
+      "small": {
+        "file": "rights-of-man.480.jpg",
+        "src": "content/media/world-modern/rights-of-man.480.jpg?v=e46b954c",
+        "width": 379,
+        "height": 480,
+        "bytes": 44559,
+        "sha256": "e46b954caef2f7343455d2bf162b8791c2f017219c1d42a517222783301914ab"
+      },
+      "title": "File:Declaration of the Rights of Man and of the Citizen in 1789.jpg",
+      "requested": "File:Declaration of the Rights of Man and of the Citizen in 1789.jpg",
+      "name": "Declaration of the Rights of Man and of the Citizen in 1789",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg",
+      "author": "Jean-Jacques-François Le Barbier (about 1789)",
+      "credit": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/declaration-des-droits-de-l-homme-et-du-citoyen-4#infos-principales",
+      "date": "2020-07-04 12:30:53",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3657,
+        "height": 4636,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1623
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Unknown author",
+      "authorOverride": "Jean-Jacques-François Le Barbier (about 1789)"
+    },
+    "salt-march": {
+      "id": "salt-march",
+      "file": "salt-march.jpg",
+      "src": "content/media/world-modern/salt-march.jpg?v=f76e0547",
+      "width": 1280,
+      "height": 860,
+      "bytes": 153099,
+      "sha256": "f76e0547d8bc8233ed346f8186af549ead4e46b34b9fe47b0aaade043fd7e132",
+      "small": {
+        "file": "salt-march.480.jpg",
+        "src": "content/media/world-modern/salt-march.480.jpg?v=1bf93924",
+        "width": 480,
+        "height": 323,
+        "bytes": 37118,
+        "sha256": "1bf93924f05c43d6fb482c3c81d42d5f2556d276a85363cd8c05e352271442bd"
+      },
+      "title": "File:Marche sel.jpg",
+      "requested": "File:Marche sel.jpg",
+      "name": "Marche sel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marche_sel.jpg",
+      "author": "Unknown photographer (1930)",
+      "credit": "Scanned by Yann (talk).",
+      "date": "1930-03",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3496,
+        "height": 2348,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 860
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Yann",
+      "authorApi": "Yann (talk)",
+      "authorOverride": "Unknown photographer (1930)"
+    },
+    "stolpersteine": {
+      "id": "stolpersteine",
+      "file": "stolpersteine.jpg",
+      "src": "content/media/world-modern/stolpersteine.jpg?v=825dde06",
+      "width": 845,
+      "height": 634,
+      "bytes": 183219,
+      "sha256": "825dde0635574b602fa3c6fa8b8fd6bfcff57102153012f4e48e8c08522b304c",
+      "small": {
+        "file": "stolpersteine.480.jpg",
+        "src": "content/media/world-modern/stolpersteine.480.jpg?v=43177250",
+        "width": 422,
+        "height": 317,
+        "bytes": 40674,
+        "sha256": "43177250174d68d137661431f1fa729806f2c384ae19769a8ee124cf2b0a5b6f"
+      },
+      "title": "File:Stolpersteine Familie Zeiz, Berlin, Wittelsbacherstr. 25.jpg",
+      "requested": "File:Stolpersteine Familie Zeiz, Berlin, Wittelsbacherstr. 25.jpg",
+      "name": "Stolpersteine Familie Zeiz, Berlin, Wittelsbacherstr. 25",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stolpersteine_Familie_Zeiz,_Berlin,_Wittelsbacherstr._25.jpg",
+      "author": "Schnittwerk",
+      "credit": "Own work",
+      "date": "2024-10-20 12:53:30",
+      "license": "CC BY 4.0",
+      "licenseCode": "cc-by-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4032,
+        "height": 3024,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 960
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Schnittwerk",
+      "authorApi": "Schnittwerk"
+    },
+    "toussaint": {
+      "id": "toussaint",
+      "file": "toussaint.jpg",
+      "src": "content/media/world-modern/toussaint.jpg?v=6e7e7aad",
+      "width": 330,
+      "height": 549,
+      "bytes": 56201,
+      "sha256": "6e7e7aad95c76cdfffd106df3666afdb064c4f71f10bc8a144524951f8bb0583",
+      "small": {
+        "file": "toussaint.480.jpg",
+        "src": "content/media/world-modern/toussaint.480.jpg?v=8892954f",
+        "width": 289,
+        "height": 480,
+        "bytes": 34733,
+        "sha256": "8892954fad20fa4435c4fb40f2d1b54b64da5ab0e6784048b9366d1e015a3ac7"
+      },
+      "title": "File:Général Toussaint Louverture.jpg",
+      "requested": "File:Général Toussaint Louverture.jpg",
+      "name": "Général Toussaint Louverture",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%A9n%C3%A9ral_Toussaint_Louverture.jpg",
+      "author": "Unknown author",
+      "credit": "Schomburg Center for Research in Black Culture, Photographs and Prints Division, The New York Public Library.",
+      "date": "19th century",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 457,
+        "height": 760,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 330,
+        "height": 549
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Unknown author",
+      "authorApi": "Unknown author"
+    },
+    "trench-somme": {
+      "id": "trench-somme",
+      "file": "trench-somme.jpg",
+      "src": "content/media/world-modern/trench-somme.jpg?v=958fa35c",
+      "width": 1126,
+      "height": 860,
+      "bytes": 172334,
+      "sha256": "958fa35c8356c1488c3553e5d8c4282f4cf614342e96fc43f5d194ca343b0aa9",
+      "small": {
+        "file": "trench-somme.480.jpg",
+        "src": "content/media/world-modern/trench-somme.480.jpg?v=8270e158",
+        "width": 480,
+        "height": 366,
+        "bytes": 45478,
+        "sha256": "8270e1581e8530ee7847a3307759cfaa14ddde048833ce6bd10f20fb2835a909"
+      },
+      "title": "File:Cheshire Regiment trench Somme 1916.jpg",
+      "requested": "File:Cheshire Regiment trench Somme 1916.jpg",
+      "name": "Cheshire Regiment trench Somme 1916",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheshire_Regiment_trench_Somme_1916.jpg",
+      "author": "John Warwick Brooke",
+      "credit": "This photograph Q 3990 comes from the collections of the Imperial War Museums (collection no. 1900-13)",
+      "date": "1916-07",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1400,
+        "height": 1069,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 977
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "John Warwick Brooke",
+      "authorApi": "John Warwick Brooke"
+    },
+    "trumbull-declaration": {
+      "id": "trumbull-declaration",
+      "file": "trumbull-declaration.jpg",
+      "src": "content/media/world-modern/trumbull-declaration.jpg?v=a66e7383",
+      "width": 1280,
+      "height": 841,
+      "bytes": 155262,
+      "sha256": "a66e7383420bc93d4f617e15ba8f455bf6ec56a7ab7728f67d775db2362dbb9d",
+      "small": {
+        "file": "trumbull-declaration.480.jpg",
+        "src": "content/media/world-modern/trumbull-declaration.480.jpg?v=f4919b08",
+        "width": 480,
+        "height": 315,
+        "bytes": 29564,
+        "sha256": "f4919b08f0deff95ef923261f86a62202bb2ece3a6288d8e1dbe8b26161d8339"
+      },
+      "title": "File:Declaration of Independence (1819), by John Trumbull.jpg",
+      "requested": "File:Declaration of Independence (1819), by John Trumbull.jpg",
+      "name": "Declaration of Independence",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg",
+      "author": "John Trumbull",
+      "credit": "US Capitol",
+      "date": "1819",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3000,
+        "height": 1970,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 841
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "John Trumbull",
+      "authorApi": "John Trumbull"
+    },
+    "udhr-roosevelt": {
+      "id": "udhr-roosevelt",
+      "file": "udhr-roosevelt.jpg",
+      "src": "content/media/world-modern/udhr-roosevelt.jpg?v=eefa7bd5",
+      "width": 1280,
+      "height": 1005,
+      "bytes": 135564,
+      "sha256": "eefa7bd5638d42e29bb0b0001ca01ee49a2a19dd7843691026a0dbe2d6c03e1e",
+      "small": {
+        "file": "udhr-roosevelt.480.jpg",
+        "src": "content/media/world-modern/udhr-roosevelt.480.jpg?v=41c2005e",
+        "width": 480,
+        "height": 377,
+        "bytes": 25963,
+        "sha256": "41c2005eb257475393a7c332989c771583c871dbfb8523a477d91d0fe2e58f83"
+      },
+      "title": "File:Eleanor Roosevelt UDHR.jpg",
+      "requested": "File:Eleanor Roosevelt UDHR.jpg",
+      "name": "Eleanor Roosevelt UDHR",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_UDHR.jpg",
+      "author": "FDR Presidential Library & Museum",
+      "credit": "https://www.flickr.com/photos/fdrlibrary/27758131387/",
+      "date": "2008-02-28 04:10:36",
+      "license": "CC BY 2.0",
+      "licenseCode": "cc-by-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 5912,
+        "height": 4640,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1005
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "FDR Presidential Library & Museum",
+      "authorApi": "FDR Presidential Library & Museum"
+    },
+    "watt-engine": {
+      "id": "watt-engine",
+      "file": "watt-engine.jpg",
+      "src": "content/media/world-modern/watt-engine.jpg?v=7fd073a7",
+      "width": 960,
+      "height": 712,
+      "bytes": 113494,
+      "sha256": "7fd073a7e5ec29ffafe46af668c414d562d69f9f89089936e67813a21ab3d26a",
+      "small": {
+        "file": "watt-engine.480.jpg",
+        "src": "content/media/world-modern/watt-engine.480.jpg?v=702d2b39",
+        "width": 480,
+        "height": 356,
+        "bytes": 31148,
+        "sha256": "702d2b391149d2bf7d57a7ad2a80acb34c13272c467668dc0003c90f235eb598"
+      },
+      "title": "File:Maquina vapor Watt ETSIIM.jpg",
+      "requested": "File:Maquina vapor Watt ETSIIM.jpg",
+      "name": "Maquina vapor Watt ETSIIM",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maquina_vapor_Watt_ETSIIM.jpg",
+      "author": "Nicolás Pérez",
+      "credit": "Enciclopedia Libre",
+      "date": "2004-08-27",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1024,
+        "height": 760,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 712
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Nicolás Pérez",
+      "authorApi": "Nicolás Pérez",
+      "attributionApi": "Nicolás Pérez"
+    }
+  }
+}

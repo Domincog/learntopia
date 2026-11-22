@@ -1,0 +1,155 @@
+/*
+ * Design tokens. Everything visual (colour, type, spacing, radius) is a CSS
+ * custom property defined here, once for light and once for dark.
+ * Widgets and SVG figures use the same variables, so they follow the theme.
+ */
+
+/* ---------------------------------------------------------------- fonts */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/fraunces-latin-soft-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/fraunces-latin-ext-soft-normal.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Atkinson Next';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('../fonts/atkinson-hyperlegible-next-latin-wght-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Atkinson Next';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('../fonts/atkinson-hyperlegible-next-latin-ext-wght-normal.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Atkinson Next';
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('../fonts/atkinson-hyperlegible-next-latin-wght-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono-latin-wght-normal.woff2') format('woff2');
+}
+
+/* ---------------------------------------------------------------- light */
+:root {
+  color-scheme: light;
+
+  --font-display: 'Fraunces', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-body: 'Atkinson Next', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+
+  /* surfaces & ink */
+  --paper: #FAF5EA;
+  --surface: #FFFDF8;
+  --sunken: #F2EBDC;
+  --ink: #1D1B26;
+  --ink-2: #4E4B5B;
+  --ink-3: #6A6677;
+  --hair: #E2D9C5;
+  --edge: #1D1B26;         /* outline of cards, inputs */
+  --edge-strong: #1D1B26;  /* outline of colour-filled things */
+  --drop: #1D1B26;         /* hard shadow colour */
+  --on-color: #1D1B26;     /* text on vivid fills */
+  --scrim: rgba(29, 27, 38, 0.45);
+
+  /* hues: vivid / soft background / readable text */
+  --orange: #FF8A1F; --orange-soft: #FFE7CC; --orange-text: #A64B00;
+  --yellow: #FFC83D; --yellow-soft: #FFF2C4; --yellow-text: #7A5A00;
+  --green:  #2DB976; --green-soft:  #D8F4E4; --green-text:  #116A3F;
+  --red:    #F25C44; --red-soft:    #FFE2DB; --red-text:    #AE2D18;
+  --blue:   #3F8CFF; --blue-soft:   #DDEBFF; --blue-text:   #1B50B2;
+  --violet: #9674F7; --violet-soft: #EAE2FF; --violet-text: #5231B8;
+  --teal:   #1AB5A8; --teal-soft:   #D3F4F0; --teal-text:   #0B6C64;
+  --pink:   #F25D9E; --pink-soft:   #FFE1EE; --pink-text:   #A62361;
+  --gray:   #8A8794; --gray-soft:   #ECE6D9; --gray-text:   #5C5968;
+
+  --brand: var(--orange);
+  --brand-soft: var(--orange-soft);
+  --brand-text: var(--orange-text);
+  --focus: #1B50B2;
+
+  /* shape */
+  --bw: 2px;
+  --r-sm: 8px;
+  --r: 12px;
+  --r-lg: 18px;
+  --r-xl: 26px;
+  --shadow-sm: 2px 2px 0 var(--drop);
+  --shadow: 4px 4px 0 var(--drop);
+  --shadow-lg: 6px 6px 0 var(--drop);
+  --shadow-soft: 0 10px 30px rgba(29, 27, 38, 0.12);
+
+  /* type scale */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.25rem;
+  --fs-4xl: clamp(2.4rem, 5.5vw, 3.6rem);
+
+  /* spacing (4px grid) */
+  --s1: 0.25rem; --s2: 0.5rem; --s3: 0.75rem; --s4: 1rem; --s5: 1.25rem;
+  --s6: 1.5rem; --s8: 2rem; --s10: 2.5rem; --s12: 3rem; --s16: 4rem;
+
+  --sidebar-w: 248px;
+  --topbar-h: 56px;
+  --tabbar-h: 64px;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ----------------------------------------------------------------- dark */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --paper: #16151C;
+  --surface: #22202C;
+  --sunken: #100F15;
+  --ink: #F5F1E8;
+  --ink-2: #C3BECE;
+  --ink-3: #A8A4B6; /* light enough to stay readable on the tinted panels too */
+  --hair: #363343;
+  --edge: #4D4A5D;
+  --edge-strong: #0B0A0F;
+  --drop: #07060A;
+  --on-color: #1D1B26;
+  --scrim: rgba(0, 0, 0, 0.6);
+
+  --orange: #FF9A3D; --orange-soft: #47290C; --orange-text: #FFB978;
+  --yellow: #FFD35C; --yellow-soft: #40350C; --yellow-text: #FFDD85;
+  --green:  #3DCB88; --green-soft:  #123626; --green-text:  #7CE3B0;
+  --red:    #FF7059; --red-soft:    #471B14; --red-text:    #FFA08F;
+  --blue:   #5B9DFF; --blue-soft:   #152C54; --blue-text:   #9CC3FF;
+  --violet: #A183FF; --violet-soft: #2B2154; --violet-text: #C6B4FF;
+  --teal:   #2CCBBD; --teal-soft:   #0D3733; --teal-text:   #7BE3D9;
+  --pink:   #FF78B0; --pink-soft:   #46162D; --pink-text:   #FFA6CB;
+  --gray:   #928EA1; --gray-soft:   #2C2A37; --gray-text:   #BAB6C7;
+
+  --focus: #9CC3FF;
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.5);
+}

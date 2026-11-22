@@ -1,0 +1,1174 @@
+{
+  "course": "world-regions",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "angkor-wat": {
+      "id": "angkor-wat",
+      "file": "angkor-wat.jpg",
+      "src": "content/media/world-regions/angkor-wat.jpg?v=2cfe3b93",
+      "width": 968,
+      "height": 645,
+      "bytes": 147267,
+      "sha256": "2cfe3b93df56c38040703105b58fcf9358d49425e1fe32e3ab18da7be13c59cd",
+      "small": {
+        "file": "angkor-wat.480.jpg",
+        "src": "content/media/world-regions/angkor-wat.480.jpg?v=7b052329",
+        "width": 480,
+        "height": 320,
+        "bytes": 30519,
+        "sha256": "7b0523291b0da593fe91310030bd686de151dc196a5b45e9dbf1234e7830d90b"
+      },
+      "title": "File:Angkor Wat with its reflection (cropped).jpg",
+      "requested": "File:Angkor Wat with its reflection (cropped).jpg",
+      "name": "Angkor Wat with its reflection (cropped)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_with_its_reflection_(cropped).jpg",
+      "author": "Satdeep Gill",
+      "credit": "Own work",
+      "date": "2022-09-09 16:46:31",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 7956,
+        "height": 4009,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 645
+      },
+      "options": {
+        "crop": null,
+        "aspect": 1.5,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Satdeep Gill",
+      "authorApi": "Satdeep Gill"
+    },
+    "borobudur": {
+      "id": "borobudur",
+      "file": "borobudur.jpg",
+      "src": "content/media/world-regions/borobudur.jpg?v=cf4415e0",
+      "width": 1280,
+      "height": 504,
+      "bytes": 182782,
+      "sha256": "cf4415e0155b27bf6029a8241707789e8101ff27aee154c42c533df494717cac",
+      "small": {
+        "file": "borobudur.480.jpg",
+        "src": "content/media/world-regions/borobudur.480.jpg?v=3e57fa77",
+        "width": 480,
+        "height": 189,
+        "bytes": 22720,
+        "sha256": "3e57fa779d4f4edcb62439df7774aaf13ac66d1734c914a81f2fa88401c447a9"
+      },
+      "title": "File:Borobudur-Nothwest-view.jpg",
+      "requested": "File:Borobudur-Nothwest-view.jpg",
+      "name": "Borobudur-Nothwest-view",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Borobudur-Nothwest-view.jpg",
+      "author": "Gunawan Kartapranata",
+      "credit": "Own work",
+      "date": "2008-06-12",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2816,
+        "height": 1108,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 504
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Gunawan Kartapranata",
+      "authorApi": "Gunawan Kartapranata",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?"
+    },
+    "chichen-itza": {
+      "id": "chichen-itza",
+      "file": "chichen-itza.jpg",
+      "src": "content/media/world-regions/chichen-itza.jpg?v=beb496d0",
+      "width": 1280,
+      "height": 681,
+      "bytes": 178897,
+      "sha256": "beb496d0f5ef99f881f0e914f7a922496659c36c9459a52d8bc728edbd5515a2",
+      "small": {
+        "file": "chichen-itza.480.jpg",
+        "src": "content/media/world-regions/chichen-itza.480.jpg?v=545c935a",
+        "width": 480,
+        "height": 255,
+        "bytes": 24615,
+        "sha256": "545c935a9fd22db7e9f6361affaba887ab8f8a1fbd91f7926b35cb180276dba4"
+      },
+      "title": "File:Chichen Itza 3.jpg",
+      "requested": "File:Chichen Itza 3.jpg",
+      "name": "Chichen Itza 3",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
+      "author": "Daniel Schwen",
+      "credit": "Own work",
+      "date": "2009-08-18",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 9771,
+        "height": 5197,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 681
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Daniel Schwen",
+      "authorApi": "Daniel Schwen"
+    },
+    "christ-the-redeemer": {
+      "id": "christ-the-redeemer",
+      "file": "christ-the-redeemer.jpg",
+      "src": "content/media/world-regions/christ-the-redeemer.jpg?v=c69481cb",
+      "width": 1028,
+      "height": 1280,
+      "bytes": 141649,
+      "sha256": "c69481cb8dc169dd8097cf139b02a65e5924200e90b32f5c7a313b5fa1da3827",
+      "small": {
+        "file": "christ-the-redeemer.480.jpg",
+        "src": "content/media/world-regions/christ-the-redeemer.480.jpg?v=1c1fdb33",
+        "width": 385,
+        "height": 480,
+        "bytes": 21192,
+        "sha256": "1c1fdb334090fc806f2a78030ecb649600868ac8aeb6f6335b684fa8cf2808b8"
+      },
+      "title": "File:Cristo Redentor - Rio de Janeiro, Brasil.jpg",
+      "requested": "File:Cristo Redentor - Rio de Janeiro, Brasil.jpg",
+      "name": "Cristo Redentor - Rio de Janeiro, Brasil",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cristo_Redentor_-_Rio_de_Janeiro,_Brasil.jpg",
+      "author": "Nico Kaiser",
+      "credit": "Flickr",
+      "date": "2011-04-23",
+      "license": "CC BY 2.0",
+      "licenseCode": "cc-by-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2496,
+        "height": 3745,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1921
+      },
+      "options": {
+        "crop": [
+          0,
+          0,
+          1,
+          0.83
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Nico Kaiser",
+      "authorApi": "Nico Kaiser"
+    },
+    "djenne-mosque": {
+      "id": "djenne-mosque",
+      "file": "djenne-mosque.jpg",
+      "src": "content/media/world-regions/djenne-mosque.jpg?v=47ed7f12",
+      "width": 960,
+      "height": 720,
+      "bytes": 114084,
+      "sha256": "47ed7f1233d6a370db47595456c4611cea945c7b5f566b264ebc856f2b490947",
+      "small": {
+        "file": "djenne-mosque.480.jpg",
+        "src": "content/media/world-regions/djenne-mosque.480.jpg?v=da0ec7a9",
+        "width": 480,
+        "height": 360,
+        "bytes": 25493,
+        "sha256": "da0ec7a96cac1019bed6bda74b5a4448edb6bacaaec340bebdf33d6633485b17"
+      },
+      "title": "File:Great Mosque of Djenné 1.jpg",
+      "requested": "File:Great Mosque of Djenné 1.jpg",
+      "name": "Great Mosque of Djenné 1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Djenn%C3%A9_1.jpg",
+      "author": "Andy Gilham",
+      "credit": "from [1] JCarriker (304322 bytes) (used with the permission of Andy Gilham of www.andygilham.com",
+      "date": "11 September 2003 (according to Exif data)",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1024,
+        "height": 768,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 720
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Andy Gilham",
+      "authorApi": "Andy Gilham"
+    },
+    "eiffel-tower": {
+      "id": "eiffel-tower",
+      "file": "eiffel-tower.jpg",
+      "src": "content/media/world-regions/eiffel-tower.jpg?v=01b2d012",
+      "width": 853,
+      "height": 1280,
+      "bytes": 138651,
+      "sha256": "01b2d012547b56e88338623b7cf5c21b43f466586652665aab6ecbd5cfa9b1e4",
+      "small": {
+        "file": "eiffel-tower.480.jpg",
+        "src": "content/media/world-regions/eiffel-tower.480.jpg?v=3516acf9",
+        "width": 320,
+        "height": 480,
+        "bytes": 21556,
+        "sha256": "3516acf9230a4229476a9f5d2210e1cd025b9b8d6b63bce202d06e5e3005334d"
+      },
+      "title": "File:Tour eiffel at sunrise from the trocadero.jpg",
+      "requested": "File:Tour eiffel at sunrise from the trocadero.jpg",
+      "name": "Tour eiffel at sunrise from the trocadero",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tour_eiffel_at_sunrise_from_the_trocadero.jpg",
+      "author": "Tristan Nitot",
+      "credit": "Own work",
+      "date": "2011-12-07 09:41:59",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2336,
+        "height": 3504,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1920
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Tristan Nitot",
+      "authorApi": "Tristan Nitot"
+    },
+    "giza-pyramids": {
+      "id": "giza-pyramids",
+      "file": "giza-pyramids.jpg",
+      "src": "content/media/world-regions/giza-pyramids.jpg?v=4ace58a2",
+      "width": 1280,
+      "height": 851,
+      "bytes": 163679,
+      "sha256": "4ace58a2221885eaf3ab1cbef61743ac9c4f6020db4e8310c3c2edb804e3302b",
+      "small": {
+        "file": "giza-pyramids.480.jpg",
+        "src": "content/media/world-regions/giza-pyramids.480.jpg?v=cc86525a",
+        "width": 480,
+        "height": 319,
+        "bytes": 21013,
+        "sha256": "cc86525ab2224d06f1b75277009d9df9026ea2f67edeba433cc994e72c47d7bc"
+      },
+      "title": "File:All Gizah Pyramids.jpg",
+      "requested": "File:All Gizah Pyramids.jpg",
+      "name": "All Gizah Pyramids",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+      "author": "Ricardo Liberato",
+      "credit": "All Gizah Pyramids",
+      "date": "19 June 2006, 14:01 (according to Exif data)",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4372,
+        "height": 2906,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 851
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Ricardo Liberato",
+      "authorApi": "Ricardo Liberato"
+    },
+    "golden-temple": {
+      "id": "golden-temple",
+      "file": "golden-temple.jpg",
+      "src": "content/media/world-regions/golden-temple.jpg?v=04ddbf4f",
+      "width": 1126,
+      "height": 751,
+      "bytes": 180247,
+      "sha256": "04ddbf4faa3abda66d8b9ee50e73d414ea59c7aa3a02728ffea859ac0a4f0915",
+      "small": {
+        "file": "golden-temple.480.jpg",
+        "src": "content/media/world-regions/golden-temple.480.jpg?v=4c834cc0",
+        "width": 480,
+        "height": 320,
+        "bytes": 35240,
+        "sha256": "4c834cc092e7d4c3a09b95392f2ba45f64dc5dfd01cef79fc4b30353a154a492"
+      },
+      "title": "File:The Golden Temple of Amrithsar 7.jpg",
+      "requested": "File:The Golden Temple of Amrithsar 7.jpg",
+      "name": "The Golden Temple of Amrithsar 7",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Golden_Temple_of_Amrithsar_7.jpg",
+      "author": "Shagil Kannur",
+      "credit": "Own work",
+      "date": "05/10/2019 (according to Exif data)",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4176,
+        "height": 2784,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Shagil Kannur",
+      "authorApi": "Shagil Kannur"
+    },
+    "grand-canyon": {
+      "id": "grand-canyon",
+      "file": "grand-canyon.jpg",
+      "src": "content/media/world-regions/grand-canyon.jpg?v=0f490261",
+      "width": 850,
+      "height": 1280,
+      "bytes": 179022,
+      "sha256": "0f490261a52d391bf59bf8f285d170bc7da7fc697445b8174bcb11b3b61c23c0",
+      "small": {
+        "file": "grand-canyon.480.jpg",
+        "src": "content/media/world-regions/grand-canyon.480.jpg?v=e6bcf590",
+        "width": 319,
+        "height": 480,
+        "bytes": 28195,
+        "sha256": "e6bcf590f25702e911b7fb19057c54e4cfe8e435b73c3a9c3037242014195c54"
+      },
+      "title": "File:Grand Canyon view from Pima Point 2010.jpg",
+      "requested": "File:Grand Canyon view from Pima Point 2010.jpg",
+      "name": "Grand Canyon view from Pima Point 2010",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_view_from_Pima_Point_2010.jpg",
+      "author": "Chensiyuan",
+      "credit": "Own work",
+      "date": "2010-03-15",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2848,
+        "height": 4288,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1927
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Chensiyuan",
+      "authorApi": "Chensiyuan"
+    },
+    "great-wall": {
+      "id": "great-wall",
+      "file": "great-wall.jpg",
+      "src": "content/media/world-regions/great-wall.jpg?v=b63b815c",
+      "width": 1126,
+      "height": 748,
+      "bytes": 167532,
+      "sha256": "b63b815ca6615a8ae601b85401bd42c3a092c8e107d8a7c20627ecb9e43c0b42",
+      "small": {
+        "file": "great-wall.480.jpg",
+        "src": "content/media/world-regions/great-wall.480.jpg?v=c5151c9f",
+        "width": 480,
+        "height": 319,
+        "bytes": 33821,
+        "sha256": "c5151c9f8f92f61b07bc29fff79097cefcb0d7e9b9cc068ecc3afc03b7ee94c3"
+      },
+      "title": "File:The Great Wall of China at Jinshanling-edit.jpg",
+      "requested": "File:The Great Wall of China at Jinshanling-edit.jpg",
+      "name": "The Great Wall of China at Jinshanling-edit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "author": "Severin.stalder",
+      "credit": "Own work",
+      "date": "2013-06-08 21:15:53",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4288,
+        "height": 2848,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 850
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Severin.stalder",
+      "authorApi": "Severin.stalder",
+      "attributionApi": "Severin.stalder"
+    },
+    "gyeongbokgung": {
+      "id": "gyeongbokgung",
+      "file": "gyeongbokgung.jpg",
+      "src": "content/media/world-regions/gyeongbokgung.jpg?v=9dfa6cdb",
+      "width": 1280,
+      "height": 720,
+      "bytes": 144884,
+      "sha256": "9dfa6cdb1e52ddb1b1f64c6a90b5222ead0a0ccb0dbdbb575270478baaacf628",
+      "small": {
+        "file": "gyeongbokgung.480.jpg",
+        "src": "content/media/world-regions/gyeongbokgung.480.jpg?v=a431b5c9",
+        "width": 480,
+        "height": 270,
+        "bytes": 24271,
+        "sha256": "a431b5c90a007358fae916494b69b5b21e3276c6bdd1752648979f7093f15649"
+      },
+      "title": "File:Front view of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace with blue sky in Seoul.jpg",
+      "requested": "File:Front view of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace with blue sky in Seoul.jpg",
+      "name": "Front view of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace with blue sky in Seoul",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg",
+      "author": "Basile Morin",
+      "credit": "Own work",
+      "date": "2024-06-05 09:09:51",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 6402,
+        "height": 3601,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 720
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Basile Morin",
+      "authorApi": "Basile Morin"
+    },
+    "hagia-sophia": {
+      "id": "hagia-sophia",
+      "file": "hagia-sophia.jpg",
+      "src": "content/media/world-regions/hagia-sophia.jpg?v=cd1de10e",
+      "width": 1126,
+      "height": 752,
+      "bytes": 169962,
+      "sha256": "cd1de10e2466c4525b23a60b86f66bf88c391a22a3d035983129d979cdc4cc26",
+      "small": {
+        "file": "hagia-sophia.480.jpg",
+        "src": "content/media/world-regions/hagia-sophia.480.jpg?v=a5f35c4b",
+        "width": 480,
+        "height": 320,
+        "bytes": 30795,
+        "sha256": "a5f35c4b17c4ee065d1b5d70ad91b2263bfe2b0b801a921f1808839636c621db"
+      },
+      "title": "File:Hagia Sophia Mars 2013.jpg",
+      "requested": "File:Hagia Sophia Mars 2013.jpg",
+      "name": "Hagia Sophia Mars 2013",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+      "author": "Arild Vågen",
+      "credit": "Own work",
+      "date": "2013-03-01 11:25:10",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 5514,
+        "height": 3681,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 854
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Arild Vågen",
+      "authorApi": "Arild Vågen"
+    },
+    "kilimanjaro": {
+      "id": "kilimanjaro",
+      "file": "kilimanjaro.jpg",
+      "src": "content/media/world-regions/kilimanjaro.jpg?v=1a54d148",
+      "width": 1280,
+      "height": 856,
+      "bytes": 169134,
+      "sha256": "1a54d148577168b591fd16f7287bf150d4dbd71c748f13402014355251acda9a",
+      "small": {
+        "file": "kilimanjaro.480.jpg",
+        "src": "content/media/world-regions/kilimanjaro.480.jpg?v=2f146fd8",
+        "width": 480,
+        "height": 321,
+        "bytes": 26634,
+        "sha256": "2f146fd8bd6108161c992a82645fdd43a3b6d9cce143459473fca42e6da9afac"
+      },
+      "title": "File:Kilimanjaro from Amboseli.jpg",
+      "requested": "File:Kilimanjaro from Amboseli.jpg",
+      "name": "Kilimanjaro from Amboseli",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kilimanjaro_from_Amboseli.jpg",
+      "author": "Sergey Pesterev",
+      "credit": "Own work Alternative: https://unsplash.com/photos/DWXR-nAbxCk Sergey Pesterev",
+      "date": "2012-03-07 05:44:12",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3043,
+        "height": 2036,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 856
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Sergey Pesterev",
+      "authorApi": "Sergey Pesterev",
+      "attributionApi": "© Sergey Pesterev / Wikimedia Commons"
+    },
+    "machu-picchu": {
+      "id": "machu-picchu",
+      "file": "machu-picchu.jpg",
+      "src": "content/media/world-regions/machu-picchu.jpg?v=e04cdec0",
+      "width": 1126,
+      "height": 749,
+      "bytes": 171926,
+      "sha256": "e04cdec0e7fd4f531425c033283d92a1c4e273bee47d7aa4a733ee3e13a21f9f",
+      "small": {
+        "file": "machu-picchu.480.jpg",
+        "src": "content/media/world-regions/machu-picchu.480.jpg?v=4a4b8c98",
+        "width": 480,
+        "height": 319,
+        "bytes": 35092,
+        "sha256": "4a4b8c9840c5e35f4254ca17bc4ae66797e321d6d835b1ab90f2e3680b9ac5aa"
+      },
+      "title": "File:Machu Picchu, Perú, 2015-07-30, DD 47.JPG",
+      "requested": "File:Machu Picchu, Perú, 2015-07-30, DD 47.JPG",
+      "name": "Machu Picchu, Perú, 2015-07-30, DD 47",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Per%C3%BA,_2015-07-30,_DD_47.JPG",
+      "author": "Diego Delso",
+      "credit": "Own work",
+      "date": "2015-07-30 16:01:04",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 8669,
+        "height": 5763,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 851
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Diego Delso",
+      "authorApi": "Diego Delso",
+      "attributionApi": "Diego Delso"
+    },
+    "mount-fuji": {
+      "id": "mount-fuji",
+      "file": "mount-fuji.jpg",
+      "src": "content/media/world-regions/mount-fuji.jpg?v=26b809f9",
+      "width": 1126,
+      "height": 754,
+      "bytes": 175359,
+      "sha256": "26b809f91ad1665f7b7b4ecd8dddcf522c1e31c650e50b5205f60f91a6793e1e",
+      "small": {
+        "file": "mount-fuji.480.jpg",
+        "src": "content/media/world-regions/mount-fuji.480.jpg?v=f59a94e6",
+        "width": 480,
+        "height": 321,
+        "bytes": 39524,
+        "sha256": "f59a94e6957cb61b4a22fd64d3cd1615c1cca9181e4fcdc58afe029ba23e2cbc"
+      },
+      "title": "File:Lake Kawaguchiko Sakura Mount Fuji 3.JPG",
+      "requested": "File:Lake Kawaguchiko Sakura Mount Fuji 3.JPG",
+      "name": "Lake Kawaguchiko Sakura Mount Fuji 3",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Kawaguchiko_Sakura_Mount_Fuji_3.JPG",
+      "author": "Midori",
+      "credit": "Own work",
+      "date": "2010-04-18",
+      "license": "CC BY 3.0",
+      "licenseCode": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3872,
+        "height": 2592,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 857
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Midori",
+      "authorApi": "Midori"
+    },
+    "parthenon": {
+      "id": "parthenon",
+      "file": "parthenon.jpg",
+      "src": "content/media/world-regions/parthenon.jpg?v=d33b7878",
+      "width": 960,
+      "height": 675,
+      "bytes": 183335,
+      "sha256": "d33b78788a5e971b075500e03087ed825f651b84a61e4c07661ec6d147877438",
+      "small": {
+        "file": "parthenon.480.jpg",
+        "src": "content/media/world-regions/parthenon.480.jpg?v=5287aba9",
+        "width": 480,
+        "height": 338,
+        "bytes": 41230,
+        "sha256": "5287aba9c2fcd21434646fe914c39ca6ff7f0ef09f41e9985f75e89bffd4996b"
+      },
+      "title": "File:The Parthenon in Athens.jpg",
+      "requested": "File:The Parthenon in Athens.jpg",
+      "name": "The Parthenon in Athens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
+      "author": "Steve Swayne",
+      "credit": "File:O Partenon de Atenas.jpg, originally posted to Flickr as The Parthenon Athens",
+      "date": "1978-08-26 13:45:00",
+      "license": "CC BY 2.0",
+      "licenseCode": "cc-by-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1144,
+        "height": 804,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 675
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Steve Swayne",
+      "authorApi": "Steve Swayne"
+    },
+    "petra-treasury": {
+      "id": "petra-treasury",
+      "file": "petra-treasury.jpg",
+      "src": "content/media/world-regions/petra-treasury.jpg?v=a29c002c",
+      "width": 767,
+      "height": 1280,
+      "bytes": 175190,
+      "sha256": "a29c002cf8487e9d592fa1c09ef5f7eef077a46e151b6aa36a7ac46b7636e8a1",
+      "small": {
+        "file": "petra-treasury.480.jpg",
+        "src": "content/media/world-regions/petra-treasury.480.jpg?v=164c5c44",
+        "width": 288,
+        "height": 480,
+        "bytes": 31702,
+        "sha256": "164c5c44ce866c931e79315baa637276beae95c093a1c86e3424d7d6eae4fbd3"
+      },
+      "title": "File:Al Khazneh Petra edit 2.jpg",
+      "requested": "File:Al Khazneh Petra edit 2.jpg",
+      "name": "Al Khazneh Petra edit 2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Khazneh_Petra_edit_2.jpg",
+      "author": "Graham Racher; derivative work: MrPanyGoff",
+      "credit": "Al_Khazneh_Petra.jpg",
+      "date": "2011-03-24 09:07",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1683,
+        "height": 2810,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 2137
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Graham Racher; derivative work: MrPanyGoff",
+      "authorApi": "Al_Khazneh_Petra.jpg: Graham Racher from London, UK derivative work: MrPanyGoff"
+    },
+    "sigiriya": {
+      "id": "sigiriya",
+      "file": "sigiriya.jpg",
+      "src": "content/media/world-regions/sigiriya.jpg?v=f308f406",
+      "width": 1280,
+      "height": 853,
+      "bytes": 178455,
+      "sha256": "f308f406fdacb272a18711af0f522705c72171e5c8fd1052951165042b446944",
+      "small": {
+        "file": "sigiriya.480.jpg",
+        "src": "content/media/world-regions/sigiriya.480.jpg?v=afe0d5d1",
+        "width": 480,
+        "height": 320,
+        "bytes": 22640,
+        "sha256": "afe0d5d1b5ad6360cd31de303146a26bc0d538f25278f4d565ce909be8783728"
+      },
+      "title": "File:Sigiriya Rock Fortress View from Pidurangala Rock.jpg",
+      "requested": "File:Sigiriya Rock Fortress View from Pidurangala Rock.jpg",
+      "name": "Sigiriya Rock Fortress View from Pidurangala Rock",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sigiriya_Rock_Fortress_View_from_Pidurangala_Rock.jpg",
+      "author": "Gayomiw",
+      "credit": "Own work",
+      "date": "2020-01-10 14:43:19",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 6000,
+        "height": 4000,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Gayomiw",
+      "authorApi": "Gayomiw"
+    },
+    "st-basils": {
+      "id": "st-basils",
+      "file": "st-basils.jpg",
+      "src": "content/media/world-regions/st-basils.jpg?v=20b83194",
+      "width": 1070,
+      "height": 1280,
+      "bytes": 172982,
+      "sha256": "20b83194f4330cbaaeffb0e0c8be9b579f1a511544023605b4b4c542cf04dab5",
+      "small": {
+        "file": "st-basils.480.jpg",
+        "src": "content/media/world-regions/st-basils.480.jpg?v=531b517d",
+        "width": 401,
+        "height": 480,
+        "bytes": 33883,
+        "sha256": "531b517dc51e53806d5b07e41f561547d18159f3b7a167559e7ffab54528a6d4"
+      },
+      "title": "File:Moscow July 2011-4a.jpg",
+      "requested": "File:Moscow July 2011-4a.jpg",
+      "name": "Moscow July 2011-4a",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moscow_July_2011-4a.jpg",
+      "author": "Alvesgaspar",
+      "credit": "Own work",
+      "date": "2011-07-10",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 5188,
+        "height": 6207,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1531
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Alvesgaspar",
+      "authorApi": "Alvesgaspar"
+    },
+    "statue-of-liberty": {
+      "id": "statue-of-liberty",
+      "file": "statue-of-liberty.jpg",
+      "src": "content/media/world-regions/statue-of-liberty.jpg?v=34eaabf9",
+      "width": 935,
+      "height": 1280,
+      "bytes": 118538,
+      "sha256": "34eaabf932fb4e7b6acc0f69a6dcf1aecd0830fa403fb83ea03e2b8f4bcc868d",
+      "small": {
+        "file": "statue-of-liberty.480.jpg",
+        "src": "content/media/world-regions/statue-of-liberty.480.jpg?v=b5cbca83",
+        "width": 351,
+        "height": 480,
+        "bytes": 13338,
+        "sha256": "b5cbca83bf5d2da19a9ac69920237e57413a9b22a613dab09fcec67e84000747"
+      },
+      "title": "File:Lady Liberty under a blue sky (cropped).jpg",
+      "requested": "File:Lady Liberty under a blue sky (cropped).jpg",
+      "name": "Lady Liberty under a blue sky (cropped)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lady_Liberty_under_a_blue_sky_(cropped).jpg",
+      "author": "Mcj1800",
+      "credit": "Own work",
+      "date": "Taken on 5 October 2015, 10:50:29",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2053,
+        "height": 4607,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 2872
+      },
+      "options": {
+        "crop": [
+          0,
+          0.05,
+          1,
+          0.66
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Mcj1800",
+      "authorApi": "User:Mcj1800"
+    },
+    "sydney-opera-house": {
+      "id": "sydney-opera-house",
+      "file": "sydney-opera-house.jpg",
+      "src": "content/media/world-regions/sydney-opera-house.jpg?v=415e6e6c",
+      "width": 1280,
+      "height": 707,
+      "bytes": 167123,
+      "sha256": "415e6e6cee462d68e8dccffc3955f5560038e31e768e7035c65fcc4fe379bcfc",
+      "small": {
+        "file": "sydney-opera-house.480.jpg",
+        "src": "content/media/world-regions/sydney-opera-house.480.jpg?v=3039ee27",
+        "width": 480,
+        "height": 265,
+        "bytes": 23083,
+        "sha256": "3039ee27e51b34dc4c8c837cdc8c03c0aced574aafff808e6e82899160c3d303"
+      },
+      "title": "File:Sydney Opera House - Dec 2008.jpg",
+      "requested": "File:Sydney Opera House - Dec 2008.jpg",
+      "name": "Sydney Opera House - Dec 2008",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg",
+      "author": "Diliff",
+      "credit": "Own work",
+      "date": "2008-12-02",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2544,
+        "height": 1406,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 707
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Diliff",
+      "authorApi": "Diliff"
+    },
+    "taj-mahal": {
+      "id": "taj-mahal",
+      "file": "taj-mahal.jpg",
+      "src": "content/media/world-regions/taj-mahal.jpg?v=be626a5b",
+      "width": 1280,
+      "height": 842,
+      "bytes": 151334,
+      "sha256": "be626a5b9f6e078158dedfccec5be4faa6616da352e7a2ab7c0e8b0ff23135d1",
+      "small": {
+        "file": "taj-mahal.480.jpg",
+        "src": "content/media/world-regions/taj-mahal.480.jpg?v=19410da9",
+        "width": 480,
+        "height": 316,
+        "bytes": 26719,
+        "sha256": "19410da9a30186a14e80dd0a37fc532c0a3ce34cc8a253ae73eb404679dfb004"
+      },
+      "title": "File:Taj Mahal (Edited).jpeg",
+      "requested": "File:Taj Mahal (Edited).jpeg",
+      "name": "Taj Mahal (Edited)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+      "author": "Yann Forget",
+      "credit": "Edited version of File:Taj Mahal, Agra, India.jpg",
+      "date": "2010",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3840,
+        "height": 2525,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 842
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Yann Forget",
+      "authorApi": "Yann; edited by Jim Carter",
+      "attributionApi": "This file is not in the public domain. Therefore you are requested to use the following next to the image if you reuse this file: © Yann Forget / Wikimedia Commons"
+    },
+    "toronto-skyline": {
+      "id": "toronto-skyline",
+      "file": "toronto-skyline.jpg",
+      "src": "content/media/world-regions/toronto-skyline.jpg?v=0e689857",
+      "width": 813,
+      "height": 1280,
+      "bytes": 163912,
+      "sha256": "0e689857c4fa76208c95ead815c0a6523e4291666659f8f302937647ac81b8fc",
+      "small": {
+        "file": "toronto-skyline.480.jpg",
+        "src": "content/media/world-regions/toronto-skyline.480.jpg?v=5ca9343f",
+        "width": 305,
+        "height": 480,
+        "bytes": 22142,
+        "sha256": "5ca9343fdeba18aba3a6fef7169a595408a5e1dad9954c3c31b2ce90881a3a63"
+      },
+      "title": "File:Toronto - ON - Toronto Harbourfront7.jpg",
+      "requested": "File:Toronto - ON - Toronto Harbourfront7.jpg",
+      "name": "Toronto - ON - Toronto Harbourfront7",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Toronto_Harbourfront7.jpg",
+      "author": "Wladyslaw",
+      "credit": "Own work",
+      "date": "2008-09-10",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2434,
+        "height": 3834,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 2016
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Wladyslaw",
+      "authorApi": "Wladyslaw",
+      "attributionApi": "Wladyslaw"
+    },
+    "victoria-falls": {
+      "id": "victoria-falls",
+      "file": "victoria-falls.jpg",
+      "src": "content/media/world-regions/victoria-falls.jpg?v=5cc1e51f",
+      "width": 725,
+      "height": 1126,
+      "bytes": 179002,
+      "sha256": "5cc1e51fbd321519e624faab8e1e17e94d93b9e3dd3100668f010b7586686d51",
+      "small": {
+        "file": "victoria-falls.480.jpg",
+        "src": "content/media/world-regions/victoria-falls.480.jpg?v=51d543cc",
+        "width": 309,
+        "height": 480,
+        "bytes": 38118,
+        "sha256": "51d543cccabcfb6acb45e8c449605edf8a8ed312bec6bd533092801526710c73"
+      },
+      "title": "File:Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 04.jpg",
+      "requested": "File:Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 04.jpg",
+      "name": "Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 04",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_04.jpg",
+      "author": "Diego Delso",
+      "credit": "Own work",
+      "date": "2018-07-27 15:41:40",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4203,
+        "height": 6530,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1989
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Diego Delso",
+      "authorApi": "Diego Delso",
+      "attributionApi": "Diego Delso"
+    }
+  }
+}

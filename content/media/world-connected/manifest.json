@@ -1,0 +1,1027 @@
+{
+  "course": "world-connected",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "brookes": {
+      "id": "brookes",
+      "file": "brookes.jpg",
+      "src": "content/media/world-connected/brookes.jpg?v=153c6b2d",
+      "width": 953,
+      "height": 1126,
+      "bytes": 234613,
+      "sha256": "153c6b2d6d645f5923ae7793f04c89aa9de9ef4ecd456385b119d6a2fdb19e5d",
+      "small": {
+        "file": "brookes.480.jpg",
+        "src": "content/media/world-connected/brookes.480.jpg?v=18ce5e6c",
+        "width": 406,
+        "height": 480,
+        "bytes": 41957,
+        "sha256": "18ce5e6c4cc11b4db8e5263e8af5ad85b922eebf0db103f700d68e6155d44713"
+      },
+      "title": "File:Slaveshipposter.jpg",
+      "requested": "File:Slaveshipposter.jpg",
+      "name": "Slaveshipposter",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slaveshipposter.jpg",
+      "author": "Plymouth Chapter of the Society for Effecting the Abolition of the Slave Trade",
+      "credit": "This image is available from the United States Library of Congress's Prints and Photographs division under the digital ID cph.3a34658. This tag does not…",
+      "date": "1788-12",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3952,
+        "height": 4672,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1513
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280,
+        "budget": 235520
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Plymouth Chapter of the Society for Effecting the Abolition of the Slave Trade",
+      "authorApi": "Plymouth Chapter of the Society for Effecting the Abolition of the Slave Trade"
+    },
+    "cantino": {
+      "id": "cantino",
+      "file": "cantino.jpg",
+      "src": "content/media/world-connected/cantino.jpg?v=9cd0646d",
+      "width": 1280,
+      "height": 601,
+      "bytes": 223580,
+      "sha256": "9cd0646df545b9094adc5aa3a5fbcebaa7723a8b675a79725c683526907f699e",
+      "small": {
+        "file": "cantino.480.jpg",
+        "src": "content/media/world-connected/cantino.480.jpg?v=5b0a7763",
+        "width": 480,
+        "height": 225,
+        "bytes": 26968,
+        "sha256": "5b0a77631be6e4818c38593f8de07a92c4c38e85e8cc4c3db8a585ba9d581ab8"
+      },
+      "title": "File:Cantino planisphere (1502).jpg",
+      "requested": "File:Cantino planisphere (1502).jpg",
+      "name": "Cantino planisphere (1502)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cantino_planisphere_(1502).jpg",
+      "author": "anonymous Portuguese (1502)",
+      "credit": "Biblioteca Estense Universitaria, Modena, Italy",
+      "date": "1502",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 10643,
+        "height": 4998,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 601
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280,
+        "budget": 235520
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "anonymous Portuguese (1502)",
+      "authorApi": "anonymous Portuguese (1502)"
+    },
+    "caravel": {
+      "id": "caravel",
+      "file": "caravel.jpg",
+      "src": "content/media/world-connected/caravel.jpg?v=9ab6b66e",
+      "width": 500,
+      "height": 724,
+      "bytes": 67767,
+      "sha256": "9ab6b66e6f9c4d591d8fd1624825e2e29e4a6e3ee135ec9316477fa067058fdb",
+      "small": {
+        "file": "caravel.480.jpg",
+        "src": "content/media/world-connected/caravel.480.jpg?v=66b698f1",
+        "width": 331,
+        "height": 480,
+        "bytes": 24801,
+        "sha256": "66b698f1bb6ded9f0e2b33c334028d67aa2302edcd1672a49f1cffae77769eb9"
+      },
+      "title": "File:Caravela Vera Cruz no rio Tejo.jpg",
+      "requested": "File:Caravela Vera Cruz no rio Tejo.jpg",
+      "name": "Caravela Vera Cruz no rio Tejo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caravela_Vera_Cruz_no_rio_Tejo.jpg",
+      "author": "Lopo Pizarro",
+      "credit": "www.lopo.pt",
+      "date": "2006-04-30",
+      "license": "CC BY 2.5",
+      "licenseCode": "cc-by-2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 630,
+        "height": 912,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 724
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Lopo Pizarro",
+      "authorApi": "Lopo Pizarro"
+    },
+    "coin": {
+      "id": "coin",
+      "file": "coin.jpg",
+      "src": "content/media/world-connected/coin.jpg?v=e396e406",
+      "width": 500,
+      "height": 263,
+      "bytes": 37018,
+      "sha256": "e396e406482547e7580a59293d8652b2504c303f904b2aa769f652b05ef7f45d",
+      "small": {
+        "file": "coin.480.jpg",
+        "src": "content/media/world-connected/coin.480.jpg?v=db269ca0",
+        "width": 480,
+        "height": 252,
+        "bytes": 28601,
+        "sha256": "db269ca0e76a1a0b753316b31a81d6be0eb7a3e2d2a48ac67a2ba043f591fcfc"
+      },
+      "title": "File:Philip V Coin silver, 8 Reales Mexico.jpg",
+      "requested": "File:Philip V Coin silver, 8 Reales Mexico.jpg",
+      "name": "Philip V Coin silver, 8 Reales Mexico",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philip_V_Coin_silver,_8_Reales_Mexico.jpg",
+      "author": "Coinman62 at English Wikipedia",
+      "credit": "Transferred from en.wikipedia to Commons.",
+      "date": "2007-01-15",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 800,
+        "height": 421,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 263
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Coinman62 at English Wikipedia",
+      "authorApi": "Coinman62 at English Wikipedia",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?"
+    },
+    "copernicus-diagram": {
+      "id": "copernicus-diagram",
+      "file": "copernicus-diagram.jpg",
+      "src": "content/media/world-connected/copernicus-diagram.jpg?v=66757711",
+      "width": 1126,
+      "height": 965,
+      "bytes": 183994,
+      "sha256": "66757711438d5afe7aa05e37273aef0863e90fb979fbd47624c9d8cdceb13866",
+      "small": {
+        "file": "copernicus-diagram.480.jpg",
+        "src": "content/media/world-connected/copernicus-diagram.480.jpg?v=970eef4d",
+        "width": 480,
+        "height": 411,
+        "bytes": 42676,
+        "sha256": "970eef4d2d8296df1f9994579308e7c2322a3742eb6e37d3ad8a643461721b61"
+      },
+      "title": "File:Copernican heliocentrism diagram-2.jpg",
+      "requested": "File:Copernican heliocentrism diagram-2.jpg",
+      "name": "Copernican heliocentrism diagram-2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Copernican_heliocentrism_diagram-2.jpg",
+      "author": "after Nicolaus Copernicus (1543)",
+      "credit": "Copernican_heliocentrism_diagram.jpg",
+      "date": "2010-12-16 23:28",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3070,
+        "height": 2630,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1097
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Own work from Copernicus 1543",
+      "authorApi": "Copernican_heliocentrism_diagram.jpg: Own work from Copernicus 1543 derivative work: Professor marginalia (talk)",
+      "authorOverride": "after Nicolaus Copernicus (1543)"
+    },
+    "elmina": {
+      "id": "elmina",
+      "file": "elmina.jpg",
+      "src": "content/media/world-connected/elmina.jpg?v=3097ae38",
+      "width": 1114,
+      "height": 511,
+      "bytes": 123429,
+      "sha256": "3097ae38276f013beda5099a90882a01d3cc0a137874c70bddedd3b4bda8a6cc",
+      "small": {
+        "file": "elmina.480.jpg",
+        "src": "content/media/world-connected/elmina.480.jpg?v=55916822",
+        "width": 480,
+        "height": 220,
+        "bytes": 16866,
+        "sha256": "55916822d9021fdd1bfe76bfd10681b42cc9930730e245930064458f97fbb05f"
+      },
+      "title": "File:Elmina Castle - Ghana.jpg",
+      "requested": "File:Elmina Castle - Ghana.jpg",
+      "name": "Elmina Castle - Ghana",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elmina_Castle_-_Ghana.jpg",
+      "author": "Damien Halleux Radermecker",
+      "credit": "https://www.flickr.com/photos/dayapragm/5258444507/in/photostream/ uploaded by MrPanyGoff",
+      "date": "2010-12-05",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 6300,
+        "height": 4200,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": [
+          0.08,
+          0.2,
+          0.95,
+          0.8
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Damien Halleux Radermecker",
+      "authorApi": "Damien Halleux Radermecker"
+    },
+    "equiano": {
+      "id": "equiano",
+      "file": "equiano.jpg",
+      "src": "content/media/world-connected/equiano.jpg?v=3beb56f0",
+      "width": 500,
+      "height": 805,
+      "bytes": 140950,
+      "sha256": "3beb56f0a742cc528f3f37f98ea3da9f6ab7929df6b03919073203bda0027527",
+      "small": {
+        "file": "equiano.480.jpg",
+        "src": "content/media/world-connected/equiano.480.jpg?v=ad8936cd",
+        "width": 298,
+        "height": 480,
+        "bytes": 35298,
+        "sha256": "ad8936cdf63c3747c16345600f7518cfc876279cd92162ea4a55bd8269597586"
+      },
+      "title": "File:Olaudah Equiano - Project Gutenberg eText 15399.png",
+      "requested": "File:Olaudah Equiano - Project Gutenberg eText 15399.png",
+      "name": "Olaudah Equiano - Project Gutenberg eText 15399",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olaudah_Equiano_-_Project_Gutenberg_eText_15399.png",
+      "author": "Daniel Orme, after William Denton (1789)",
+      "credit": "Project Gutenberg eText 15399 - http://www.gutenberg.org/etext/15399 Author: Uploader: User Tagishsimon on en.wikipedia; description page is (was) here *…",
+      "date": "First published in 1789",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 652,
+        "height": 1050,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 805
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Unknown author",
+      "authorApi": "Unknown author",
+      "authorOverride": "Daniel Orme, after William Denton (1789)"
+    },
+    "forbidden-city": {
+      "id": "forbidden-city",
+      "file": "forbidden-city.jpg",
+      "src": "content/media/world-connected/forbidden-city.jpg?v=d625dc70",
+      "width": 768,
+      "height": 384,
+      "bytes": 56947,
+      "sha256": "d625dc702b50dc867f22469a6a5d3d70d2898667e3573412213e9531bdf1f05b",
+      "small": {
+        "file": "forbidden-city.480.jpg",
+        "src": "content/media/world-connected/forbidden-city.480.jpg?v=b84888c8",
+        "width": 480,
+        "height": 240,
+        "bytes": 16945,
+        "sha256": "b84888c85efc6d718f105ee7a4b68e222bae424ab987b5a9b2738a8fb8fb608d"
+      },
+      "title": "File:The Forbidden City - View from Coal Hill.jpg",
+      "requested": "File:The Forbidden City - View from Coal Hill.jpg",
+      "name": "The Forbidden City - View from Coal Hill",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg",
+      "author": "Pixelflake",
+      "credit": "Own work",
+      "date": "2012-02-03",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4092,
+        "height": 2046,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 640
+      },
+      "options": {
+        "crop": [
+          0.2,
+          0.4,
+          0.8,
+          1
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Pixelflake",
+      "authorApi": "Pixelflake"
+    },
+    "giraffe": {
+      "id": "giraffe",
+      "file": "giraffe.jpg",
+      "src": "content/media/world-connected/giraffe.jpg?v=1287a3ac",
+      "width": 1040,
+      "height": 1280,
+      "bytes": 170990,
+      "sha256": "1287a3aca404ec62b121ddbc9ca28ed8c1bf201552d65754ccf04e897aa3d6cc",
+      "small": {
+        "file": "giraffe.480.jpg",
+        "src": "content/media/world-connected/giraffe.480.jpg?v=efe478e1",
+        "width": 390,
+        "height": 480,
+        "bytes": 22202,
+        "sha256": "efe478e1a63b485ca9224b3a54168a05e77c74b432be066b3d14d56e50b3ac06"
+      },
+      "title": "File:Tribute Giraffe with Attendant.jpg",
+      "requested": "File:Tribute Giraffe with Attendant.jpg",
+      "name": "Tribute Giraffe with Attendant",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tribute_Giraffe_with_Attendant.jpg",
+      "author": "Shen Du (沈度, 1357–1434)",
+      "credit": "\"Tribute Giraffe with Attendant\". Philadelphia Museum of Art.",
+      "date": "1414 9th month of the 12th year of the Yongle reign, Ming…",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2063,
+        "height": 4096,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 2541
+      },
+      "options": {
+        "crop": [
+          0,
+          0.38,
+          1,
+          1
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Shen Du (沈度, 1357–1434)",
+      "authorApi": "Shen Du (沈度, 1357–1434) Note: In contrast to the other references, the Philadelphia Museum of Art considers this to be rather a later work by an unknown painter from the 16th century."
+    },
+    "gutenberg-bible": {
+      "id": "gutenberg-bible",
+      "file": "gutenberg-bible.jpg",
+      "src": "content/media/world-connected/gutenberg-bible.jpg?v=0f3cffce",
+      "width": 1280,
+      "height": 800,
+      "bytes": 183141,
+      "sha256": "0f3cffce904e4afffaaa4774fd99fa149200eefce4fe058fffaa2dee730c238e",
+      "small": {
+        "file": "gutenberg-bible.480.jpg",
+        "src": "content/media/world-connected/gutenberg-bible.480.jpg?v=784bfa0e",
+        "width": 480,
+        "height": 300,
+        "bytes": 25782,
+        "sha256": "784bfa0e150d7f22e89c4c6b6dda78a10630bf496646ff8f26609abb94210251"
+      },
+      "title": "File:Gutenberg Bible, Lenox Copy, New York Public Library, 2009. Pic 01.jpg",
+      "requested": "File:Gutenberg Bible, Lenox Copy, New York Public Library, 2009. Pic 01.jpg",
+      "name": "Gutenberg Bible, Lenox Copy, New York Public Library, 2009. Pic 01",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg",
+      "author": "NYC Wanderer (Kevin Eng)",
+      "credit": "originally posted to Flickr as Gutenberg Bible",
+      "date": "2009-05-28 16:18:51",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1920,
+        "height": 1200,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 800
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "NYC Wanderer (Kevin Eng)",
+      "authorApi": "NYC Wanderer (Kevin Eng)"
+    },
+    "isfahan": {
+      "id": "isfahan",
+      "file": "isfahan.jpg",
+      "src": "content/media/world-connected/isfahan.jpg?v=9f6e941a",
+      "width": 819,
+      "height": 485,
+      "bytes": 115487,
+      "sha256": "9f6e941a7feddabfb0facf3b2a3969649d95de54b2b39f6bae176388bf07e5df",
+      "small": {
+        "file": "isfahan.480.jpg",
+        "src": "content/media/world-connected/isfahan.480.jpg?v=82cfd601",
+        "width": 480,
+        "height": 284,
+        "bytes": 36543,
+        "sha256": "82cfd601ec4cf808b94f96e5540fe3209c251e38f9f2c49e9b9f14685895a73d"
+      },
+      "title": "File:Naghshe Jahan Square Isfahan modified.jpg",
+      "requested": "File:Naghshe Jahan Square Isfahan modified.jpg",
+      "name": "Naghshe Jahan Square Isfahan modified",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naghshe_Jahan_Square_Isfahan_modified.jpg",
+      "author": "Arad",
+      "credit": "Modified version of: Image:Naghshe Jahan Square Isfahan.jpg",
+      "date": "2018-03-24 22:39:25",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2096,
+        "height": 1470,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 898
+      },
+      "options": {
+        "crop": [
+          0.26,
+          0.34,
+          0.9,
+          0.88
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Arad",
+      "authorApi": "en:User:Arad"
+    },
+    "jikji": {
+      "id": "jikji",
+      "file": "jikji.jpg",
+      "src": "content/media/world-connected/jikji.jpg?v=d4b4e06a",
+      "width": 330,
+      "height": 264,
+      "bytes": 39868,
+      "sha256": "d4b4e06a797831678dd15f3113f6e920b79b1b38f1737a8ee2cc9162acc3290d",
+      "small": {
+        "file": "jikji.480.jpg",
+        "src": "content/media/world-connected/jikji.480.jpg?v=2260997a",
+        "width": 330,
+        "height": 264,
+        "bytes": 35114,
+        "sha256": "2260997ab07cdbbdc4f186d7ad86541eabbfff8bbf4f7825c105c3dedb69a3a5"
+      },
+      "title": "File:Korean book-Jikji-Selected Teachings of Buddhist Sages and Seon Masters-1377.jpg",
+      "requested": "File:Korean book-Jikji-Selected Teachings of Buddhist Sages and Seon Masters-1377.jpg",
+      "name": "Korean book-Jikji-Selected Teachings of Buddhist Sages and Seon Masters-1377",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_book-Jikji-Selected_Teachings_of_Buddhist_Sages_and_Seon_Masters-1377.jpg",
+      "author": "Baegun Hwaseng (1289-1374)",
+      "credit": "Bibliotheque Nationale de France. Source",
+      "date": "1377",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 500,
+        "height": 400,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 330,
+        "height": 264
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Baegun Hwaseng (1289-1374)",
+      "authorApi": "Authored by Baegun Hwaseng (1289-1374), a master of Seon Buddhism in Korea, and published by his students, Seokchan and Daljam in 1377."
+    },
+    "lienzo": {
+      "id": "lienzo",
+      "file": "lienzo.jpg",
+      "src": "content/media/world-connected/lienzo.jpg?v=338eb018",
+      "width": 973,
+      "height": 790,
+      "bytes": 179217,
+      "sha256": "338eb018102295aa31b6d30fed20a2d1c7ba4f0108ff46b0344de641e3474f4f",
+      "small": {
+        "file": "lienzo.480.jpg",
+        "src": "content/media/world-connected/lienzo.480.jpg?v=d96ab0d8",
+        "width": 480,
+        "height": 390,
+        "bytes": 43335,
+        "sha256": "d96ab0d8321af200b12eaa65c96e0093ee066077047b9234335bc278b19094ee"
+      },
+      "title": "File:Malinche Tlaxcala.jpg",
+      "requested": "File:Malinche Tlaxcala.jpg",
+      "name": "Malinche Tlaxcala",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malinche_Tlaxcala.jpg",
+      "author": "Tlaxcalan artists, about 1550 (later copy)",
+      "date": "2006-05-13 22:39:03",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2741,
+        "height": 2225,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1039
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Unknown author",
+      "authorOverride": "Tlaxcalan artists, about 1550 (later copy)"
+    },
+    "luther": {
+      "id": "luther",
+      "file": "luther.jpg",
+      "src": "content/media/world-connected/luther.jpg?v=dfaa3079",
+      "width": 809,
+      "height": 1280,
+      "bytes": 169178,
+      "sha256": "dfaa307959112ea7c964129d87ea03df77a3ba6910391595c1b2b9dd7ca07803",
+      "small": {
+        "file": "luther.480.jpg",
+        "src": "content/media/world-connected/luther.480.jpg?v=a2364a77",
+        "width": 303,
+        "height": 480,
+        "bytes": 16457,
+        "sha256": "a2364a77e809a53a91f8835d40c4c52d52d07b25b89745da4bb3fb8be83c827e"
+      },
+      "title": "File:Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg",
+      "requested": "File:Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg",
+      "name": "Portrait of Martin Luther",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg",
+      "author": "Lucas Cranach the Elder",
+      "credit": "GalleriX",
+      "date": "1528",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2148,
+        "height": 3400,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 2026
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Lucas Cranach the Elder",
+      "authorApi": "Lucas Cranach the Elder"
+    },
+    "medicean-stars": {
+      "id": "medicean-stars",
+      "file": "medicean-stars.jpg",
+      "src": "content/media/world-connected/medicean-stars.jpg?v=db8684f5",
+      "width": 330,
+      "height": 494,
+      "bytes": 38946,
+      "sha256": "db8684f5500b3d066ad5f882b7fbe5e0c04a3a7fec54667038d5b21ab8e998b7",
+      "small": {
+        "file": "medicean-stars.480.jpg",
+        "src": "content/media/world-connected/medicean-stars.480.jpg?v=e47ef342",
+        "width": 321,
+        "height": 480,
+        "bytes": 28087,
+        "sha256": "e47ef342d5fd8d45b6b534bcc941ed4d0e005808f0cac5ffb1bbfbb25b6f1240"
+      },
+      "title": "File:Sidereus Nuncius Medicean Stars.jpg",
+      "requested": "File:Sidereus Nuncius Medicean Stars.jpg",
+      "name": "Sidereus Nuncius Medicean Stars",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sidereus_Nuncius_Medicean_Stars.jpg",
+      "author": "Galileo Galilei",
+      "credit": "Transferred from en.wikipedia to Commons. Scan: http://hos.ou.edu/galleries/17thCentury/Galileo/1610/Galileo-1610-023r-image/ Original: Sidereus Nuncius…",
+      "date": "Original work: 1610",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 334,
+        "height": 500,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 330,
+        "height": 494
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Galileo Galilei",
+      "authorApi": "Scan: History of Science Collections, University of Oklahoma Libraries Original: Galileo Galilei"
+    },
+    "merian": {
+      "id": "merian",
+      "file": "merian.jpg",
+      "src": "content/media/world-connected/merian.jpg?v=7dd30c74",
+      "width": 871,
+      "height": 1280,
+      "bytes": 165605,
+      "sha256": "7dd30c745727e4f1616a35865af4bc4595bbb505d1101029a00476d79538f98c",
+      "small": {
+        "file": "merian.480.jpg",
+        "src": "content/media/world-connected/merian.480.jpg?v=1d8e6111",
+        "width": 327,
+        "height": 480,
+        "bytes": 22659,
+        "sha256": "1d8e6111749e337021967ab5c6992e77a9ec81a3b4b028f1f2f0f2781109f9ec"
+      },
+      "title": "File:Metamorphosis insectorum Surinamensium - KW 1792 A 19 - plaat02.jpg",
+      "requested": "File:Metamorphosis insectorum Surinamensium - KW 1792 A 19 - plaat02.jpg",
+      "name": "Metamorphosis insectorum Surinamensium",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metamorphosis_insectorum_Surinamensium_-_KW_1792_A_19_-_plaat02.jpg",
+      "author": "Maria Sibylla Merian",
+      "credit": "This image has been extracted from another file",
+      "date": "2020-11-09 21:39:38",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 4028,
+        "height": 5919,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1881
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Maria Sibylla Merian",
+      "authorApi": "Maria Sibylla Merian"
+    },
+    "potosi": {
+      "id": "potosi",
+      "file": "potosi.jpg",
+      "src": "content/media/world-connected/potosi.jpg?v=0edbfa08",
+      "width": 500,
+      "height": 377,
+      "bytes": 92688,
+      "sha256": "0edbfa085f93e47ba9d61fb3d89cdbe99c4fa17eaf446c12fb1bd8edb8481e1f",
+      "small": {
+        "file": "potosi.480.jpg",
+        "src": "content/media/world-connected/potosi.480.jpg?v=319d0031",
+        "width": 365,
+        "height": 275,
+        "bytes": 43486,
+        "sha256": "319d0031a6254b63df35d542d2411754678a4adfe72980fe7282750322886a9f"
+      },
+      "title": "File:Capitulo-CIX.jpg",
+      "requested": "File:Capitulo-CIX.jpg",
+      "name": "Capitulo-CIX",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capitulo-CIX.jpg",
+      "author": "from Pedro Cieza de León, Crónica del Perú (1553)",
+      "credit": "Own work",
+      "date": "2009-10-18",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 862,
+        "height": 650,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 377
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "A.Skromnitsky",
+      "authorApi": "A.Skromnitsky",
+      "authorOverride": "from Pedro Cieza de León, Crónica del Perú (1553)"
+    },
+    "school-of-athens": {
+      "id": "school-of-athens",
+      "file": "school-of-athens.jpg",
+      "src": "content/media/world-connected/school-of-athens.jpg?v=b1b09742",
+      "width": 1126,
+      "height": 874,
+      "bytes": 234300,
+      "sha256": "b1b097424a4809964b4f18a76a7df0eb2c72b47d1d28777ba67838617c94560f",
+      "small": {
+        "file": "school-of-athens.480.jpg",
+        "src": "content/media/world-connected/school-of-athens.480.jpg?v=54568534",
+        "width": 480,
+        "height": 372,
+        "bytes": 42293,
+        "sha256": "54568534e596b258538056ec16660ea989b4af7855e237a5c001115631135bfd"
+      },
+      "title": "File:\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg",
+      "requested": "File:\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg",
+      "name": "The School of Athens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+      "author": "Raphael",
+      "credit": "Stitched together from vatican.va",
+      "date": "1511",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3820,
+        "height": 2964,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 993
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280,
+        "budget": 235520
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Raphael",
+      "authorApi": "Raphael"
+    },
+    "suleymaniye": {
+      "id": "suleymaniye",
+      "file": "suleymaniye.jpg",
+      "src": "content/media/world-connected/suleymaniye.jpg?v=caaa308d",
+      "width": 1280,
+      "height": 853,
+      "bytes": 178782,
+      "sha256": "caaa308dca9f5650f215cecaee76cbf301d270d46c6df5c83ea00221eff2e2d4",
+      "small": {
+        "file": "suleymaniye.480.jpg",
+        "src": "content/media/world-connected/suleymaniye.480.jpg?v=cc86257b",
+        "width": 480,
+        "height": 320,
+        "bytes": 32898,
+        "sha256": "cc86257bb9fcf8473e8afd5a9be692fcb60b9493e42ff4a17d0067d6144ec9c7"
+      },
+      "title": "File:Istanbul Süleymaniye Mosque (54524972163).jpg",
+      "requested": "File:Istanbul Süleymaniye Mosque (54524972163).jpg",
+      "name": "Istanbul Süleymaniye Mosque (54524972163)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_S%C3%BCleymaniye_Mosque_(54524972163).jpg",
+      "author": "Jorge Franganillo",
+      "credit": "Istanbul: Süleymaniye Mosque",
+      "date": "Taken on 30 April 2025, 20:17",
+      "license": "CC BY 2.0",
+      "licenseCode": "cc-by-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 5723,
+        "height": 3815,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 853
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Jorge Franganillo",
+      "authorApi": "Jorge Franganillo"
+    },
+    "taj-mahal": {
+      "id": "taj-mahal",
+      "file": "taj-mahal.jpg",
+      "src": "content/media/world-connected/taj-mahal.jpg?v=be626a5b",
+      "width": 1280,
+      "height": 842,
+      "bytes": 151334,
+      "sha256": "be626a5b9f6e078158dedfccec5be4faa6616da352e7a2ab7c0e8b0ff23135d1",
+      "small": {
+        "file": "taj-mahal.480.jpg",
+        "src": "content/media/world-connected/taj-mahal.480.jpg?v=19410da9",
+        "width": 480,
+        "height": 316,
+        "bytes": 26719,
+        "sha256": "19410da9a30186a14e80dd0a37fc532c0a3ce34cc8a253ae73eb404679dfb004"
+      },
+      "title": "File:Taj Mahal (Edited).jpeg",
+      "requested": "File:Taj Mahal (Edited).jpeg",
+      "name": "Taj Mahal (Edited)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+      "author": "Yann Forget",
+      "credit": "Edited version of File:Taj Mahal, Agra, India.jpg",
+      "date": "2010",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 3840,
+        "height": 2525,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 842
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "Yann Forget",
+      "authorApi": "Yann; edited by Jim Carter",
+      "attributionApi": "This file is not in the public domain. Therefore you are requested to use the following next to the image if you reuse this file: © Yann Forget / Wikimedia Commons"
+    },
+    "wollstonecraft": {
+      "id": "wollstonecraft",
+      "file": "wollstonecraft.jpg",
+      "src": "content/media/world-connected/wollstonecraft.jpg?v=a1c6af8d",
+      "width": 960,
+      "height": 1171,
+      "bytes": 134559,
+      "sha256": "a1c6af8d616fa3b43b546d0227b4de8df1ae03d80e18b18d51ba1dc8f2df4f64",
+      "small": {
+        "file": "wollstonecraft.480.jpg",
+        "src": "content/media/world-connected/wollstonecraft.480.jpg?v=e04816c3",
+        "width": 394,
+        "height": 480,
+        "bytes": 17288,
+        "sha256": "e04816c3f3e95ef32529bbba900b54d48676fe4b10a9d38eab80fadfebbe3a1d"
+      },
+      "title": "File:Mary Wollstonecraft by John Opie (c. 1797).jpg",
+      "requested": "File:Mary Wollstonecraft by John Opie (c. 1797).jpg",
+      "name": "Mary Wollstonecraft",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_by_John_Opie_(c._1797).jpg",
+      "author": "John Opie",
+      "credit": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical…",
+      "date": "circa 1797",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1020,
+        "height": 1244,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 1171
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorDerived": "John Opie",
+      "authorApi": "John Opie"
+    }
+  }
+}

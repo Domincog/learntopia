@@ -1,0 +1,294 @@
+{
+  "course": "body-systems",
+  "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
+  "images": {
+    "blood-cells-sem": {
+      "id": "blood-cells-sem",
+      "file": "blood-cells-sem.jpg",
+      "src": "content/media/body-systems/blood-cells-sem.jpg?v=9f3456cd",
+      "width": 330,
+      "height": 215,
+      "bytes": 28894,
+      "sha256": "9f3456cdae4dd2a156d377da48a32471cadc2cc3dadb9d76e69ac14d6a57d7b7",
+      "small": {
+        "file": "blood-cells-sem.480.jpg",
+        "src": "content/media/body-systems/blood-cells-sem.480.jpg?v=54c505ac",
+        "width": 330,
+        "height": 215,
+        "bytes": 25271,
+        "sha256": "54c505ac2aa37a8e236f0aa910301555570e33b863dd512252820ac93e270a62"
+      },
+      "title": "File:Red White Blood cells.jpg",
+      "requested": "File:Red White Blood cells.jpg",
+      "name": "Red White Blood cells",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
+      "author": "Electron Microscopy Facility, NCI-Frederick",
+      "authorDerived": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-Frederick)",
+      "authorApi": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-Frederick)",
+      "credit": "[1]",
+      "date": "21 September 2004 (original upload date)",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 500,
+        "height": 326,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 330,
+        "height": 215
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14",
+      "authorOverride": "Electron Microscopy Facility, NCI-Frederick"
+    },
+    "chest-xray": {
+      "id": "chest-xray",
+      "file": "chest-xray.jpg",
+      "src": "content/media/body-systems/chest-xray.jpg?v=92dfa684",
+      "width": 1119,
+      "height": 1280,
+      "bytes": 155061,
+      "sha256": "92dfa68491055a15882c5439cbd0dee7d748e308fe8251a977026389f56b2291",
+      "small": {
+        "file": "chest-xray.480.jpg",
+        "src": "content/media/body-systems/chest-xray.480.jpg?v=bd2f31cf",
+        "width": 420,
+        "height": 480,
+        "bytes": 20134,
+        "sha256": "bd2f31cf7a1f866b45d307444d6b19f56a83d61da19978c32befdb4c2fca972e"
+      },
+      "title": "File:Normal posteroanterior (PA) chest radiograph (X-ray).jpg",
+      "requested": "File:Normal posteroanterior (PA) chest radiograph (X-ray).jpg",
+      "name": "Normal posteroanterior (PA) chest radiograph (X-ray)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_posteroanterior_(PA)_chest_radiograph_(X-ray).jpg",
+      "author": "Mikael Häggström",
+      "authorDerived": "Mikael Häggström",
+      "authorApi": "Mikael Häggström",
+      "authorCheck": "a public-domain work credited to a wiki user: the maker, or only the uploader?",
+      "credit": "Own work",
+      "date": "2017-06-28",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1929,
+        "height": 2207,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1464
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    },
+    "dialysis-machine": {
+      "id": "dialysis-machine",
+      "file": "dialysis-machine.jpg",
+      "src": "content/media/body-systems/dialysis-machine.jpg?v=17812192",
+      "width": 1280,
+      "height": 1231,
+      "bytes": 171924,
+      "sha256": "1781219296603935c15690cad2ffdc84364879dd3e2f7421f2d97b13186c0e2c",
+      "small": {
+        "file": "dialysis-machine.480.jpg",
+        "src": "content/media/body-systems/dialysis-machine.480.jpg?v=15903bfb",
+        "width": 480,
+        "height": 462,
+        "bytes": 29069,
+        "sha256": "15903bfbfd712bde017209195407235032202ae6781af327a68272bf9ed92c4c"
+      },
+      "title": "File:Hemodialysis machine INNOVA.jpg",
+      "requested": "File:Hemodialysis machine INNOVA.jpg",
+      "name": "Hemodialysis machine INNOVA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemodialysis_machine_INNOVA.jpg",
+      "author": "Виталий Поспелов",
+      "authorDerived": "Виталий Поспелов",
+      "authorApi": "Виталий Поспелов at ru.wikipedia",
+      "attributionApi": "Виталий Поспелов",
+      "credit": "Own work",
+      "date": "2008-08-22",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2472,
+        "height": 2378,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1231
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    },
+    "harvey-veins": {
+      "id": "harvey-veins",
+      "file": "harvey-veins.jpg",
+      "src": "content/media/body-systems/harvey-veins.jpg?v=7cd425ce",
+      "width": 1280,
+      "height": 892,
+      "bytes": 166545,
+      "sha256": "7cd425ce7353d919cbebd0eab47681fce83ae680e39fb777833f0d652805eff1",
+      "small": {
+        "file": "harvey-veins.480.jpg",
+        "src": "content/media/body-systems/harvey-veins.480.jpg?v=84eb28c6",
+        "width": 480,
+        "height": 335,
+        "bytes": 29075,
+        "sha256": "84eb28c648d0f73720d091238f5f20406f546e941990fdad608fbb22808bba76"
+      },
+      "title": "File:William Harvey (1578-1657) Venenbild.jpg",
+      "requested": "File:William Harvey (1578-1657) Venenbild.jpg",
+      "name": "William Harvey (1578-1657) Venenbild",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_Harvey_(1578-1657)_Venenbild.jpg",
+      "author": "Unknown author",
+      "authorDerived": "Unknown author",
+      "authorApi": "Unknown author",
+      "credit": "Sigerist, Henry E. (1965) Große Ärzte, München, Deutschland: J.F. Lehmans Verlag (5. Auflage) (1. Auflage 1958) plate 26 p 120",
+      "date": "Unknown date",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1293,
+        "height": 901,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 892
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    },
+    "mitochondria": {
+      "id": "mitochondria",
+      "file": "mitochondria.jpg",
+      "src": "content/media/body-systems/mitochondria.jpg?v=47d5cb2d",
+      "width": 500,
+      "height": 375,
+      "bytes": 53989,
+      "sha256": "47d5cb2d554d0900a7c95d98404c0dfa2243f91c69df3cb5c4f4f94c1e13f0e8",
+      "small": {
+        "file": "mitochondria.480.jpg",
+        "src": "content/media/body-systems/mitochondria.480.jpg?v=1b4f64b7",
+        "width": 480,
+        "height": 360,
+        "bytes": 39271,
+        "sha256": "1b4f64b710f13900db8083eb5889d25947afd14f390a4b8503be9037eca170d7"
+      },
+      "title": "File:Mitochondria, mammalian lung - TEM.jpg",
+      "requested": "File:Mitochondria, mammalian lung - TEM.jpg",
+      "name": "Mitochondria, mammalian lung - TEM",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mitochondria,_mammalian_lung_-_TEM.jpg",
+      "author": "Louisa Howard",
+      "authorDerived": "Louisa Howard",
+      "authorApi": "Louisa Howard",
+      "credit": "http://remf.dartmouth.edu/imagesindex.html http://remf.dartmouth.edu/images/mammalianLungTEM/source/8.html",
+      "date": "2008-05-16 15:09:32",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 640,
+        "height": 480,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 500,
+        "height": 375
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    },
+    "villi": {
+      "id": "villi",
+      "file": "villi.jpg",
+      "src": "content/media/body-systems/villi.jpg?v=4e1c8616",
+      "width": 744,
+      "height": 845,
+      "bytes": 177607,
+      "sha256": "4e1c8616f9b269956a42598f36d3dbb659fe11af85f6fb4a9e9155a0e3c8cf2e",
+      "small": {
+        "file": "villi.480.jpg",
+        "src": "content/media/body-systems/villi.480.jpg?v=4e4c0990",
+        "width": 321,
+        "height": 365,
+        "bytes": 41214,
+        "sha256": "4e4c0990fe1d1f1cb4a4151ac1788463d856238850a6ec16f525b6eb093e0baf"
+      },
+      "title": "File:Small intestine low mag.jpg",
+      "requested": "File:Small intestine low mag.jpg",
+      "name": "Small intestine low mag",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Small_intestine_low_mag.jpg",
+      "author": "Nephron",
+      "authorDerived": "Nephron",
+      "authorApi": "Nephron",
+      "credit": "Own work",
+      "date": "2009-09-16 03:18:47",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2563,
+        "height": 2912,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1454
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-14"
+    }
+  }
+}
