@@ -17,7 +17,9 @@ const NAV = [
   { path: '/courses', label: 'Courses', tab: 'Learn', icon: 'courses', match: /^\/course/ },
   { path: '/review', label: 'Review', icon: 'review', match: /^\/review/, badge: true },
   { path: '/puzzles', label: 'Puzzles', icon: 'puzzle', match: /^\/puzzles/ },
-  { path: '/profile', label: 'Progress', tab: 'Me', icon: 'stats', match: /^\/(profile|settings|about|support)/ },
+  // On a phone the "Me" tab stands for all four pages. In the sidebar, Settings, How it works and
+  // Support have links of their own, so "Progress" lights up only for the progress page itself.
+  { path: '/profile', label: 'Progress', tab: 'Me', icon: 'stats', match: /^\/(profile|settings|about|support)/, sideMatch: /^\/profile/ },
 ];
 
 function wordmark() {
@@ -104,7 +106,8 @@ export function createShell() {
   function update(path) {
     for (const group of [navLinks, tabs]) {
       for (const n of group) {
-        if (n.item.match.test(path)) n.el.setAttribute('aria-current', 'page');
+        const match = group === navLinks && n.item.sideMatch ? n.item.sideMatch : n.item.match;
+        if (match.test(path)) n.el.setAttribute('aria-current', 'page');
         else n.el.removeAttribute('aria-current');
       }
     }

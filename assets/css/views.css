@@ -34,6 +34,7 @@
 }
 :root[data-theme='dark'] .squiggle { background: linear-gradient(transparent 62%, rgba(255, 154, 61, 0.55) 62%, rgba(255, 154, 61, 0.55) 92%, transparent 92%); }
 .welcome-lead { margin-top: var(--s5); font-size: var(--fs-xl); line-height: 1.45; color: var(--ink-2); max-width: 34ch; }
+.welcome-facts { display: flex; flex-wrap: wrap; gap: 2px var(--s4); }
 .welcome-cta { display: flex; flex-wrap: wrap; gap: var(--s3); align-items: center; margin: var(--s8) 0 var(--s4); }
 .welcome-art { position: relative; display: grid; place-items: center; }
 .welcome-art .mascot { position: relative; width: min(100%, 320px); height: auto; }
@@ -293,6 +294,8 @@
 .course-hero-body { display: grid; gap: var(--s4); }
 .course-hero h1 { font-size: clamp(1.9rem, 5vw, 2.8rem); }
 .course-desc { font-size: var(--fs-lg); color: var(--ink-2); max-width: 58ch; }
+.course-desc:focus { outline: none; }
+.course-desc-more { justify-self: start; margin-top: calc(-1 * var(--s2)); }
 .course-hero-art {
   border: var(--bw) solid var(--edge);
   border-radius: var(--r-xl);
@@ -306,6 +309,7 @@
   .course-hero { grid-template-columns: minmax(0, 1fr); }
   .course-hero-art { order: -1; max-width: 240px; padding: var(--s3); }
   .course-hero .btn { width: 100%; }
+  .course-desc.is-clamped { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
 }
 
 .outcomes { padding: var(--s5); border: var(--bw) dashed var(--hair); border-radius: var(--r-lg); }
@@ -410,6 +414,11 @@
 .xp-chart .forecast-col.is-met .forecast-bar i { background: var(--green); }
 .xp-goal-line { position: absolute; left: 0; right: 0; border-top: 2px dashed var(--hair); pointer-events: none; }
 .xp-goal-line span { position: absolute; right: 0; top: -18px; font-weight: 700; color: var(--ink-3); }
+@media (max-width: 560px) {
+  /* fourteen columns on a phone: keep three-digit labels from running into each other */
+  .forecast { gap: 4px; }
+  .forecast-num { font-size: 0.6rem; letter-spacing: -0.02em; }
+}
 
 .memory-list { display: grid; gap: var(--s4); }
 .memory-row { display: flex; align-items: center; gap: var(--s4); }
@@ -430,10 +439,13 @@
   .profile-avatar { width: 68px; height: 68px; }
   .profile-avatar .mascot { width: 52px; height: auto; }
   .profile-xp { flex-direction: column; align-items: stretch; gap: var(--s1); }
+  .profile-xp .bar { flex: none; }
 }
 
-.heat-wrap { display: grid; gap: var(--s3); overflow-x: auto; }
-.heat { display: flex; gap: 4px; min-width: max-content; }
+.heat-wrap { display: grid; gap: var(--s3); }
+.heat { display: flex; gap: 4px; }
+/* weeks run right to left; those that do not fit wrap onto a second row, which is cut off */
+.heat-weeks { flex: 1; min-width: 0; display: flex; flex-direction: row-reverse; flex-wrap: wrap; gap: 24px 4px; height: 162px; padding: 0 14px 6px 3px; overflow: hidden; }
 .heat-col { display: grid; grid-template-rows: 16px repeat(7, 16px); gap: 4px; }
 .heat-month { font-size: 0.65rem; font-weight: 800; color: var(--ink-3); white-space: nowrap; overflow: visible; width: 16px; }
 .heat-days span { font-size: 0.62rem; font-weight: 800; color: var(--ink-3); line-height: 16px; }
@@ -478,6 +490,10 @@
 @media (max-width: 640px) {
   .setting { flex-direction: column; align-items: flex-start; gap: var(--s2); }
   .setting-control { max-width: 100%; justify-content: flex-start; }
+  /* a choice of three or four fills the row instead of wrapping inside its own frame */
+  .setting-control:has(> .segmented) { align-self: stretch; }
+  .setting-control > .segmented { display: flex; flex: 1; flex-wrap: nowrap; }
+  .setting-control > .segmented button { flex: 1 1 auto; justify-content: center; padding-inline: 0.4rem; }
   .goal-picker { justify-content: flex-start; }
   .settings-group { padding: var(--s1) var(--s4); }
 }
@@ -516,6 +532,11 @@
 .path-block > .grid-auto { grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); }
 .path-head { display: flex; align-items: center; gap: var(--s3); flex-wrap: wrap; }
 .path-head h2 { font-size: var(--fs-xl); }
+@media (max-width: 560px) {
+  /* icon beside the title, not above it; the course count sits under the blurb */
+  .path-head:has(> .cat-icon) { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: var(--s1) var(--s3); }
+  .path-head:has(> .cat-icon) > .nowrap { grid-column: 2; }
+}
 .path-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17.5rem), 1fr)); gap: var(--s3); }
 .path-step { display: flex; min-width: 0; }
 a.card.path-course { display: flex; align-items: center; gap: var(--s3); padding: var(--s3); min-width: 0; }

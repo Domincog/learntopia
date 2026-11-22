@@ -35,7 +35,8 @@ export function courseCard(course, { compact = false } = {}) {
   },
     h('div.course-card-cover', cover(course.cover)),
     h('div.course-card-body',
-      h('div.eyebrow', category ? category.title : '', ' · ', course.level || 'Beginner'),
+      // the small card is for courses already under way: the subject is enough
+      h('div.eyebrow', category ? category.title : '', compact ? null : ` · ${course.level || 'Beginner'}`),
       h('h3.course-card-title', course.title),
       compact ? null : h('p.course-card-tagline', course.tagline),
       footer,

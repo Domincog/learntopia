@@ -77,6 +77,17 @@ export default {
       : h('a.btn.btn-primary.btn-lg', { href: href(`/learn/${course.id}/${next.id}`) },
         progress.started ? 'Continue' : 'Start course', icon('arrow-right', 20));
 
+    // On a phone a long description would push the Start button off the first screen, so it is
+    // shortened there (in CSS) and this button opens it. The button only exists while text is cut off.
+    const desc = h('p.course-desc.is-clamped', { tabindex: '-1' }, course.description);
+    const more = h('button.link-btn.course-desc-more', {
+      type: 'button', hidden: true,
+      onclick: () => { desc.classList.remove('is-clamped'); more.hidden = true; desc.focus({ preventScroll: true }); },
+    }, 'Read more');
+    const measure = () => { if (desc.classList.contains('is-clamped')) more.hidden = desc.scrollHeight <= desc.clientHeight + 2; };
+    if (typeof ResizeObserver === 'function') new ResizeObserver(measure).observe(desc);
+    else requestAnimationFrame(measure);
+
     return h('div', { class: cx('page course-page', `hue-${course.color}`) },
       h('a.back-link', { href: href('/courses') }, icon('arrow-left', 18), 'All courses'),
       h('header.course-hero',
@@ -86,7 +97,8 @@ export default {
             levelChip(course.level),
           ),
           h('h1', course.title),
-          h('p.course-desc', course.description),
+          desc,
+          more,
           pathLine,
           buildsLine,
           h('div.row.row-wrap.small.muted', { style: { '--gap': 'var(--s4)' } },

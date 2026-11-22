@@ -16,7 +16,7 @@ function heatmap(state) {
   const end = today();
   const endDate = keyToDate(end);
   const dow = (endDate.getDay() + 6) % 7; // Monday = 0
-  const weeks = 18;
+  const weeks = 53; // a year; the page shows as many of the latest weeks as fit its width
   const start = addDays(end, -(dow + (weeks - 1) * 7));
   const rested = new Set(state.streak.rested);
   const cols = [];
@@ -40,10 +40,12 @@ function heatmap(state) {
     }
     cols.push(h('div.heat-col', h('span.heat-month', label), cells));
   }
+  // Newest week first in the document and laid out right to left, so that on a narrow screen
+  // the weeks that do not fit are the oldest ones (they wrap out of sight, see .heat-weeks).
   return h('div.heat-wrap',
-    h('div.heat', { role: 'img', 'aria-label': 'Activity over the last 18 weeks' },
+    h('div.heat', { role: 'img', 'aria-label': 'Your activity day by day over the past months, most recent week on the right' },
       h('div.heat-col.heat-days', h('span.heat-month', ''), ['M', '', 'W', '', 'F', '', ''].map((t) => h('span', t))),
-      cols,
+      h('div.heat-weeks', cols.reverse()),
     ),
     h('div.heat-legend.tiny.faint', 'Less', [0, 1, 2, 3, 4].map((l) => h('i', { class: `heat-cell is-l${l}` })), 'More',
       h('span', { style: { marginLeft: '12px' } }, h('i.heat-cell.is-rest'), ' rest day')),
