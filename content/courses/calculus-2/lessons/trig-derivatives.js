@@ -378,7 +378,7 @@ export default {
           explain: r`
             Outside: $${outer} u$ gives $${dOuter} u$. Inside: $u = ${k}x$ gives ${k}.
 
-            $$ \frac{dy}{dx} = ${dOuter}(${k}x) \times ${k} = ${sign * k}${sine ? r`\cos` : r`\sin`}(${k}x) $$
+            $$ \begin{aligned} \frac{dy}{dx} &= ${dOuter}(${k}x) \times ${k} \\[4pt] &= ${sign * k}${sine ? r`\cos` : r`\sin`}(${k}x) \end{aligned} $$
 
             A wave squeezed to ${k} times the frequency is ${k} times as steep.
           `,

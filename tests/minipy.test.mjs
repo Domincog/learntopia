@@ -666,7 +666,10 @@ json.dump(out, sys.stdout)`;
     const r = run(src);
     assert.equal(r.stdout, expected[i].stdout, src);
     const mine = r.error ? [r.error.type, r.error.message, r.error.line] : null;
-    assert.deepEqual(mine, expected[i].error, src);
+    // CPython words a few messages differently from one release to the next: 3.14 says
+    // "too many values to unpack (expected 2, got 3)" where 3.12 and 3.13 stop at "(expected 2)".
+    const theirs = expected[i].error && [expected[i].error[0], String(expected[i].error[1]).replace(/ \(expected (\d+), got \d+\)$/, ' (expected $1)'), expected[i].error[2]];
+    assert.deepEqual(mine, theirs, src);
   });
 });
 
