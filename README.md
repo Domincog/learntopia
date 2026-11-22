@@ -88,9 +88,7 @@ Then open <http://localhost:8080>. Any static file server works as well. (Openin
 
 The repository root **is** the website. There is nothing to build.
 
-**Option A — upload.** In the Cloudflare dashboard go to *Workers & Pages → Create → Pages → Upload assets*, create a project, and drop in the project folder (or the release zip). That is all.
-
-**Option B — connect a Git repository.** Push this folder to GitHub or GitLab, then *Workers & Pages → Create → Pages → Connect to Git*. Use these build settings:
+**Option A — connect the Git repository (recommended).** In the Cloudflare dashboard go to *Workers & Pages → Create → Pages → Connect to Git* and choose the repository. Use these build settings:
 
 | Setting | Value |
 |---------|-------|
@@ -98,13 +96,15 @@ The repository root **is** the website. There is nothing to build.
 | Build command | *(leave empty)* |
 | Build output directory | `/` |
 
-Every push then deploys automatically.
+Every push then deploys automatically, and nothing has to be downloaded or uploaded by hand.
 
-**Option C — command line.**
+**Option B — command line.** From a clone of the repository, or from an unpacked "Source code" zip of a release:
 
 ```bash
 npx wrangler pages deploy . --project-name learntopia
 ```
+
+Dragging the folder or a zip into the dashboard (*Upload assets*) does **not** work for this project: that route accepts at most 1,000 files, and the site has more (every lesson is its own file, plus about 300 pictures). Git and Wrangler allow 20,000.
 
 The included [`_headers`](_headers) file sets a strict Content-Security-Policy and sensible caching on Cloudflare Pages. Routing uses the URL hash (`#/courses`), so no redirect rules are needed and the site also works unchanged on GitHub Pages, Netlify or any other static host.
 
