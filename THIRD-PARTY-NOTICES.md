@@ -25,8 +25,8 @@ Bojan Šavrič, Tom Patterson and Bernhard Jenny).
 
 ## Photographs and artworks
 
-Lessons include photographs and reproductions of artworks from
-[Wikimedia Commons](https://commons.wikimedia.org), stored under `content/media/`. They are not
+Lessons include photographs, micrographs, medical scans, scientific illustrations and reproductions
+of artworks from [Wikimedia Commons](https://commons.wikimedia.org), stored under `content/media/`. They are not
 part of Learntopia's own licences: **each picture remains under the licence its author chose**
 (public domain, CC0, CC BY 2.0–4.0 or CC BY-SA 2.0–4.0; nothing else is accepted). Author,
 licence and source link of every picture are listed in

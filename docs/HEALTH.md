@@ -29,7 +29,8 @@ The lessons are general education. They are not personal medical advice, and not
 
 ## Pictures and diagrams
 
-- Anatomy is drawn with the `body-map` widget ([BODY.md](BODY.md)). The figure faces the viewer, and left and right are always the person's own.
+- **Show the real thing when a real picture exists.** When a step is about how something actually looks (cells and tissues, an organ seen close up, the inside of the body on a scan, a device, a food, a first-aid technique), use a sourced picture: a micrograph, an X-ray, MRI or ultrasound image, a published medical illustration, or a photograph, taken on a training manikin for a technique. A drawing of a real thing is a stopgap. Pictures enter only through `tools/fetch-image.mjs` ([IMAGES.md](IMAGES.md)); parts that a step names are labelled on the picture with `hotspots`.
+- **Draw what no picture can show**: where organs sit inside the whole body, anything the learner taps, places or explores, and processes, cycles, scales and comparisons. Anatomy of that kind is drawn with the `body-map` widget ([BODY.md](BODY.md)). The figure faces the viewer, and left and right are always the person's own. Sexual and reproductive anatomy is always a schematic (see above).
 - Photographs follow [IMAGES.md](IMAGES.md), with extra care: no wounds or gore, no nudity, no identifiable patients, no before-and-after or body-shaming imagery, and no picture that works as an advertisement for a product.
 
 ## Money and psychology lessons

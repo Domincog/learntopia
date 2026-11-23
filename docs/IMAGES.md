@@ -1,6 +1,6 @@
 # Pictures in lessons
 
-Photographs and artworks come from [Wikimedia Commons](https://commons.wikimedia.org), are stored in this repository, and are shown with their credit. This guide is for lesson authors: how to find a picture, add it, describe it and use it. The `photo` widget's full reference is in [WIDGETS.md](WIDGETS.md#photo).
+Photographs, micrographs, scans, scientific illustrations and artworks come from [Wikimedia Commons](https://commons.wikimedia.org), are stored in this repository, and are shown with their credit. This guide is for lesson authors: how to find a picture, add it, describe it and use it. The `photo` widget's full reference is in [WIDGETS.md](WIDGETS.md#photo).
 
 ## Contents
 
@@ -46,6 +46,7 @@ The tool is the **only** way a picture may enter the project: it reads the licen
 A picture earns its place when a question or an explanation **refers to something in it**: "which of these is the Parthenon?", "tap the minaret", "what does the painter put in the centre?". It does not earn it by being pretty.
 
 - **Never decorative.** If the step reads the same without the picture, leave the picture out.
+- **A real picture beats a drawing of a real thing.** When a step shows something that exists (a cell, an organ, a scan, a food, a device, an artefact, a technique being done), prefer a photograph, micrograph, scan or published illustration to a figure drawn in code. Keep drawn figures for what a picture cannot show: abstractions, charts, processes, and anything the learner manipulates.
 - **At most about four pictures per lesson.** (A question with four photo options uses its four.) The validator warns from seven.
 - **One picture per step**, except photo options.
 - **Show, then ask.** A good pattern is one step that looks closely at a picture and a later step that asks the learner to recognise or locate something.
@@ -72,7 +73,7 @@ node tools/fetch-image.mjs --search "taj mahal" --limit 6
 
 The words go to Commons' own search, so its syntax works: `"exact phrase"`, `incategory:"Featured pictures of India"`, `-night`. Search results also fill the tool's cache, so fetching one of the listed files afterwards costs only the download.
 
-**By hand.** Browse <https://commons.wikimedia.org> (a Wikipedia article's pictures link to their Commons pages). On the file's page, the title at the top (`File:Something.jpg`) is what the tool needs; you may also paste the page's address. Good hunting grounds are the *Featured pictures* and *Quality images* categories.
+**By hand.** Browse <https://commons.wikimedia.org> (a Wikipedia article's pictures link to their Commons pages). On the file's page, the title at the top (`File:Something.jpg`) is what the tool needs; you may also paste the page's address. Good hunting grounds are the *Featured pictures* and *Quality images* categories; for science and medicine, the micrographs of public bodies (NIAID, the CDC's Public Health Image Library, NIH), the Wellcome Collection, and published illustrations such as those of Blausen Medical, the OpenStax *Anatomy and Physiology* textbook and the plates of *Gray's Anatomy*.
 
 Before you fetch, **look at the picture on Commons** and read its page:
 

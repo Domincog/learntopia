@@ -1,6 +1,8 @@
 # The body: the `body-map` widget
 
-One widget draws every picture of the human body in Learntopia: the whole figure from the front and from behind, the chest and abdomen enlarged, the head cut open, and small schematics of the heart, the airways, the skin and a cell. It can be a picture to read, a figure to explore, or the answer area of a graded step (tap a structure, tap a marker, put a marker on the right spot). You describe what you want with a plain object; nothing is drawn by hand.
+One widget draws the human body wherever Learntopia needs it drawn: the whole figure from the front and from behind, the chest and abdomen enlarged, the head cut open, and small schematics of the heart, the airways, the skin and a cell. It can be a picture to read, a figure to explore, or the answer area of a graded step (tap a structure, tap a marker, put a marker on the right spot). You describe what you want with a plain object; nothing is drawn by hand.
+
+Use it for what a photograph cannot show: where things lie inside the whole body, and anything the learner taps, places or explores. A step that only asks the learner to look at a real structure (cells under a microscope, a scan, an organ close up, a technique on a training manikin) uses a sourced picture instead; see [HEALTH.md](HEALTH.md#pictures-and-diagrams) and [IMAGES.md](IMAGES.md).
 
 ```js
 { type: 'body-map', view: 'torso', show: ['digestive'],
