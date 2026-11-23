@@ -3,9 +3,19 @@
 // Driving question: each eye has a patch with no light sensors at all. Why do you never see the hole?
 import { photo } from '../../../media.js';
 import { MEDIA } from '../../../media/body-control/index.js';
-import { EYE, SOUNDS, TWO_POINT, EAR_PATH, SIGHT_CASES, SENSE_NAMES, SENSE_SCENES, BLIND_SPOT_FIGURE, CONTRAST_FIGURE, EAR_FIGURE, grouped } from '../helpers.js';
+import { EYE, SOUNDS, TWO_POINT, EAR_PATH, SIGHT_CASES, SENSE_NAMES, SENSE_SCENES, BLIND_SPOT_FIGURE, CONTRAST_FIGURE, grouped } from '../helpers.js';
 
 const millions = (n) => `${Math.round(n / 1e6)} million`;
+
+/** The parts of the ear named on the drawing in `teach-ear`, in the words of its text. */
+const EAR_SPOTS = [
+  { id: 'canal', x: 0.21, y: 0.7, r: 0.07, label: 'Ear canal', alt: 'the tube leading in from outside' },
+  { id: 'eardrum', x: 0.447, y: 0.7, r: 0.06, label: 'Eardrum', alt: 'a thin oval membrane across the end of the tube' },
+  { id: 'bones', x: 0.467, y: 0.44, r: 0.055, label: 'Three tiny bones', alt: 'a chain of three tiny bones behind the membrane' },
+  { id: 'balance', x: 0.6, y: 0.24, r: 0.07, label: 'Balance organs', alt: 'three looped tubes' },
+  { id: 'cochlea', x: 0.7, y: 0.63, r: 0.08, label: 'Cochlea', alt: 'a snail-shaped coil' },
+  { id: 'nerve', x: 0.853, y: 0.53, r: 0.06, label: 'Hearing nerve', alt: 'nerve fibres leaving towards the brain' },
+];
 
 export default {
   id: 'senses',
@@ -244,10 +254,15 @@ export default {
         5. The **hearing nerve** carries the impulses to the brain.
 
         Beside the cochlea sit three fluid-filled loops with hair cells of
-        their own. They sense the turning of your head: your organ of
-        **balance**.
+        their own. They sense the turning of your head: they are your
+        **balance organs**.
       `,
-      figure: EAR_FIGURE,
+      figure: photo(MEDIA.ear, {
+        alt: 'A cut-away drawing of the inside of the ear, outside on the left: a tube running inwards to a thin green oval membrane, a chain of three tiny bones behind it, then a snail-shaped coil beside three looped tubes, with nerve fibres leaving on the right.',
+        caption: 'Inside the ear, cut open: outside is on the left',
+        mode: 'label',
+        hotspots: EAR_SPOTS,
+      }),
     },
     {
       id: 'ear-path',

@@ -1,9 +1,13 @@
 // The Body I: Fuel, Air and Blood · Lesson 1 · Thirty Trillion Cells
 //
 // Driving question: how do thirty trillion cells, most of them buried deep inside you, all stay alive?
+import { photo } from '../../../media.js';
+import { MEDIA } from '../../../media/body-systems/index.js';
 import { CELL_SIZES, SYSTEMS, LEVELS, ORGANS, systemById, grouped, say } from '../helpers.js';
 import { structureInfo } from '../../../../src/widgets/body-map.js';
 
+// The four cells as simple drawings side by side, with their names (not to scale). Micrographs of the
+// real cells follow in the step 'real-cells', one per answer option.
 const CELLS_SVG = [
   // red blood cell (top left)
   '<g transform="translate(10 0)">',
@@ -131,6 +135,40 @@ export default {
         **Shape follows job.** The disc folds through the narrowest vessels, the fibre
         spans the distance its signal has to travel, the threads slide to shorten the
         muscle, and the tiles make a tough, layered roof.
+      `,
+    },
+    {
+      id: 'real-cells',
+      type: 'choice',
+      title: 'The real thing',
+      text: `
+        The drawings you just matched were simplified. Here are real cells of the same four
+        kinds, seen through different microscopes at different magnifications.
+
+        **Which picture shows a nerve cell?**
+      `,
+      options: [
+        {
+          figure: photo(MEDIA.neuron, { alt: 'Dark, thread-like branches spreading in all directions from a small dark body, on a pale grey background. The branches are covered in tiny bumps.' }),
+          correct: true,
+        },
+        {
+          figure: photo(MEDIA['red-cells'], { alt: 'Smooth, rounded discs lying on top of one another, in black and white. The one at the top dips in the middle, like a saucer.' }),
+          why: 'These smooth discs, each with a shallow dimple in the middle, are red blood cells.',
+        },
+        {
+          figure: photo(MEDIA['muscle-fibres'], { alt: 'Long, straight pink bands lying side by side, each with a few dark oval spots along its edge and fine stripes across it.' }),
+          why: 'These long, parallel strands are muscle fibres. The fine stripes across them are rows of sliding threads.',
+        },
+        {
+          figure: photo(MEDIA['skin-cells'], { alt: 'A thin slice through a surface, stained pink: on top a layer of flat, empty-looking shapes stacked like a net, under it rows of small cells with dark round centres.' }),
+          why: 'This is skin, cut through. Its cells get flatter towards the top, where they stack in thin, tough layers and wear away.',
+        },
+      ],
+      explain: `
+        The nerve cell is the one with branches: fibres reach out from a small body to collect
+        signals, and one fibre, up to a metre long, carries them on. The stain blackens only
+        a few nerve cells, but each one completely, so its branches can be followed.
       `,
     },
     {

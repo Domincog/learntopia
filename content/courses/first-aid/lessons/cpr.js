@@ -27,6 +27,13 @@ const PACE_WINDOWS = [
 ];
 const PACE_OPTIONS = { slow: `Too slow: under ${RATE_LO} a minute`, ok: `Inside the band: ${RATE_LO} to ${RATE_HI} a minute`, fast: `Too fast: over ${RATE_HI} a minute` };
 
+/** The parts of the technique labelled on the photo of `teach-compressions`: the position of the hands, the arms and the knees. */
+const COMPRESSION_SPOTS = [
+  { id: 'hands', x: 0.165, y: 0.6, r: 0.075, label: 'Hands on the centre of the chest' },
+  { id: 'arms', x: 0.25, y: 0.3, r: 0.06, label: 'Arms straight' },
+  { id: 'knees', x: 0.62, y: 0.84, r: 0.07, label: 'Kneeling beside them' },
+];
+
 /** Where the two pads of a defibrillator go: shown large on the teaching screen, small beside the ordering step. */
 const PADS = {
   type: 'body-map', view: 'chest', static: true, show: ['ribs', 'breastbone', 'heart'], ghost: ['ribs'], zoom: false, maxWidth: 220,
@@ -190,18 +197,19 @@ ${CHAIN.map((item, i) => `      ${i + 1}. ${item}`).join('\n')}
       **Everyone: compressions.** People who are trained and willing add rescue breaths, in
       cycles of ${CPR.ratio[0]} compressions and ${CPR.ratio[1]} breaths. Someone untrained keeps pushing without a break.
     `,
-    figure: {
-      type: 'body-map', view: 'torso', show: ['ribs', 'breastbone', 'heart'], ghost: ['ribs'], zoom: false,
-      labels: ['breastbone', 'heart'],
-      markers: [{ at: 'chest-centre', label: 'Heel of the hand', color: 'red', size: 'l' }],
-      alt: 'The chest and abdomen of a figure facing you, with the ribs faintly shown, the breastbone down the middle of the chest and the heart behind its lower half. A red mark on the lower half of the breastbone shows where the heel of the hand goes.',
-    },
+    figure: photo(MEDIA['cpr-compressions'], {
+      alt: 'Someone in a camouflage uniform kneels on a carpet beside a training manikin, with the face out of the picture. The arms are straight, and the two hands, one on top of the other with the fingers interlocked, press on the centre of the manikin\'s chest.',
+      caption: 'Chest compressions on a training manikin',
+      mode: 'label',
+      hotspots: COMPRESSION_SPOTS,
+    }),
   },
   {
     id: 'hands',
     type: 'interact',
     title: 'Where the hands go',
     text: `
+      On a real chest the bones are hidden; this drawing shows what lies beneath the hands.
       The figure is facing you. The breastbone runs down the middle of the chest, and the heart
       lies behind its lower half.
 

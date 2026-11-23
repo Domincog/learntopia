@@ -146,6 +146,60 @@
       },
       "changes": "resized",
       "fetched": "2026-11-14"
+    },
+    "wheat-kernel": {
+      "id": "wheat-kernel",
+      "file": "wheat-kernel.jpg",
+      "src": "content/media/nutrition/wheat-kernel.jpg?v=7572dc65",
+      "width": 920,
+      "height": 1257,
+      "bytes": 97155,
+      "sha256": "7572dc65d93ad83bc7c6d24e1c04ab8c4db79646de72b60e993bc341ca9bc5db",
+      "small": {
+        "file": "wheat-kernel.480.jpg",
+        "src": "content/media/nutrition/wheat-kernel.480.jpg?v=b3edacbd",
+        "width": 351,
+        "height": 480,
+        "bytes": 18913,
+        "sha256": "b3edacbdc849024ecc60a75e7d0403854600a469ab0d282ed4cac10a7b46f879"
+      },
+      "title": "File:Wheat-kernel nutrition.svg",
+      "requested": "File:Wheat-kernel nutrition.svg",
+      "name": "Wheat-kernel nutrition",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheat-kernel_nutrition.svg",
+      "author": "Jkwchui",
+      "authorDerived": "Jkwchui",
+      "authorApi": "Jkwchui",
+      "creditLabel": "Illustration",
+      "credit": "Own work",
+      "date": "2011-02-01",
+      "license": "CC BY-SA 3.0",
+      "licenseCode": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 466,
+        "height": 508,
+        "mime": "image/svg+xml"
+      },
+      "downloaded": {
+        "width": 1920,
+        "height": 2094
+      },
+      "options": {
+        "crop": [
+          0.05,
+          0.025,
+          0.52917,
+          0.625
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-23"
     }
   }
 }

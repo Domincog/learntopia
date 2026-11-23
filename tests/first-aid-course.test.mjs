@@ -1424,11 +1424,16 @@ test('teach before you ask, lesson 2: the chain, the two emergencies, compressio
     `**${FACTS.compressionsPerMinute[0]} to ${FACTS.compressionsPerMinute[1]}** pushes a minute`, 'let the chest **come all the way back up**', 'lower half of the breastbone',
     `cycles of ${FACTS.compressionsToBreaths[0]} compressions and ${FACTS.compressionsToBreaths[1]} breaths`, 'Someone untrained keeps pushing without a break', 'trained and willing'], 'compressions');
   for (const blank of one('cpr', 'how').blanks) assert.ok(push.includes(blank.answer), `the blank "${blank.answer}" is on the teaching screen`);
-  // the labelled figure marks the very spot the next step asks for
+  // the photo shows the posture of the list on a training manikin, each part labelled; the drawing of the next step
+  // shows the bone beneath the hands, and its target is the centre of the chest that the photo names
   const chest = figuresOf('cpr', 'teach-compressions')[0];
-  assert.equal(chest.type, 'body-map'); assert.ok(!chest.mode || chest.mode === 'view', 'a picture to read');
-  assert.deepEqual(chest.markers.map((m) => m.at), [one('cpr', 'hands').widget.target]);
-  assert.ok(chest.labels.includes('breastbone') && chest.labels.includes('heart'));
+  assert.equal(chest.type, 'photo'); assert.equal(chest.mode, 'label', 'a picture to read, its parts named');
+  assert.deepEqual(chest.hotspots.map((h) => h.id), ['hands', 'arms', 'knees']);
+  const part = (id) => chest.hotspots.find((h) => h.id === id).label;
+  assert.match(part('hands'), /centre of the chest/); assert.match(part('arms'), /straight/); assert.match(part('knees'), /Kneeling beside/);
+  assert.match(chest.alt, /manikin/); assert.match(chest.alt, /with the face out of the picture/, 'the person is not recognisable');
+  assert.equal(one('cpr', 'hands').widget.target, 'chest-centre');
+  assert.match(flat(one('cpr', 'hands').text), /this drawing shows what lies beneath the hands/, 'the drawing is tied to the photo before it');
   // the worked example of the pace sum uses a window the generator never does
   for (const s of variants('cpr', 'rate-check', 60)) {
     const text = flat(s.text);
@@ -1469,12 +1474,20 @@ test('teach before you ask, lesson 4: choking signs and steps, where the hands g
   needs(ladder, [/adult, or a child over one year old/, /Babies under one need a different method \(back blows and chest thrusts, never abdominal thrusts\)/], 'choking');
   const where = taught('choking-breathing', 'teach-choke-where', 'blows-where', 'thrusts-where');
   needs(where, [/heel of the hand between the shoulder blades/, /leaning well forward/, /in the midline, just above the navel and well below the breastbone/, /pulled sharply inwards and upwards/], 'hand positions');
-  const [backFig, frontFig] = figuresOf('choking-breathing', 'teach-choke-where');
-  assert.equal(backFig.view, 'back-torso');
-  assert.deepEqual(backFig.markers.map((m) => m.at), [one('choking-breathing', 'blows-where').widget.target], 'the back-blow mark is the spot the next step asks for');
+  // back blows: the spot is named on the screen in the words the next step's target stands for
+  assert.equal(one('choking-breathing', 'blows-where').widget.target, 'between-shoulder-blades');
+  assert.match(flat(one('choking-breathing', 'blows-where').text), /seen \*\*from behind\*\*/, 'the next step says how its figure is seen');
+  // abdominal thrusts: one drawing from a first-aid manual, of the spot and the grip; the spot it shows is the point the step after accepts
+  const [thrustPicture, ...others] = figuresOf('choking-breathing', 'teach-choke-where');
+  assert.equal(others.length, 0, 'one picture on the screen');
+  assert.equal(thrustPicture.type, 'photo');
+  assert.match(where, /shows that spot on the left and the grip from behind on the right/);
+  assert.ok(!thrustPicture.hotspots && !thrustPicture.mode, 'a picture to read');
+  for (const shown of [/in the midline above the navel and below the lower tip of the breastbone/, /stands behind/, /fist/, /inwards and upwards/]) assert.match(thrustPicture.alt, shown);
   const thrust = one('choking-breathing', 'thrusts-where').widget;
-  assert.deepEqual(frontFig.markers.map((m) => m.at), [thrust.markers.find((m) => m.id === thrust.answer).at], 'the thrust mark is the point the step after accepts');
-  for (const fig of [backFig, frontFig]) assert.ok(fig.static && !fig.mode, 'pictures to read');
+  const accepted = thrust.markers.find((m) => m.id === thrust.answer);
+  assert.equal(accepted.at, 'upper-abdomen');
+  assert.equal(accepted.label, 'Just above the navel', 'the point the step after accepts is the spot the drawing shows');
   // anaphylaxis: the three threats with their signs, then what to do, with the place on a labelled figure
   const ana = taught('choking-breathing', 'ana-what', 'ana-signs');
   needs(ana, [/\*\*airway\*\* \(a swollen tongue, a hoarse voice\)/, /\*\*breathing\*\* \(wheezing, a struggle to breathe\)/, /\*\*circulation\*\* \(feeling faint, pale and clammy\)/], 'anaphylaxis signs');
@@ -1482,16 +1495,24 @@ test('teach before you ask, lesson 4: choking signs and steps, where the hands g
   for (const blank of one('choking-breathing', 'ana-fill').blanks) assert.ok(anaAid.replace(/\*/g, '').includes(blank.answer), `the blank "${blank.answer}" is on the teaching screen`);
   needs(anaAid, [/Have the emergency number called, with the word "anaphylaxis"/, /must not wait for the call to finish/, /halfway between hip and knee/, /works through clothing/, /may need to sit up/, /Every device prints its steps on the label/], 'anaphylaxis first aid');
   assert.ok(!/(^|\s)1\. /.test(anaAid), 'bodies differ on the order of injecting, calling and lying down, so the screen does not number them');
+  // the site on a published diagram: the outer half of the middle third of the thigh, shaded; the graded point lies in that zone
   const thigh = figuresOf('choking-breathing', 'teach-ana-aid')[0];
-  const mark = thigh.markers[0].at;
+  assert.equal(thigh.type, 'photo');
+  assert.equal(thigh.title, 'Intramuscular site of adrenaline');
+  assert.match(thigh.alt, /The outer half of the middle third is shaded green and labelled "Outer middle third of thigh"/);
+  assert.match(anaAid, /\(the green area in the picture\)/, 'the screen points at the shaded zone');
   const graded = one('choking-breathing', 'injector-site').widget.markers.find((m) => m.id === 'outer').at;
-  assert.deepEqual(mark, [400 - graded[0], graded[1]], 'the same place as the graded point, on the other thigh');
-  assert.deepEqual(FRONT.region(mark[0], mark[1]), { region: 'thigh', side: 'right' });
-  assert.ok(mark[0] < anchorPoint('body', 'thigh:right')[0] - 10, 'on the outer side of the person\'s right thigh');
-  assert.ok(Math.abs(mark[1] - (anchorPoint('body', 'hip:right')[1] + anchorPoint('body', 'knee:right')[1]) / 2) <= 15, 'about halfway between hip and knee');
-  assert.ok(mark[0] >= thigh.bounds[0] && mark[0] <= thigh.bounds[2] && mark[1] >= thigh.bounds[1] && mark[1] <= thigh.bounds[3]);
+  const [hip, knee] = [anchorPoint('body', 'hip:left'), anchorPoint('body', 'knee:left')];
+  const along = (graded[1] - hip[1]) / (knee[1] - hip[1]);
+  assert.ok(along > 1 / 3 && along < 2 / 3, `the graded point lies in the middle third between hip and knee (${along.toFixed(2)})`);
+  assert.ok(graded[0] > anchorPoint('body', 'thigh:left')[0] + 10, 'and on the outer half of the thigh');
   const asthma = taught('choking-breathing', 'teach-asthma', 'asthma', 'which');
   needs(asthma, [/reliever inhaler/, /Upright, reliever, calm, and a low threshold for calling/, /Lying flat makes breathing harder/, /spacer/, /Call at once if the person has no inhaler/], 'asthma');
+  // the airways: a published before-and-after drawing shows the three changes the screen names
+  needs(asthma, [/small airways of the lungs tighten, swell and fill with mucus/], 'asthma');
+  const airways = figuresOf('choking-breathing', 'teach-asthma')[0];
+  assert.equal(airways.type, 'photo');
+  for (const shown of [/"Before an asthma episode"/, /"After an asthma episode"/, /muscles around the airway contract/, /swell/, /mucus/]) assert.match(airways.alt, shown);
   assert.ok(!/puff every|four puffs/.test(asthma), 'the screen gives no number of puffs: the plans that differ stay side by side in the explanation');
 });
 
@@ -1587,7 +1608,7 @@ test('review of the teaching screens: where the bodies differ, the screen says s
   assert.match(flat(one('choking-breathing', 'ana-fill').explain), /whether a second dose comes after 5 minutes or somewhat later \(5 to 15 minutes on some labels\)/);
   // the auto-injector figure names no leg, and neither does the text
   const thighFigure = one('choking-breathing', 'teach-ana-aid').figures[0];
-  assert.ok(!/\b(left|right)\b/i.test(`${ana} ${thighFigure.alt} ${thighFigure.markers.map((m) => m.label).join(' ')}`), 'no particular leg is asked for');
+  assert.ok(!/\b(left|right)\b/i.test(`${ana} ${thighFigure.alt} ${thighFigure.caption || ''} ${(thighFigure.hotspots || []).map((h) => h.label).join(' ')}`), 'no particular leg is asked for');
   // drowning: the cause is recalled in the prompt, so the question is an inference and not a guess
   const drowning = one('choking-breathing', 'drowning');
   assert.match(flat(drowning.text), /After drowning the heart stops because the body has run out of oxygen/);

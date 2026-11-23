@@ -8,13 +8,10 @@
 // Every step is tone: 'sober'.
 import { photo } from '../../../media.js';
 import { MEDIA } from '../../../media/first-aid/index.js';
-import { anchorPoint } from '../../../../src/widgets/body-map.js';
 import { CHOKING_STEPS, BACK_BLOWS, ABDOMINAL_THRUSTS, CHOKING_ACTIONS, CHOKING_CASES, SECOND_DOSE_MINUTES, BREATHING_ACTIONS, BREATHING_CASES } from '../helpers.js';
 
 const BLOW_CM = 5;     // how close the marker has to be to the spot between the shoulder blades, in centimetres
-const NAVEL = anchorPoint('body', 'navel');      // named on the teaching figure for abdominal thrusts
 const INJECTOR_GRADED = [268, 536];              // the outer mid-thigh point of `injector-site`, on the person's left thigh
-const INJECTOR_TEACH = [400 - INJECTOR_GRADED[0], INJECTOR_GRADED[1]];     // the same place on the other thigh (the midline is x = 200)
 
 const steps = [
   {
@@ -121,30 +118,20 @@ ${CHOKING_STEPS.map((item, i) => `      ${i + 1}. ${item}`).join('\n')}
     title: 'Where the hands go',
     text: `
       **Back blows** are given with the heel of the hand between the shoulder blades, with the
-      person leaning well forward, so that anything dislodged falls out of the mouth. The
-      first figure is seen from behind.
+      person leaning well forward, so that anything dislodged falls out of the mouth.
 
       For **abdominal thrusts** you stand behind the person and reach round with both arms. A
       fist goes in the midline, just above the navel and well below the breastbone, and is
-      pulled sharply inwards and upwards. The second figure faces you.
+      pulled sharply inwards and upwards. The drawing, from a first-aid manual, shows that spot
+      on the left and the grip from behind on the right.
 
       Late in pregnancy, or when you cannot reach round the person, the thrusts are given on the
       breastbone. In Australia and New Zealand chest thrusts are taught for everyone.
     `,
-    figure: [
-      {
-        type: 'body-map', view: 'back-torso', static: true, show: ['shoulder-blade', 'spine', 'ribs'], ghost: ['ribs'], zoom: false, maxWidth: 240,
-        labels: ['shoulder-blade'],
-        markers: [{ at: 'between-shoulder-blades', label: 'Back blows', color: 'red', size: 'l' }],
-        alt: 'The back of a figure, seen from behind, with the spine and the two shoulder blades. A red mark in the middle of the upper back, between the shoulder blades, shows where back blows land.',
-      },
-      {
-        type: 'body-map', view: 'torso', static: true, show: ['ribs', 'breastbone'], ghost: ['ribs'], zoom: false, maxWidth: 240,
-        labels: ['breastbone', { at: NAVEL, text: 'Navel' }],
-        markers: [{ at: 'upper-abdomen', label: 'Abdominal thrusts', color: 'red', size: 'l' }],
-        alt: 'The chest and abdomen of a figure facing you, with the breastbone and the navel named. A red mark in the midline, between the lower end of the breastbone and the navel, shows where the fist goes for abdominal thrusts.',
-      },
-    ],
+    figure: photo(MEDIA['abdominal-thrusts'], {
+      alt: 'Two line drawings. On the left, the ribcage from the front, with a green oval in the midline above the navel and below the lower tip of the breastbone. On the right, a man stands behind another man who leans slightly forward, reaches round his waist and holds one fist in the other hand against the upper abdomen; a green arrow points inwards and upwards.',
+      caption: 'Abdominal thrusts: the spot, and the grip from behind',
+    }),
   },
   {
     id: 'blows-where',
@@ -305,8 +292,8 @@ ${CHOKING_STEPS.map((item, i) => `      ${i + 1}. ${item}`).join('\n')}
       - Have the emergency number called, with the word "anaphylaxis", and use the
         auto-injector **straight away**. The injection must not wait for the call to finish:
         with two people, one does each.
-      - It is pressed into the **outer middle of the thigh**, halfway between hip and knee,
-        and works through clothing.
+      - It is pressed into the **outer middle of the thigh**, halfway between hip and knee
+        (the green area in the picture), and works through clothing.
       - Help the person to **lie down with the legs raised**; someone who is struggling to
         breathe may need to sit up.
       - If they are no better after about **${SECOND_DOSE_MINUTES} minutes**, a second auto-injector can be used.
@@ -315,11 +302,10 @@ ${CHOKING_STEPS.map((item, i) => `      ${i + 1}. ${item}`).join('\n')}
 
       Brands differ in colour and in details. Every device prints its steps on the label.
     `,
-    figure: {
-      type: 'body-map', view: 'body', bounds: [20, 230, 304, 690], static: true, show: ['quadriceps'], ghost: ['quadriceps'], zoom: false,
-      markers: [{ at: INJECTOR_TEACH, label: 'Auto-injector', color: 'red', size: 'l', labelPos: 'left' }],
-      alt: 'A figure facing you, from the chest to below the knees. A red mark on the outer side of one thigh, halfway between hip and knee, shows where an auto-injector is used.',
-    },
+    figure: photo(MEDIA['adrenaline-site'], {
+      alt: 'A drawing of the muscles of the front of a thigh, with a grid that divides it into thirds from hip to knee and into an inner and an outer half. The outer half of the middle third is shaded green and labelled "Outer middle third of thigh"; the long muscle beneath it is labelled "Vastus lateralis".',
+      caption: 'Where an auto-injector is pressed in',
+    }),
   },
   {
     id: 'injector-site',
@@ -392,9 +378,9 @@ ${CHOKING_STEPS.map((item, i) => `      ${i + 1}. ${item}`).join('\n')}
     type: 'info',
     title: 'An asthma attack',
     text: `
-      In **asthma** the small airways of the lungs tighten and swell, so breathing out becomes
-      slow, wheezy work. People with asthma usually carry a **reliever inhaler** that relaxes
-      the airways within minutes.
+      In **asthma** the small airways of the lungs tighten, swell and fill with mucus, so
+      breathing out becomes slow, wheezy work. People with asthma usually carry a **reliever
+      inhaler** that relaxes the airways within minutes.
 
       **Upright, reliever, calm, and a low threshold for calling.**
 
@@ -404,11 +390,10 @@ ${CHOKING_STEPS.map((item, i) => `      ${i + 1}. ${item}`).join('\n')}
       - Call at once if the person has no inhaler, cannot finish a sentence, is getting worse,
         or their lips look blue.
     `,
-    figure: {
-      type: 'body-map', view: 'lungs-detail', static: true, labels: ['windpipe', 'bronchioles', 'air-sacs'],
-      groups: [{ ids: ['bronchioles'], color: 'orange', label: 'The small airways: these tighten and swell in asthma' }],
-      alt: 'The airway tree inside the lungs: the windpipe divides again and again into small airways, which end in clusters of air sacs. The small airways are highlighted.',
-    },
+    figure: photo(MEDIA['asthma-airways'], {
+      alt: 'Two labelled drawings of a small airway that branches into air sacs, with bands of muscle wrapped round it. "Before an asthma episode" the airway is wide open. "After an asthma episode" the muscles around the airway contract, the airways swell and fill with mucus, and the passage for air is much narrower.',
+      caption: 'Small airways, before and after an asthma attack starts',
+    }),
   },
   {
     id: 'asthma',

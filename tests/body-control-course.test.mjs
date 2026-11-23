@@ -514,7 +514,7 @@ test('lesson 2: which sense is at work', () => {
   assert.equal(seen.size, H.SENSE_SCENES.length);
 });
 
-test('lesson 2: the eye experiments accept exactly what the instructions ask for', () => {
+test('lesson 2: the eye experiments accept exactly what the instructions ask for, and the ear is labelled in the words of the lesson', () => {
   // the rule of the eye-focus widget, written out here: error = eye + lens + glasses − 1/distance (6 m counts as far away: 0)
   const state = (eye, distance, lens, glasses) => {
     const error = Math.round((eye + lens + glasses - (distance >= 6 ? 0 : 1 / distance)) * 100) / 100;
@@ -549,6 +549,13 @@ test('lesson 2: the eye experiments accept exactly what the instructions ask for
   assert.deepEqual(spots.slice().sort(), ['disc', 'macula', 'plain', 'vessel']);
   for (const id of spots) { const out = fundus({ picked: id }); assert.equal(out === true, id === 'disc'); if (id !== 'disc') assert.equal(typeof out, 'string'); }
   assert.equal(fundus({ picked: null }), false);
+  // the drawing of the ear names, in the words of the teaching text, every part on the route of EAR_PATH and the balance organs
+  const earFigure = raw('senses', 'teach-ear').figure;
+  assert.equal(earFigure.type, 'photo');
+  assert.equal(earFigure.mode, 'label', 'the parts are named on the picture; nothing to answer');
+  const earNames = earFigure.hotspots.map((h) => h.label.toLowerCase());
+  for (const part of ['ear canal', 'eardrum', 'three tiny bones', 'cochlea', 'hearing nerve', 'balance organs']) assert.ok(earNames.includes(part), `the ear picture names the ${part}`);
+  for (const part of earNames) assert.ok(flat(raw('senses', 'teach-ear').text).toLowerCase().includes(part), `"${part}" is a name the teaching text uses`);
   // two-point touch: any guess with fingertip < palm < forearm counts as "what happens"; the solution shows the real values
   const two = check('senses', 'two-point');
   assert.deepEqual(raw('senses', 'two-point').solution.values, [FACTS.twoPoint]);
@@ -1107,7 +1114,7 @@ test('every photograph comes from the course manifest, with a licence, a credit 
       assert.ok(rec.author && rec.author.length > 3, `${m[1]}: a credit`);
       assert.equal(spec.license, rec.license);
       assert.ok(spec.alt && spec.alt.length > 60, `${m[1]}: alt text`);
-      assert.ok(spec.hotspots && spec.hotspots.length >= 3, `${m[1]} is used by its step: the learner taps a part of it`);
+      assert.ok(spec.hotspots && spec.hotspots.length >= 3, `${m[1]} is used by its step: the learner taps a part of it, or its parts are named on it`);
       for (const h of spec.hotspots) assert.ok(h.x > 0 && h.x < 1 && h.y > 0 && h.y < 1 && h.r >= 0.05 && h.label && h.alt);
     }
   }

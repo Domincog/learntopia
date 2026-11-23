@@ -50,6 +50,59 @@
       "authorDerived": "BabelStone",
       "authorApi": "BabelStone"
     },
+    "catalhoyuk-house": {
+      "id": "catalhoyuk-house",
+      "file": "catalhoyuk-house.jpg",
+      "src": "content/media/world-ancient/catalhoyuk-house.jpg?v=32946804",
+      "width": 1280,
+      "height": 656,
+      "bytes": 129188,
+      "sha256": "3294680444f509ac6e6975492b15d7e921484db6400212bc687cf886b7e7fe2f",
+      "small": {
+        "file": "catalhoyuk-house.480.jpg",
+        "src": "content/media/world-ancient/catalhoyuk-house.480.jpg?v=1fdd714c",
+        "width": 480,
+        "height": 246,
+        "bytes": 17678,
+        "sha256": "1fdd714cd8f2ff4c4b24c7db3069c6cc4e6372de9bcdc75cd7a8ac432d489a51"
+      },
+      "title": "File:Museum of Anatolian Civilizations Çatalhöyük reconstructed room in 2011 03.jpg",
+      "requested": "File:Museum of Anatolian Civilizations Çatalhöyük reconstructed room in 2011 03.jpg",
+      "name": "Museum of Anatolian Civilizations Çatalhöyük reconstructed room in 2011 03",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_%C3%87atalh%C3%B6y%C3%BCk_reconstructed_room_in_2011_03.jpg",
+      "author": "Dosseman",
+      "authorDerived": "Dosseman",
+      "authorApi": "Dosseman",
+      "credit": "Own work",
+      "date": "2011-06-19 11:23:58",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 4256,
+        "height": 2832,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 852
+      },
+      "options": {
+        "crop": [
+          0,
+          0,
+          1,
+          0.77
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-23"
+    },
     "chauvet-lions": {
       "id": "chauvet-lions",
       "file": "chauvet-lions.jpg",

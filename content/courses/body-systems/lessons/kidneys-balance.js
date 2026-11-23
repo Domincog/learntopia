@@ -153,12 +153,13 @@ export default {
         '',
         ...['Body too hot', 'Body too cold'].map((state, k) => `- **${state}**: ${TEMP_RESPONSES.filter((r) => r.kind === k).map((r) => r.text.charAt(0).toLowerCase() + r.text.slice(1)).join('; ')}.`),
         '',
-        'Sweat cools the skin as it evaporates. Wider skin vessels bring warm blood to the surface, where its heat can escape, and narrower ones keep it in. Shivering is muscle working for the sake of its by-product, heat. Goosebumps trap a layer of air in furry animals. In humans they are a leftover with little effect.',
+        'Sweat cools the skin as it evaporates. Wider skin vessels (the red and blue network in the picture) bring warm blood to the surface, where its heat can escape, and narrower ones keep it in. Shivering is muscle working for the sake of its by-product, heat. Goosebumps, raised by a tiny muscle at each hair (the *arrector pili*), trap a layer of air in furry animals. In humans they are a leftover with little effect.',
       ].join('\n'),
-      figure: {
-        type: 'body-map', view: 'skin', labels: ['sweat-gland', 'skin-vessels', 'hair'],
-        alt: 'A block of skin cut through, showing its layers. A coiled sweat gland opens onto the surface, small blood vessels run through the inner layer, and a hair grows out of its follicle.',
-      },
+      figure: photo(MEDIA['skin-layers'], {
+        alt: 'A block of skin cut through, in three layers: a thin outer layer, a thicker pink middle layer and a deep yellow layer of fat. Hairs grow from deep pockets, a small muscle runs at a slant to a hair, a coiled gland sits deep down, and a network of red and blue blood vessels and fine yellow nerves runs through the layers. Labels name the parts.',
+        caption: 'Human skin, cut through to show its layers',
+        creditLabel: 'Illustration',
+      }),
     },
     {
       id: 'effectors',

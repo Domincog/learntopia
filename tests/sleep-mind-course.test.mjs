@@ -929,6 +929,19 @@ test('lesson 4: the body-diagram steps and the order of the alarm chain', async 
   const mine = [/amygdala.*flags a threat/, /hypothalamus switches on/, /Within seconds: nerves.*adrenaline/, /Over minutes: a hormone messenger.*pituitary/, /After about 20 minutes: cortisol/];
   assert.equal(chain.items.length, mine.length);
   chain.items.forEach((item, i) => assert.match(item, mine[i]));
+
+  // the two structures the chain names are shown on a real scan, labelled, with nothing to answer on it
+  const routes = one('stress', 'teach-two-routes');
+  const scan = routes.figures[0];
+  assert.equal(scan.type, 'photo');
+  assert.equal(scan.mode, 'label');
+  assert.deepEqual(scan.hotspots.map((h) => h.id), ['hypothalamus', 'pituitary']);
+  assert.deepEqual(scan.hotspots.map((h) => h.label), ['Hypothalamus', 'Pituitary gland']);
+  for (const h of scan.hotspots) assert.ok(h.r >= 0.04 && h.x > h.r && h.x < 1 - h.r && h.y > 0 && h.y < 1, h.id);
+  const [hyp, pit] = scan.hotspots;
+  assert.ok(pit.y > hyp.y, 'the pituitary hangs below the hypothalamus');
+  assert.ok(Math.hypot(hyp.x - pit.x, (hyp.y - pit.y) * (scan.height / scan.width)) >= hyp.r + pit.r, 'the two rings do not overlap');
+  assert.match(flat(routes.text), /The picture is an MRI scan, seen from the side: the pituitary\s+hangs on a short stalk under the hypothalamus/);
 });
 
 test('lesson 4: the performance curve, the pile-up of alarms and the breathing pacer accept what they ask for', () => {

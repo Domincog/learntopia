@@ -17,6 +17,7 @@ for the original file, its full description and its history. The same credit is 
 
 ## body-control
 
+- `ear.jpg`: "Anatomy of the Human Ear blank" by Lars Chittka; Axel Brockmann; derivative work: M•Komorniczak. Licence: [CC BY 2.5](https://creativecommons.org/licenses/by/2.5). Source: [File:Anatomy of the Human Ear blank.svg](https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear_blank.svg). Changes: cropped and resized.
 - `fundus.jpg`: "Fundus photograph of normal right eye" by Mikael Häggström. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:Fundus photograph of normal right eye.jpg](https://commons.wikimedia.org/wiki/File:Fundus_photograph_of_normal_right_eye.jpg). Changes: resized.
 - `hand-xray.jpg`: "X-ray of normal hand by dorsoplantar projection" by Mikael Häggström. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:X-ray of normal hand by dorsoplantar projection.jpg](https://commons.wikimedia.org/wiki/File:X-ray_of_normal_hand_by_dorsoplantar_projection.jpg). Changes: resized.
 - `karyotype.jpg`: "NHGRI human male karyotype" by National Human Genome Research Institute. Licence: Public domain. Source: [File:NHGRI human male karyotype.png](https://commons.wikimedia.org/wiki/File:NHGRI_human_male_karyotype.png). Changes: resized.
@@ -24,22 +25,34 @@ for the original file, its full description and its history. The same credit is 
 
 ## body-systems
 
+- `airways.jpg`: "Blausen 0770 RespiratorySystem 02" by BruceBlaus (Blausen.com staff, 2014). Licence: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0). Source: [File:Blausen 0770 RespiratorySystem 02.png](https://commons.wikimedia.org/wiki/File:Blausen_0770_RespiratorySystem_02.png). Changes: cropped and resized.
 - `blood-cells-sem.jpg`: "Red White Blood cells" by Electron Microscopy Facility, NCI-Frederick. Licence: Public domain. Source: [File:Red White Blood cells.jpg](https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg). Changes: resized.
 - `chest-xray.jpg`: "Normal posteroanterior (PA) chest radiograph (X-ray)" by Mikael Häggström. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:Normal posteroanterior (PA) chest radiograph (X-ray).jpg](https://commons.wikimedia.org/wiki/File:Normal_posteroanterior_(PA)_chest_radiograph_(X-ray).jpg). Changes: resized.
 - `dialysis-machine.jpg`: "Hemodialysis machine INNOVA" by Виталий Поспелов. Licence: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). Source: [File:Hemodialysis machine INNOVA.jpg](https://commons.wikimedia.org/wiki/File:Hemodialysis_machine_INNOVA.jpg). Changes: resized.
 - `harvey-veins.jpg`: "William Harvey (1578-1657) Venenbild" by Unknown author. Licence: Public domain. Source: [File:William Harvey (1578-1657) Venenbild.jpg](https://commons.wikimedia.org/wiki/File:William_Harvey_(1578-1657)_Venenbild.jpg). Changes: resized.
+- `lung-tissue.jpg`: "Normal lung (3660695207)" by Yale Rosen. Licence: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). Source: [File:Normal lung (3660695207).jpg](https://commons.wikimedia.org/wiki/File:Normal_lung_(3660695207).jpg). Changes: resized.
 - `mitochondria.jpg`: "Mitochondria, mammalian lung - TEM" by Louisa Howard. Licence: Public domain. Source: [File:Mitochondria, mammalian lung - TEM.jpg](https://commons.wikimedia.org/wiki/File:Mitochondria,_mammalian_lung_-_TEM.jpg). Changes: resized.
+- `muscle-fibres.jpg`: "Skeletal Muscle Tissue" by Berkshire Community College Bioscience Image Library. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:Skeletal Muscle Tissue.jpg](https://commons.wikimedia.org/wiki/File:Skeletal_Muscle_Tissue.jpg). Changes: resized.
+- `neuron.jpg`: "Pyramidal hippocampal neuron 40x" by MethoxyRoxy. Licence: [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5). Source: [File:Pyramidal hippocampal neuron 40x.jpg](https://commons.wikimedia.org/wiki/File:Pyramidal_hippocampal_neuron_40x.jpg). Changes: resized.
+- `red-cells.jpg`: "SEM blood cells" by Bruce Wetzel and Harry Schaefer, National Cancer Institute. Licence: Public domain. Source: [File:SEM blood cells.jpg](https://commons.wikimedia.org/wiki/File:SEM_blood_cells.jpg). Changes: cropped and resized.
+- `skin-cells.jpg`: "Normal Epidermis and Dermis with Intradermal Nevus 10x-cropped" by Kilbad; derivative work: Fama Clamosa. Licence: Public domain. Source: [File:Normal Epidermis and Dermis with Intradermal Nevus 10x-cropped.JPG](https://commons.wikimedia.org/wiki/File:Normal_Epidermis_and_Dermis_with_Intradermal_Nevus_10x-cropped.JPG). Changes: resized.
+- `skin-layers.jpg`: "Blausen 0810 SkinAnatomy 01" by BruceBlaus (Blausen.com staff, 2014). Licence: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0). Source: [File:Blausen 0810 SkinAnatomy 01.png](https://commons.wikimedia.org/wiki/File:Blausen_0810_SkinAnatomy_01.png). Changes: cropped and resized.
 - `villi.jpg`: "Small intestine low mag" by Nephron. Licence: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). Source: [File:Small intestine low mag.jpg](https://commons.wikimedia.org/wiki/File:Small_intestine_low_mag.jpg). Changes: resized.
 
 ## first-aid
 
+- `abdominal-thrusts.jpg`: "Abdominal thrusts against choking" by US Army Medical Department Center and School. Licence: Public domain. Source: [File:Abdominal thrusts against choking.jpg](https://commons.wikimedia.org/wiki/File:Abdominal_thrusts_against_choking.jpg). Changes: cropped and resized.
+- `adrenaline-site.jpg`: "Intramuscular site of adrenaline" by Mikael Häggström, M.D.. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:Intramuscular site of adrenaline.jpg](https://commons.wikimedia.org/wiki/File:Intramuscular_site_of_adrenaline.jpg). Changes: resized.
 - `aed-cabinet.jpg`: "DAE Almada Forum 02" by DiogoBaptista. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:DAE Almada Forum 02.jpg](https://commons.wikimedia.org/wiki/File:DAE_Almada_Forum_02.jpg). Changes: cropped and resized.
+- `asthma-airways.jpg`: "Asthma before-after-en" by FDA (Renée Gordon); vectors by Mysid. Licence: Public domain. Source: [File:Asthma before-after-en.svg](https://commons.wikimedia.org/wiki/File:Asthma_before-after-en.svg). Changes: resized.
 - `auto-injector.jpg`: "Jext300-Autoinjektor-02 (cropped)" by CEphoto, Uwe Aranas. Licence: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). Source: [File:Jext300-Autoinjektor-02 (cropped).jpg](https://commons.wikimedia.org/wiki/File:Jext300-Autoinjektor-02_(cropped).jpg). Changes: resized.
+- `cpr-compressions.jpg`: "374 AW leadership, front office personnel attend CPR-AED course (9053931)" by Senior Master Sgt. DeAndre Curtiss, U.S. Air Force. Licence: Public domain. Source: [File:374 AW leadership, front office personnel attend CPR-AED course (9053931).jpg](https://commons.wikimedia.org/wiki/File:374_AW_leadership,_front_office_personnel_attend_CPR-AED_course_(9053931).jpg). Changes: cropped and resized.
 - `recovery-position.jpg`: "Stabile seitenlage" by Grummelbacke. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:Stabile seitenlage.png](https://commons.wikimedia.org/wiki/File:Stabile_seitenlage.png). Changes: resized.
 
 ## fitness
 
 - `spine-mri.jpg`: "MRI of a lower back, seen from the side" by Stillwaterising. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:Lumbar MRI t2-tse-rst-sagittal 06.jpg](https://commons.wikimedia.org/wiki/File:Lumbar_MRI_t2-tse-rst-sagittal_06.jpg). Changes: resized.
+- `upper-arm-xray.jpg`: "Prominent deltoid tuberosity of the upper-arm bone, X-ray" by Hellerhoff. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Source: [File:Prominente Tuberositas deltoidea Humeri 48M - CR - 001.jpg](https://commons.wikimedia.org/wiki/File:Prominente_Tuberositas_deltoidea_Humeri_48M_-_CR_-_001.jpg). Changes: resized.
 
 ## money
 
@@ -53,6 +66,7 @@ for the original file, its full description and its history. The same credit is 
 - `iodised-salt.jpg`: "Fluoridiertes Jodsalz" by Wwbread. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Source: [File:Fluoridiertes Jodsalz.JPG](https://commons.wikimedia.org/wiki/File:Fluoridiertes_Jodsalz.JPG). Changes: resized.
 - `teishoku.jpg`: "Sakura Teishoku - Sakura Japanese Restaurant 2025-07-28" by Andy Li. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:Sakura Teishoku - Sakura Japanese Restaurant 2025-07-28.jpg](https://commons.wikimedia.org/wiki/File:Sakura_Teishoku_-_Sakura_Japanese_Restaurant_2025-07-28.jpg). Changes: resized.
 - `us-label.jpg`: "FDA Nutrition Facts Label 2016" by U.S. Food and Drug Administration. Licence: Public domain. Source: [File:FDA Nutrition Facts Label 2016.png](https://commons.wikimedia.org/wiki/File:FDA_Nutrition_Facts_Label_2016.png). Changes: resized.
+- `wheat-kernel.jpg`: "Wheat-kernel nutrition" by Jkwchui. Licence: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). Source: [File:Wheat-kernel nutrition.svg](https://commons.wikimedia.org/wiki/File:Wheat-kernel_nutrition.svg). Changes: cropped and resized.
 
 ## psychology
 
@@ -68,15 +82,19 @@ for the original file, its full description and its history. The same credit is 
 - `cassiopea.jpg`: "Upside-down jellyfish (Cassiopea xamachana)" by Marco Almbauer. Licence: Public domain. Source: [File:Upside-down jellyfish (Cassiopea xamachana).jpg](https://commons.wikimedia.org/wiki/File:Upside-down_jellyfish_(Cassiopea_xamachana).jpg). Changes: resized.
 - `cpap.jpg`: "CPAP-machine-resmedS9" by Zboralski. Licence: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). Source: [File:CPAP-machine-resmedS9.jpg](https://commons.wikimedia.org/wiki/File:CPAP-machine-resmedS9.jpg). Changes: cropped and resized.
 - `mimosa.jpg`: "Mimosa pudica leaves close up" by NonNerd. Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: [File:Mimosa pudica leaves close up.jpg](https://commons.wikimedia.org/wiki/File:Mimosa_pudica_leaves_close_up.jpg). Changes: cropped and resized.
+- `pituitary-mri.jpg`: "Pituitary gland on MRI, seen from the side" by Hellerhoff. Licence: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). Source: [File:Hypophyse MRT sag.png](https://commons.wikimedia.org/wiki/File:Hypophyse_MRT_sag.png). Changes: cropped and resized.
 
 ## staying-well
 
+- `artery-plaque.jpg`: "Coronary Artery Disease" by Scientific Animations. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Source: [File:Coronary Artery Disease.jpg](https://commons.wikimedia.org/wiki/File:Coronary_Artery_Disease.jpg). Changes: resized.
 - `disk-test.jpg`: "Antibiotic susceptibility test by disk diffusion" by Microrao. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Source: [File:Antibiotic susceptibility disk diffusion.jpg](https://commons.wikimedia.org/wiki/File:Antibiotic_susceptibility_disk_diffusion.jpg). Changes: cropped and resized.
+- `pulse-wrist.jpg`: "Pulse (Wrist)" by BruceBlaus. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Source: [File:Pulse (Wrist).png](https://commons.wikimedia.org/wiki/File:Pulse_(Wrist).png). Changes: resized.
 - `snow-map.jpg`: "Map of the 1854 cholera outbreak around Broad Street, London" by John Snow. Licence: Public domain. Source: [File:Snow-cholera-map-1.jpg](https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg). Changes: cropped and resized.
 
 ## world-ancient
 
 - `beer-tablet.jpg`: "Early writing tablet recording the allocation of beer" by BabelStone. Licence: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). Source: [File:Early writing tablet recording the allocation of beer.jpg](https://commons.wikimedia.org/wiki/File:Early_writing_tablet_recording_the_allocation_of_beer.jpg). Changes: resized.
+- `catalhoyuk-house.jpg`: "Museum of Anatolian Civilizations Çatalhöyük reconstructed room in 2011 03" by Dosseman. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Source: [File:Museum of Anatolian Civilizations Çatalhöyük reconstructed room in 2011 03.jpg](https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_%C3%87atalh%C3%B6y%C3%BCk_reconstructed_room_in_2011_03.jpg). Changes: cropped and resized.
 - `chauvet-lions.jpg`: "Lions painting, Chauvet Cave (museum replica)" by HTO. Licence: Public domain. Source: [File:Lions painting, Chauvet Cave (museum replica).jpg](https://commons.wikimedia.org/wiki/File:Lions_painting,_Chauvet_Cave_(museum_replica).jpg). Changes: resized.
 - `gandhara-buddha.jpg`: "Gandhara Buddha (tnm)" by World Imaging. Licence: Public domain. Source: [File:Gandhara Buddha (tnm).jpeg](https://commons.wikimedia.org/wiki/File:Gandhara_Buddha_(tnm).jpeg). Changes: cropped and resized.
 - `giza.jpg`: "All Gizah Pyramids" by Ricardo Liberato. Licence: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0). Source: [File:All Gizah Pyramids.jpg](https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg). Changes: resized.

@@ -187,40 +187,6 @@ export const EAR_PATH = [
   'The hearing nerve carries impulses to the brain',
 ];
 
-/** The ear from the outside inwards: canal, eardrum, three bones, cochlea, hearing nerve; the balance loops above the cochlea. */
-export const EAR_FIGURE = {
-  type: 'svg', viewBox: '70 0 470 232', maxWidth: 560,
-  alt: 'A diagram of the ear from the outside inwards. Sound waves enter a short canal that ends at the eardrum. Behind the eardrum a chain of three tiny bones leads to a snail-shaped tube, the cochlea. A nerve leaves the cochlea for the brain. Above the cochlea are three small loops, the balance organs.',
-  content:
-    // sound waves
-    '<path class="stroke-orange fill-none" stroke-width="3" stroke-linecap="round" d="M84 108 q10 20 0 40 M100 98 q16 30 0 60"/>' +
-    // ear canal
-    '<path class="fill-orange-soft stroke-ink" stroke-width="3" stroke-linejoin="round" d="M126 72 C150 94 170 108 214 110 V146 C170 148 150 162 126 184 Z"/>' +
-    // middle ear
-    '<rect class="fill-surface stroke-ink" stroke-width="3" x="214" y="88" width="126" height="80" rx="18"/>' +
-    // eardrum
-    '<path class="stroke-teal fill-none" stroke-width="7" stroke-linecap="round" d="M214 104 V152"/>' +
-    // balance loops (behind the cochlea)
-    [[368, 62, -28], [402, 52, 8], [434, 66, 44]].map(([x, y, a]) => `<g transform="rotate(${a} ${x} ${y})"><ellipse class="fill-violet-soft stroke-ink" stroke-width="2.5" cx="${x}" cy="${y}" rx="15" ry="24"/><ellipse class="fill-surface stroke-ink" stroke-width="2" cx="${x}" cy="${y}" rx="6" ry="14"/></g>`).join('') +
-    // cochlea
-    '<circle class="fill-blue-soft stroke-ink" stroke-width="3" cx="398" cy="128" r="46"/>' +
-    '<path class="stroke-ink fill-none" stroke-width="3" stroke-linecap="round" d="M352 128 A38 38 0 0 1 428 128 A30 30 0 0 1 368 128 A22 22 0 0 1 412 128 A14 14 0 0 1 384 128"/>' +
-    // three bones
-    '<rect class="fill-yellow-soft stroke-ink" stroke-width="2.5" x="220" y="116" width="44" height="15" rx="7.5" transform="rotate(-22 242 123)"/>' +
-    '<rect class="fill-yellow-soft stroke-ink" stroke-width="2.5" x="254" y="116" width="44" height="15" rx="7.5" transform="rotate(24 276 123)"/>' +
-    '<rect class="fill-yellow-soft stroke-ink" stroke-width="2.5" x="290" y="122" width="62" height="15" rx="7.5" transform="rotate(-6 321 129)"/>' +
-    // hearing nerve
-    '<path class="stroke-yellow fill-none" stroke-width="8" stroke-linecap="round" d="M444 128 H500"/><path class="stroke-ink fill-none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M500 118 L516 128 L500 138"/>' +
-    // labels
-    label(98, 212, 'sound') +
-    label(162, 212, 'ear canal') + '<path class="stroke-hair fill-none" stroke-width="2" d="M162 198 L166 152"/>' +
-    label(228, 212, 'eardrum') + '<path class="stroke-hair fill-none" stroke-width="2" d="M224 198 L216 160"/>' +
-    label(272, 70, 'three tiny bones') + '<path class="stroke-hair fill-none" stroke-width="2" d="M272 76 L276 112"/>' +
-    label(398, 198, 'cochlea') + label(398, 214, '(fluid and hair cells)') +
-    label(492, 106, 'hearing nerve') + label(492, 160, 'to the brain') +
-    label(488, 30, 'balance organs') + '<path class="stroke-hair fill-none" stroke-width="2" d="M466 36 L446 54"/>',
-};
-
 /** People whose sight needs correcting: [story, light from where, where the unaided focus falls, lens]. */
 export const SIGHT_CASES = [
   { who: 'Aiko, aged 12, reads her book easily, but the writing on the classroom board is blurred.', light: 'distant', focus: 'front', lens: 'minus', name: 'short sight (myopia)', why: 'her eyeball is slightly too long for its focusing power' },

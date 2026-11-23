@@ -2,6 +2,61 @@
   "course": "body-control",
   "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
   "images": {
+    "ear": {
+      "id": "ear",
+      "file": "ear.jpg",
+      "src": "content/media/body-control/ear.jpg?v=fe9da9af",
+      "width": 960,
+      "height": 503,
+      "bytes": 71455,
+      "sha256": "fe9da9af6936c3e843f56f52ef2a39d52dec4880095393fa35f8804acb2c3dd9",
+      "small": {
+        "file": "ear.480.jpg",
+        "src": "content/media/body-control/ear.480.jpg?v=86c1f8c2",
+        "width": 480,
+        "height": 252,
+        "bytes": 23405,
+        "sha256": "86c1f8c2951e09ba579be3588c4890c242389b368037d02c4265848c2bbbd53b"
+      },
+      "title": "File:Anatomy of the Human Ear blank.svg",
+      "requested": "File:Anatomy of the Human Ear blank.svg",
+      "name": "Anatomy of the Human Ear blank",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear_blank.svg",
+      "author": "Lars Chittka; Axel Brockmann; derivative work: M•Komorniczak",
+      "authorDerived": "Chittka L, Brockmann; derivative work: M•Komorniczak -talk-",
+      "authorOverride": "Lars Chittka; Axel Brockmann; derivative work: M•Komorniczak",
+      "authorApi": "Anatomy_of_the_Human_Ear.svg: Chittka L, Brockmann derivative work: M•Komorniczak -talk-",
+      "creditLabel": "Illustration",
+      "credit": "Anatomy_of_the_Human_Ear.svg",
+      "date": "2009-09-16 12:14",
+      "license": "CC BY 2.5",
+      "licenseCode": "cc-by-2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 659,
+        "height": 518,
+        "mime": "image/svg+xml"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1007
+      },
+      "options": {
+        "crop": [
+          0.24,
+          0.25,
+          0.99,
+          0.75
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-23"
+    },
     "fundus": {
       "id": "fundus",
       "file": "fundus.jpg",

@@ -2,6 +2,61 @@
   "course": "body-systems",
   "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
   "images": {
+    "airways": {
+      "id": "airways",
+      "file": "airways.jpg",
+      "src": "content/media/body-systems/airways.jpg?v=974a24e7",
+      "width": 1280,
+      "height": 937,
+      "bytes": 115021,
+      "sha256": "974a24e76751013334882fcd93a8abbbe1b5c559068366a143489da896c8d22e",
+      "small": {
+        "file": "airways.480.jpg",
+        "src": "content/media/body-systems/airways.480.jpg?v=ee2989d8",
+        "width": 480,
+        "height": 351,
+        "bytes": 24491,
+        "sha256": "ee2989d862ac169a36cc3ad694fa13dbfe24ac14a5f8cc6a8edc9dbbc198d350"
+      },
+      "title": "File:Blausen 0770 RespiratorySystem 02.png",
+      "requested": "File:Blausen 0770 RespiratorySystem 02.png",
+      "name": "Blausen 0770 RespiratorySystem 02",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blausen_0770_RespiratorySystem_02.png",
+      "author": "BruceBlaus (Blausen.com staff, 2014)",
+      "authorDerived": "BruceBlaus. When using this image in external sources it can be cited as; Blausen.com staff (2014). \"Medical gallery of Blausen Medical…",
+      "authorApi": "BruceBlaus. When using this image in external sources it can be cited as: Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436.",
+      "credit": "Own work",
+      "date": "2013-09-05 16:38:44",
+      "license": "CC BY 3.0",
+      "licenseCode": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1600,
+        "height": 1280,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1024
+      },
+      "options": {
+        "crop": [
+          0,
+          0,
+          1,
+          0.915
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-23",
+      "authorOverride": "BruceBlaus (Blausen.com staff, 2014)",
+      "creditLabel": "Illustration"
+    },
     "blood-cells-sem": {
       "id": "blood-cells-sem",
       "file": "blood-cells-sem.jpg",
@@ -195,6 +250,55 @@
       "changes": "resized",
       "fetched": "2026-11-14"
     },
+    "lung-tissue": {
+      "id": "lung-tissue",
+      "file": "lung-tissue.jpg",
+      "src": "content/media/body-systems/lung-tissue.jpg?v=fad6ef5a",
+      "width": 960,
+      "height": 644,
+      "bytes": 61708,
+      "sha256": "fad6ef5a7ed2bce07935ca4bf42d074099fdaf132c3ed70aa0a6e9503444ae32",
+      "small": {
+        "file": "lung-tissue.480.jpg",
+        "src": "content/media/body-systems/lung-tissue.480.jpg?v=a2f115d0",
+        "width": 480,
+        "height": 322,
+        "bytes": 15372,
+        "sha256": "a2f115d0a76fbc328efc2c1976bd257df5e1d8602e24d00c958042495420ea03"
+      },
+      "title": "File:Normal lung (3660695207).jpg",
+      "requested": "File:Normal lung (3660695207).jpg",
+      "name": "Normal lung (3660695207)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_lung_(3660695207).jpg",
+      "author": "Yale Rosen",
+      "authorDerived": "Yale Rosen",
+      "authorApi": "Yale Rosen from USA",
+      "credit": "Normal lung Uploaded by CFCF",
+      "date": "2008-07-08 22:06",
+      "license": "CC BY-SA 2.0",
+      "licenseCode": "cc-by-sa-2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1012,
+        "height": 679,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 644
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23",
+      "creditLabel": "Micrograph"
+    },
     "mitochondria": {
       "id": "mitochondria",
       "file": "mitochondria.jpg",
@@ -241,6 +345,263 @@
       },
       "changes": "resized",
       "fetched": "2026-11-14"
+    },
+    "muscle-fibres": {
+      "id": "muscle-fibres",
+      "file": "muscle-fibres.jpg",
+      "src": "content/media/body-systems/muscle-fibres.jpg?v=9d991f98",
+      "width": 1280,
+      "height": 722,
+      "bytes": 143536,
+      "sha256": "9d991f98ab8582f9fce6919cf2f98ad8c5575819587a15678d344399ca6e6204",
+      "small": {
+        "file": "muscle-fibres.480.jpg",
+        "src": "content/media/body-systems/muscle-fibres.480.jpg?v=b6a399d0",
+        "width": 480,
+        "height": 271,
+        "bytes": 30613,
+        "sha256": "b6a399d0e32d3ab011278bfc4cfc7580ba63b33392e79e8b498dee46a5be9fa1"
+      },
+      "title": "File:Skeletal Muscle Tissue.jpg",
+      "requested": "File:Skeletal Muscle Tissue.jpg",
+      "name": "Skeletal Muscle Tissue",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skeletal_Muscle_Tissue.jpg",
+      "author": "Berkshire Community College Bioscience Image Library",
+      "authorDerived": "Community College Bioscience",
+      "authorApi": "Community College Bioscience",
+      "credit": "https://www.flickr.com/photos/146824358@N03/28089114338",
+      "date": "2018-04-05",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 3072,
+        "height": 1732,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 722
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23",
+      "authorOverride": "Berkshire Community College Bioscience Image Library",
+      "creditLabel": "Micrograph"
+    },
+    "neuron": {
+      "id": "neuron",
+      "file": "neuron.jpg",
+      "src": "content/media/body-systems/neuron.jpg?v=58a23b60",
+      "width": 1280,
+      "height": 975,
+      "bytes": 163044,
+      "sha256": "58a23b604633c01e8329b021e0fa25a643d6596b8b9ab1d65fd471b8c726cf0b",
+      "small": {
+        "file": "neuron.480.jpg",
+        "src": "content/media/body-systems/neuron.480.jpg?v=7846816f",
+        "width": 480,
+        "height": 366,
+        "bytes": 27755,
+        "sha256": "7846816f5ef18dec3f576f79723a63ea5e6093fed38f6b9de2c44036a15c1da9"
+      },
+      "title": "File:Pyramidal hippocampal neuron 40x.jpg",
+      "requested": "File:Pyramidal hippocampal neuron 40x.jpg",
+      "name": "Pyramidal hippocampal neuron 40x",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pyramidal_hippocampal_neuron_40x.jpg",
+      "author": "MethoxyRoxy",
+      "authorDerived": "MethoxyRoxy",
+      "authorApi": "MethoxyRoxy",
+      "credit": "Own work",
+      "date": "2005-10-07",
+      "license": "CC BY-SA 2.5",
+      "licenseCode": "cc-by-sa-2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1344,
+        "height": 1024,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 975
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23",
+      "creditLabel": "Micrograph"
+    },
+    "red-cells": {
+      "id": "red-cells",
+      "file": "red-cells.jpg",
+      "src": "content/media/body-systems/red-cells.jpg?v=46febc10",
+      "width": 640,
+      "height": 541,
+      "bytes": 46770,
+      "sha256": "46febc10b66041de3e776f22b3f7b4c430183627c28cff68b9b42db27df3fce8",
+      "small": {
+        "file": "red-cells.480.jpg",
+        "src": "content/media/body-systems/red-cells.480.jpg?v=3549bd52",
+        "width": 480,
+        "height": 406,
+        "bytes": 24708,
+        "sha256": "3549bd52a53be159229a9f441159be944ee4caeab2ab17a2a986168ecf5fc87c"
+      },
+      "title": "File:SEM blood cells.jpg",
+      "requested": "File:SEM blood cells.jpg",
+      "name": "SEM blood cells",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SEM_blood_cells.jpg",
+      "author": "Bruce Wetzel and Harry Schaefer, National Cancer Institute",
+      "authorDerived": "Bruce Wetzel (photographer). Harry Schaefer (photographer)",
+      "authorApi": "Bruce Wetzel (photographer). Harry Schaefer (photographer)",
+      "credit": "Image and description: National Cancer Institute",
+      "date": "Date Created: February 1982",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1800,
+        "height": 2239,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1592
+      },
+      "options": {
+        "crop": [
+          0.5,
+          0.66,
+          1,
+          1
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-23",
+      "authorOverride": "Bruce Wetzel and Harry Schaefer, National Cancer Institute",
+      "creditLabel": "Micrograph"
+    },
+    "skin-cells": {
+      "id": "skin-cells",
+      "file": "skin-cells.jpg",
+      "src": "content/media/body-systems/skin-cells.jpg?v=942b6019",
+      "width": 960,
+      "height": 595,
+      "bytes": 126991,
+      "sha256": "942b6019b4d2c027deb3ec13be8a39c2b4f0fec148d4d4b7b814ed7c840c3afb",
+      "small": {
+        "file": "skin-cells.480.jpg",
+        "src": "content/media/body-systems/skin-cells.480.jpg?v=8ce19e20",
+        "width": 480,
+        "height": 298,
+        "bytes": 31947,
+        "sha256": "8ce19e20eb14f0a699a04a9af00c64bbe665cda3a419e08ef984dff33041d01e"
+      },
+      "title": "File:Normal Epidermis and Dermis with Intradermal Nevus 10x-cropped.JPG",
+      "requested": "File:Normal Epidermis and Dermis with Intradermal Nevus 10x-cropped.JPG",
+      "name": "Normal Epidermis and Dermis with Intradermal Nevus 10x-cropped",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_Epidermis_and_Dermis_with_Intradermal_Nevus_10x-cropped.JPG",
+      "author": "Kilbad; derivative work: Fama Clamosa",
+      "authorDerived": "Kilbad",
+      "authorApi": "Normal_Epidermis_and_Dermis_with_Intradermal_Nevus_10x.JPG: Kilbad derivative work: Fama Clamosa (talk)",
+      "credit": "Normal_Epidermis_and_Dermis_with_Intradermal_Nevus_10x.JPG",
+      "date": "2010-01-31 17:41",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1000,
+        "height": 620,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 595
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23",
+      "creditLabel": "Micrograph",
+      "authorOverride": "Kilbad; derivative work: Fama Clamosa"
+    },
+    "skin-layers": {
+      "id": "skin-layers",
+      "file": "skin-layers.jpg",
+      "src": "content/media/body-systems/skin-layers.jpg?v=8e538ba2",
+      "width": 1280,
+      "height": 1018,
+      "bytes": 167673,
+      "sha256": "8e538ba2f6d1c065a5d71f961a33fdc4fc03f2dc3de614c21074f4f1dfb4df92",
+      "small": {
+        "file": "skin-layers.480.jpg",
+        "src": "content/media/body-systems/skin-layers.480.jpg?v=04870109",
+        "width": 480,
+        "height": 382,
+        "bytes": 33240,
+        "sha256": "048701095e42fdc2e591ed149f465c6ca95642b108516084d9f0a9ad81f47e4c"
+      },
+      "title": "File:Blausen 0810 SkinAnatomy 01.png",
+      "requested": "File:Blausen 0810 SkinAnatomy 01.png",
+      "name": "Blausen 0810 SkinAnatomy 01",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blausen_0810_SkinAnatomy_01.png",
+      "author": "BruceBlaus (Blausen.com staff, 2014)",
+      "authorDerived": "BruceBlaus. When using this image in external sources it can be cited as; Blausen.com staff (2014). \"Medical gallery of Blausen Medical…",
+      "authorApi": "BruceBlaus. When using this image in external sources it can be cited as: Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436.",
+      "credit": "Own work",
+      "date": "2014-01-29 10:38:17",
+      "license": "CC BY 3.0",
+      "licenseCode": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 2500,
+        "height": 2500,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1280
+      },
+      "options": {
+        "crop": [
+          0,
+          0.08,
+          1,
+          0.875
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-23",
+      "authorOverride": "BruceBlaus (Blausen.com staff, 2014)",
+      "creditLabel": "Illustration"
     },
     "villi": {
       "id": "villi",

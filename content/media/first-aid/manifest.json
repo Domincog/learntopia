@@ -2,6 +2,110 @@
   "course": "first-aid",
   "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
   "images": {
+    "abdominal-thrusts": {
+      "id": "abdominal-thrusts",
+      "file": "abdominal-thrusts.jpg",
+      "src": "content/media/first-aid/abdominal-thrusts.jpg?v=81a78a7d",
+      "width": 883,
+      "height": 443,
+      "bytes": 57348,
+      "sha256": "81a78a7daffec480fa6e88fd7b1229e3c789900a3f1cba0c698aa24a70335e33",
+      "small": {
+        "file": "abdominal-thrusts.480.jpg",
+        "src": "content/media/first-aid/abdominal-thrusts.480.jpg?v=8d9b5f6f",
+        "width": 480,
+        "height": 241,
+        "bytes": 19309,
+        "sha256": "8d9b5f6f863cd78d7c5d1263605e9cc12d39ef603b3a5cd92fc8524c1ce558e2"
+      },
+      "title": "File:Abdominal thrusts against choking.jpg",
+      "requested": "File:Abdominal thrusts against choking.jpg",
+      "name": "Abdominal thrusts against choking",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abdominal_thrusts_against_choking.jpg",
+      "author": "US Army Medical Department Center and School",
+      "authorDerived": "US ARMY MEDICAL DEPARTMENT CENTER AND SCHOOL",
+      "authorOverride": "US Army Medical Department Center and School",
+      "authorApi": "US ARMY MEDICAL DEPARTMENT CENTER AND SCHOOL FORT SAM HOUSTON, TEXAS 78234-6100",
+      "creditLabel": "Illustration",
+      "credit": "https://www.militarynewbie.com/wp-content/uploads/2013/11/US-Army-medical-course-Cardiopulmonary-Resuscitation-CPR-MD0532.pdf",
+      "date": "2020-01-15 12:31:10",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1240,
+        "height": 654,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 506
+      },
+      "options": {
+        "crop": [
+          0.05,
+          0.07,
+          0.97,
+          0.945
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-23"
+    },
+    "adrenaline-site": {
+      "id": "adrenaline-site",
+      "file": "adrenaline-site.jpg",
+      "src": "content/media/first-aid/adrenaline-site.jpg?v=74fdaa05",
+      "width": 964,
+      "height": 1280,
+      "bytes": 155156,
+      "sha256": "74fdaa05115e27f27e3877a131cc2a239de4d015860ca3aaec09e679c4098ad9",
+      "small": {
+        "file": "adrenaline-site.480.jpg",
+        "src": "content/media/first-aid/adrenaline-site.480.jpg?v=bb94c720",
+        "width": 362,
+        "height": 480,
+        "bytes": 31342,
+        "sha256": "bb94c720fd312e6ba5af650a27971d75f2947696cbc4990ab42b5c966526ff0b"
+      },
+      "title": "File:Intramuscular site of adrenaline.jpg",
+      "requested": "File:Intramuscular site of adrenaline.jpg",
+      "name": "Intramuscular site of adrenaline",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intramuscular_site_of_adrenaline.jpg",
+      "author": "Mikael Häggström, M.D.",
+      "authorDerived": "Mikael Häggström, M.D.",
+      "authorApi": "Mikael Häggström, M.D. Author info - Reusing images - Conflicts of interest: None Mikael Häggström, M.D.",
+      "creditLabel": "Illustration",
+      "credit": "Own work work. Source image: File:Skeleton and muscles.png (Public Domain) Source for information: Epinephrine Injection. MedlinePlus. Last revised 03/15/2017",
+      "date": "2018-12-03",
+      "license": "CC0",
+      "licenseCode": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 2075,
+        "height": 2755,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1699
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23",
+      "authorOverride": "Mikael Häggström, M.D."
+    },
     "aed-cabinet": {
       "id": "aed-cabinet",
       "file": "aed-cabinet.jpg",
@@ -56,6 +160,55 @@
       "changes": "cropped and resized",
       "fetched": "2026-11-14"
     },
+    "asthma-airways": {
+      "id": "asthma-airways",
+      "file": "asthma-airways.jpg",
+      "src": "content/media/first-aid/asthma-airways.jpg?v=d9d9a658",
+      "width": 1280,
+      "height": 512,
+      "bytes": 94555,
+      "sha256": "d9d9a658432ef5ef1da52e141a09e31726808e5d910c6805fd02a9615abc12de",
+      "small": {
+        "file": "asthma-airways.480.jpg",
+        "src": "content/media/first-aid/asthma-airways.480.jpg?v=98b6df74",
+        "width": 480,
+        "height": 192,
+        "bytes": 19819,
+        "sha256": "98b6df74d50a914d847085d4262154ea29fc94c7b1f2b37df59cd24a0b8af2f6"
+      },
+      "title": "File:Asthma before-after-en.svg",
+      "requested": "File:Asthma before-after-en.svg",
+      "name": "Asthma before-after-en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asthma_before-after-en.svg",
+      "author": "FDA (Renée Gordon); vectors by Mysid",
+      "authorDerived": "FDA/Renée Gordon; vectors by Mysid",
+      "authorApi": "FDA/Renée Gordon; vectors by Mysid.",
+      "creditLabel": "Illustration",
+      "credit": "Vectorized in Inkscape by Mysid from http://www.fda.gov/fdac/features/2003/203_asthma.html",
+      "date": "2008-09-20",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 1000,
+        "height": 400,
+        "mime": "image/svg+xml"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 512
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23",
+      "authorOverride": "FDA (Renée Gordon); vectors by Mysid"
+    },
     "auto-injector": {
       "id": "auto-injector",
       "file": "auto-injector.jpg",
@@ -105,6 +258,60 @@
       "changes": "resized",
       "fetched": "2026-11-14",
       "authorOverride": "CEphoto, Uwe Aranas"
+    },
+    "cpr-compressions": {
+      "id": "cpr-compressions",
+      "file": "cpr-compressions.jpg",
+      "src": "content/media/first-aid/cpr-compressions.jpg?v=3e8bc53a",
+      "width": 934,
+      "height": 706,
+      "bytes": 167680,
+      "sha256": "3e8bc53ad03b5ca96b08aaeb749371ef9cb15805c21535b47de1fd9bf88c4780",
+      "small": {
+        "file": "cpr-compressions.480.jpg",
+        "src": "content/media/first-aid/cpr-compressions.480.jpg?v=b07728e3",
+        "width": 480,
+        "height": 363,
+        "bytes": 42595,
+        "sha256": "b07728e3041bc0e531bc577a583f1759c3663230b071503a41fd15b91cee7c7c"
+      },
+      "title": "File:374 AW leadership, front office personnel attend CPR-AED course (9053931).jpg",
+      "requested": "File:374 AW leadership, front office personnel attend CPR-AED course (9053931).jpg",
+      "name": "374 AW leadership, front office personnel attend CPR-AED course (9053931)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:374_AW_leadership,_front_office_personnel_attend_CPR-AED_course_(9053931).jpg",
+      "author": "Senior Master Sgt. DeAndre Curtiss, U.S. Air Force",
+      "authorDerived": "U.S. Air Force photo by Senior Master Sgt. DeAndre Curtiss",
+      "authorApi": "U.S. Air Force photo by Senior Master Sgt. DeAndre Curtiss",
+      "credit": "This image was released by the United States Air Force with the ID 250519-F-FJ989-1174 (next). This tag does not indicate the copyright status of the attached…",
+      "date": "Taken on 19 May 2025",
+      "license": "Public domain",
+      "licenseCode": "pd",
+      "attributionRequired": false,
+      "publicDomain": true,
+      "original": {
+        "width": 4865,
+        "height": 4001,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 1053
+      },
+      "options": {
+        "crop": [
+          0.22,
+          0.33,
+          0.95,
+          1
+        ],
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "cropped and resized",
+      "fetched": "2026-11-23",
+      "authorOverride": "Senior Master Sgt. DeAndre Curtiss, U.S. Air Force",
+      "creditLabel": "Photo"
     },
     "recovery-position": {
       "id": "recovery-position",

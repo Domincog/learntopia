@@ -1359,6 +1359,14 @@ test('teach before you ask: each teaching screen holds what the questions after 
 
   // lesson 2
   assert.match(taught('carbohydrates', 'teach-grain'), /\*\*Whole grains\*\*.*keep all three parts.*\*\*Refined\*\* grains have lost the brown outer layers and the part that would sprout/s);
+  // The kernel is a published diagram whose labels give only the names, so the screen says what each part is (the
+  // drawing it replaced printed those notes beside the parts). The question after it shows the same picture.
+  assert.match(taught('carbohydrates', 'teach-grain'), /\*\*Bran\*\*: the brown outer layers.*\*\*Endosperm\*\*: the seed's food store.*\*\*Germ\*\*: the small part at the base that would sprout/s);
+  for (const id of ['teach-grain', 'grain']) {
+    const fig = raw('carbohydrates', id).figure;
+    assert.ok(fig.type === 'photo' && fig.src.includes('/wheat-kernel.jpg'), `carbohydrates/${id} shows the labelled kernel`);
+    assert.ok(!/white flour|keeps?\b/i.test(fig.alt), `carbohydrates/${id}: the alt text describes the picture without answering the question`);
+  }
   const fibre = taught('carbohydrates', 'teach-fibre');
   assert.match(fibre, /\*\*Soluble\*\* fibre.*\*\*Insoluble\*\* fibre/s);
   assert.match(fibre, /185 long-term studies and 58 trials.*\*\*15 to 30% lower\*\*.*observational, but the trials agree.*certainty as moderate/s, 'the finding keeps its strength of evidence');

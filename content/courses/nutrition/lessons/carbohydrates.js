@@ -1,6 +1,8 @@
 // Food and Nutrition · Lesson 2 · Sugar, Starch and Fibre
 //
 // Driving question: why are an apple and a spoonful of sugar not the same thing to your blood?
+import { photo } from '../../../media.js';
+import { MEDIA } from '../../../media/nutrition/index.js';
 import { GI, giFoods, FIBRE, FIBRE_FOODS, FREE_SUGARS, FREE_SUGAR_ITEMS, TEASPOON_SUGAR_G, PEOPLE, dp1 } from '../helpers.js';
 
 const SAME_CARBS = giFoods(['glucose', 'potato', 'white', 'wholemeal', 'sugar', 'spaghetti', 'apple', 'lentils', 'chickpeas']);
@@ -35,17 +37,16 @@ const FAMILY_SVG =
   '<text class="fig-label" x="10" y="206">Fibre: chains that human enzymes cannot cut</text>' +
   chain(40, 236, 10, 'fill-green', 7) + '<text class="fig-label" x="410" y="241">…</text>';
 
-const GRAIN_SVG =
-  // the whole kernel: bran as a thick outer band, the starchy endosperm inside, the germ at the base
-  '<ellipse cx="150" cy="130" rx="92" ry="112" class="fill-orange stroke-ink" stroke-width="3"/>' +
-  '<ellipse cx="150" cy="130" rx="76" ry="96" class="fill-yellow-soft stroke-ink" stroke-width="2.5"/>' +
-  '<ellipse cx="150" cy="196" rx="34" ry="24" class="fill-green stroke-ink" stroke-width="2.5"/>' +
-  '<line x1="236" y1="70" x2="286" y2="48" class="stroke-ink" stroke-width="2" stroke-linecap="round"/>' +
-  '<text class="fig-label" x="292" y="44">Bran</text><text class="fig-label-sm" x="292" y="62">the outer layers: most of the</text><text class="fig-label-sm" x="292" y="78">fibre, B vitamins, minerals</text>' +
-  '<line x1="196" y1="120" x2="286" y2="120" class="stroke-ink" stroke-width="2" stroke-linecap="round"/>' +
-  '<text class="fig-label" x="292" y="116">Endosperm</text><text class="fig-label-sm" x="292" y="134">the seed\'s food store: starch</text><text class="fig-label-sm" x="292" y="150">and some protein</text>' +
-  '<line x1="180" y1="200" x2="286" y2="200" class="stroke-ink" stroke-width="2" stroke-linecap="round"/>' +
-  '<text class="fig-label" x="292" y="196">Germ</text><text class="fig-label-sm" x="292" y="214">the part that would sprout:</text><text class="fig-label-sm" x="292" y="230">oils, vitamin E, B vitamins</text>';
+// A published cut-away diagram of a wheat kernel, its parts named in the picture itself (Wikimedia Commons; the
+// nutrition table beside it in the original file is cropped away). The teaching screen and the question after it
+// show the same picture. The square box leaves a band beside the tall picture for the enlarge button, which would
+// otherwise cover the diagram's own title in its bottom corner.
+const kernelFigure = () => photo(MEDIA['wheat-kernel'], {
+  alt: 'A wheat kernel drawn cut open lengthwise. A thin golden-brown outer layer, labelled bran, wraps a large pale inside, labelled endosperm. A small reddish-brown part at the base, labelled germ, lies against the outer layer, and a tuft of fine hairs at the top is labelled brush.',
+  caption: 'A wheat kernel, cut open. The brush is a tuft of hairs.',
+  aspect: '1:1',
+  fit: 'contain',
+});
 
 export default {
   id: 'carbohydrates',
@@ -212,15 +213,18 @@ export default {
       text: `
         A grain of wheat has three parts, and a mill can separate them.
 
-        **Whole grains** (brown rice, oats, whole wheat) and **wholemeal**
-        flour keep all three parts, and with them most of the fibre and a
-        good share of the vitamins and minerals.
+        - **Bran**: the brown outer layers, with most of the fibre, B
+          vitamins and minerals.
+        - **Endosperm**: the seed's food store, starch and some protein.
+        - **Germ**: the small part at the base that would sprout, with
+          oils, vitamin E and B vitamins.
 
-        **Refined** grains have lost the brown outer layers and the part
-        that would sprout. What is left is pale, soft and almost all starch.
-        White flour is made this way.
+        **Whole grains** (brown rice, oats, whole wheat) and **wholemeal**
+        flour keep all three parts. **Refined** grains have lost the brown
+        outer layers and the part that would sprout. What is left is pale,
+        soft and almost all starch. White flour is made this way.
       `,
-      figure: { type: 'svg', viewBox: '0 0 500 256', maxWidth: 520, content: GRAIN_SVG, alt: 'A wheat grain cut open. Bran: the outer layers, with most of the fibre, B vitamins and minerals. Endosperm: the large inner food store, starch and some protein. Germ: a small part at the base that would sprout, with oils, vitamin E and B vitamins.' },
+      figure: kernelFigure(),
     },
     {
       id: 'grain',
@@ -232,7 +236,8 @@ export default {
 
         **Which part does white flour keep?**
       `,
-      figure: { type: 'svg', viewBox: '0 0 500 256', maxWidth: 520, content: GRAIN_SVG, alt: 'A wheat grain cut open. Bran: the outer layers, with most of the fibre, B vitamins and minerals. Endosperm: the large inner food store, starch and some protein. Germ: a small part at the base that would sprout, with oils, vitamin E and B vitamins.' },
+      figure: kernelFigure(),
+      hints: ['The bran is the brown outer layers; the germ is the part that would sprout.'],
       options: [
         { text: 'The endosperm', correct: true },
         { text: 'The bran', why: 'The bran is the brown outer part that is sieved out. It holds most of the fibre.' },

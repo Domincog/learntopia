@@ -703,6 +703,15 @@ test('lesson 3: bone, age, the muscle to tap and the folklore', () => {
   assert.match(correctOption(bone).text, /Bone is built up where it is loaded/);
   assert.ok(flat(bone.text).includes('**35% thicker**') && flat(bone.text).includes('28% in the women') && flat(bone.text).includes('1977'));
   assert.match(flat(bone.explain), /lose\s+about 1% of the bone in their hips and legs every month/);
+  // the figure is a real X-ray of an upper arm with its wall named: the thing the study measured, nothing to answer on it
+  const xray = bone.figures[0];
+  assert.equal(xray.type, 'photo');
+  assert.equal(xray.mode, 'label');
+  assert.deepEqual(xray.hotspots.map((h) => [h.id, h.label]), [['wall', 'Bone wall']]);
+  for (const h of xray.hotspots) assert.ok(h.r >= 0.04 && h.x > h.r && h.x < 1 - h.r && h.y > 0 && h.y < 1);
+  assert.match(flat(bone.text), /X-rays like the one in the picture/);
+  assert.match(flat(bone.text), /the wall of the bone, which shows up bright white on an X-ray/);
+  assert.doesNotMatch(xray.alt, /load/i, 'the description does not give the answer away');
   assert.ok(Math.abs(FACTS.tennis.men / 100 - 1 / 3) < 0.03, '35% is "about a third"');
   // the bone-bank picture: built up to about 30, lost slowly to 50 and faster after; a higher peak crosses the line later
   const bank = one('strength', 'bone-bank');

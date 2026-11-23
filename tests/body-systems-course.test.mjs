@@ -315,7 +315,7 @@ test('every choice has exactly one correct option, no duplicates, and says why e
       const right = s.options.filter((o) => o.correct).length;
       if (step.type === 'choice') assert.equal(right, 1, `${lesson}/${step.id} seed ${k}`);
       else assert.ok(right >= 2 && right < s.options.length, `${lesson}/${step.id} seed ${k}`);
-      assert.equal(new Set(s.options.map((o) => flat(o.text))).size, s.options.length, `${lesson}/${step.id} has duplicate options`);
+      assert.equal(new Set(s.options.map((o) => (o.figure && o.figure.src) || flat(o.text))).size, s.options.length, `${lesson}/${step.id} has duplicate options`);
       assert.ok(s.options.length >= 3 && s.options.length <= 5, `${lesson}/${step.id}: three to five options`);
       for (const o of s.options) if (!o.correct && s.mode !== 'predict') assert.ok(o.why && o.why.length > 25, `${lesson}/${step.id}: "${o.text}" says why it is wrong`);
       assert.ok(s.explain && flat(s.explain).length > 60, `${lesson}/${step.id}: explanation`);
@@ -1339,10 +1339,12 @@ test('every photo comes from the course\'s media manifest, with a licence, a cre
     }
   }
   assert.deepEqual([...used].sort(), Object.keys(manifest.images).sort(), 'every picture in the manifest is used, and nothing else');
-  assert.ok(used.size >= 5 && used.size <= 12, `${used.size} pictures`);
+  assert.ok(used.size >= 5 && used.size <= 20, `${used.size} pictures`);
+  // about four pictures a lesson (docs/IMAGES.md); a question with four picture options uses its four
   for (const [id, lesson] of Object.entries(lessons)) {
-    const count = lesson.steps.flatMap((step) => figuresOf(resolveStep(step, makeRng(3), step.id))).filter((f) => f.type === 'photo').length;
-    assert.ok(count <= 2, `${id}: ${count} pictures`);
+    const figures = lesson.steps.flatMap((step) => figuresOf(resolveStep(step, makeRng(3), step.id))).filter((f) => f.type === 'photo');
+    assert.ok(new Set(figures.map((f) => f.src)).size <= 4, `${id}: ${figures.length} pictures`);
+    assert.ok(figures.length <= 5, `${id}: ${figures.length} pictures`);
   }
 });
 
@@ -1391,6 +1393,19 @@ test('teach before you ask: every lesson teaches before its first graded step, o
   serves('cells-to-systems', 'teach-shapes', 'shapes', ['bendy disc', 'nucleus', 'up to a metre long', 'slide past each other', 'flat, tough tiles']);
   // the figure draws the red cell's dimple as a darker middle, as the nerve cell's nucleus is drawn: the text says which is which
   assert.match(text('cells-to-systems', 'teach-shapes'), /darker middle in the picture is a dimple in the disc, not a nucleus/);
+  // then the real cells: one micrograph of each of the four kinds as picture options, after the drawing has been matched
+  serves('cells-to-systems', 'teach-shapes', 'real-cells', ['bendy disc', 'up to a metre long', 'slide past each other', 'flat, tough tiles']);
+  assert.ok(at('cells-to-systems', 'shapes') < at('cells-to-systems', 'real-cells'), 'the drawing is matched before the real cells are shown');
+  const real = raw('cells-to-systems', 'real-cells');
+  const pictured = (o) => /content\/media\/body-systems\/([a-z0-9-]+)\.jpg/.exec(o.figure.src)[1];
+  assert.deepEqual(real.options.map(pictured).sort(), ['muscle-fibres', 'neuron', 'red-cells', 'skin-cells']);
+  assert.deepEqual(real.options.filter((o) => o.correct).map(pictured), ['neuron']);
+  assert.match(text('cells-to-systems', 'real-cells'), /Which picture shows a nerve cell\?/);
+  for (const o of real.options) {
+    assert.ok(o.figure.type === 'photo' && !o.text && !o.figure.caption, 'picture options carry no words');
+    assert.ok(!/nerve|neuron|blood|muscle|skin/i.test(o.figure.alt), `the description does not name the cell: ${o.figure.alt}`);
+    assert.ok(o.correct || o.why, 'each other picture says what it shows');
+  }
   serves('cells-to-systems', 'teach-needs', 'needs', ['| Fuel | weeks |', '| Water | days |', '| Oxygen | a few minutes |']);
   for (const sy of H.SYSTEMS) {
     const screen = ['respiratory', 'digestive', 'circulatory', 'urinary'].includes(sy.id) ? 'teach-supply' : 'teach-rest';

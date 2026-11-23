@@ -8,7 +8,7 @@
 // 3. Every interact step is fed the states its controls can reach, built here from the widgets' documented
 //    rules, and must accept exactly those that satisfy the instruction.
 // 4. Safety: the disclaimer, no request for the learner's own health data, tone on the sober steps,
-//    body-diagram ids, picture credits.
+//    body-diagram ids, picture credits, and sourced pictures that show what their text names.
 //
 //   node --test tests/staying-well-course.test.mjs
 import test from 'node:test';
@@ -1013,6 +1013,28 @@ test('body diagrams use real structures; every picture has a licence, a credit a
   }
   assert.ok(maps >= 3, 'the body diagram is used');
   assert.deepEqual([...used].sort(), Object.keys(manifest.images).sort(), 'every picture in the manifest is used, and nothing else');
+});
+
+test('sourced pictures show what their text names', () => {
+  // the artery: a published illustration whose rings name the parts the teaching screen talks about
+  const artery = fixed('know-your-numbers', 'teach-artery');
+  const fig = artery.figures[0];
+  assert.equal(fig.type, 'photo');
+  assert.equal(fig.mode, 'label');
+  assert.ok(/middle stage/.test(flat(artery.text)), 'the text says which stage the picture shows');
+  const labels = fig.hotspots.map((h) => h.label.toLowerCase());
+  assert.ok(labels.some((l) => /plaque/.test(l)) && labels.some((l) => /channel/.test(l)), labels.join(', '));
+  for (const h of fig.hotspots) assert.ok(h.x > h.r && h.x < 1 - h.r && h.y > 0 && h.y < 1 && h.r >= 0.05 && h.alt, `teach-artery/${h.id} lies inside the picture`);
+  for (let i = 0; i < fig.hotspots.length; i++) for (let j = i + 1; j < fig.hotspots.length; j++) {
+    const [a, b] = [fig.hotspots[i], fig.hotspots[j]];
+    const apart = Math.hypot(a.x - b.x, (a.y - b.y) * (fig.height / fig.width));
+    assert.ok(apart > a.r + b.r, `teach-artery: rings ${a.id} and ${b.id} do not overlap`);
+  }
+  // the pulse: the picture shows the hold the text describes
+  const pulse = fixed('know-your-numbers', 'try-it');
+  assert.equal(pulse.figures[0].type, 'photo');
+  assert.ok(/inside of your wrist below the thumb, as in the picture/.test(flat(pulse.text)));
+  assert.ok(/wrist/.test(pulse.figures[0].alt) && /thumb/.test(pulse.figures[0].alt));
 });
 
 // Added in review: an independent table of the facts the first table leaves out, and the wording that a learner might act on.

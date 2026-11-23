@@ -42,18 +42,20 @@ export default {
         Follow one breath in. The airway is a tree turned upside down: one trunk that
         divides, again and again, into millions of twigs.
 
-        Air enters through the **nose or mouth** and passes down the **throat** into the
-        **windpipe** (trachea). The windpipe splits into two **bronchi**, one to each lung.
-        These branch about twenty more times into ever finer **bronchioles**, each ending
-        in a cluster of tiny **air sacs** (alveoli), like a bunch of grapes.
+        Air enters through the **nose or mouth** and passes down the **throat** (pharynx),
+        through the voice box (larynx), into the **windpipe** (trachea). The windpipe splits
+        into two **bronchi**, one to each lung. These branch about twenty more times into
+        ever finer **bronchioles**, each ending in a cluster of tiny **air sacs** (alveoli),
+        like a bunch of grapes.
 
         Nothing is exchanged on the way down. Only in the air sacs does oxygen enter
         the blood.
       `,
-      figure: {
-        type: 'body-map', view: 'lungs-detail', labels: ['windpipe', 'bronchi', 'bronchioles', 'air-sacs'], naming: 'both',
-        alt: 'The airways inside the chest: one windpipe divides into two bronchi, one for each lung, which branch into ever smaller airways. One cluster of air sacs at the end of a small airway is shown enlarged.',
-      },
+      figure: photo(MEDIA.airways, {
+        alt: 'The upper body seen from the front and drawn see-through, with the head turned to the side and cut open. Air spaces behind the nose lead down the throat into the windpipe, a ringed tube in the neck. In the chest it divides into two branches, one for each lung, which split into a tree of ever finer branches tipped with tiny clusters. A dome of muscle lies under the lungs. Labels name the parts.',
+        caption: 'The airway, from the nose to the air sacs',
+        creditLabel: 'Illustration',
+      }),
     },
     {
       id: 'airway',
@@ -141,6 +143,7 @@ export default {
       text: `
         A pair of adult lungs holds about **${BREATH.airSacs} million** air sacs (more in bigger lungs), each a
         fraction of a millimetre across and wrapped in **capillaries**, the finest blood vessels.
+        In this thin slice of lung, the tiny red dots inside the walls are red blood cells.
 
         Spread out flat, their walls would cover about **${BREATH.surface} square metres**: the floor of a
         small flat, folded into your chest. (Estimates run from about 50 to over 100 square
@@ -149,10 +152,17 @@ export default {
         Across the whole of that surface, air and blood are less than a thousandth of a
         millimetre apart.
       `,
-      figure: {
-        type: 'body-map', view: 'lungs-detail', labels: ['bronchioles', 'air-sacs', 'lung-capillaries'],
-        alt: 'The airways inside the lungs, with one cluster of air sacs at the end of a small airway shown enlarged. Fine blood vessels, the lung capillaries, are wrapped round the air sacs.',
-      },
+      figure: photo(MEDIA['lung-tissue'], {
+        alt: 'A thin slice of lung under a microscope, stained pink and purple: large pale empty spaces, separated by walls as thin as threads. Inside one of the walls lies a column of tiny red dots.',
+        caption: 'A thin slice of healthy lung under a microscope',
+        creditLabel: 'Micrograph',
+        mode: 'label',
+        hotspots: [
+          { id: 'sac', x: 0.33, y: 0.43, r: 0.06, label: 'Air sac', alt: 'a large pale space' },
+          { id: 'blood', x: 0.525, y: 0.46, r: 0.05, label: 'Red cells in a capillary', alt: 'a column of tiny red dots inside a wall' },
+          { id: 'wall', x: 0.645, y: 0.355, r: 0.05, label: 'Thin wall', alt: 'a strand between two pale spaces' },
+        ],
+      }),
     },
     {
       id: 'explore-sac',

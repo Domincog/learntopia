@@ -51,6 +51,55 @@
       },
       "changes": "resized",
       "fetched": "2026-11-14"
+    },
+    "upper-arm-xray": {
+      "id": "upper-arm-xray",
+      "file": "upper-arm-xray.jpg",
+      "src": "content/media/fitness/upper-arm-xray.jpg?v=a4bf8b54",
+      "width": 960,
+      "height": 1139,
+      "bytes": 138903,
+      "sha256": "a4bf8b54cdb1825380c41316255babc30a7d458a8e3f2403c6013386697decf3",
+      "small": {
+        "file": "upper-arm-xray.480.jpg",
+        "src": "content/media/fitness/upper-arm-xray.480.jpg?v=4f0f2caf",
+        "width": 405,
+        "height": 480,
+        "bytes": 20489,
+        "sha256": "4f0f2caf9284ede61393a6b8ba8e008cffba11183508c64eed079debcfb15851"
+      },
+      "title": "File:Prominente Tuberositas deltoidea Humeri 48M - CR - 001.jpg",
+      "requested": "File:Prominente Tuberositas deltoidea Humeri 48M - CR - 001.jpg",
+      "name": "Prominent deltoid tuberosity of the upper-arm bone, X-ray",
+      "nameGiven": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prominente_Tuberositas_deltoidea_Humeri_48M_-_CR_-_001.jpg",
+      "author": "Hellerhoff",
+      "authorDerived": "Hellerhoff",
+      "authorApi": "Hellerhoff",
+      "credit": "Own work",
+      "date": "2022-09-16",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1124,
+        "height": 1333,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 1139
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23"
     }
   }
 }

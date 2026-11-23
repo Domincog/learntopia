@@ -2,6 +2,56 @@
   "course": "staying-well",
   "note": "Written by tools/fetch-image.mjs. Do not edit by hand: run the tool.",
   "images": {
+    "artery-plaque": {
+      "id": "artery-plaque",
+      "file": "artery-plaque.jpg",
+      "src": "content/media/staying-well/artery-plaque.jpg?v=cd1868e2",
+      "width": 1280,
+      "height": 720,
+      "bytes": 125876,
+      "sha256": "cd1868e2f1540abd6ea4288e89cd6817f43c15510a6e71b1d7be55bc7861396d",
+      "small": {
+        "file": "artery-plaque.480.jpg",
+        "src": "content/media/staying-well/artery-plaque.480.jpg?v=8d214665",
+        "width": 480,
+        "height": 270,
+        "bytes": 18480,
+        "sha256": "8d214665dec9def0af6d36182a1636637686a5c9e092bb4ecdc10a95d250eafd"
+      },
+      "title": "File:Coronary Artery Disease.jpg",
+      "requested": "File:Coronary Artery Disease.jpg",
+      "name": "Coronary Artery Disease",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coronary_Artery_Disease.jpg",
+      "author": "Scientific Animations",
+      "authorDerived": "http://www.scientificanimations.com/wiki-images/",
+      "authorOverride": "Scientific Animations",
+      "authorApi": "http://www.scientificanimations.com",
+      "creditLabel": "Illustration",
+      "credit": "http://www.scientificanimations.com/wiki-images/",
+      "date": "2019-08-02",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1920,
+        "height": 1080,
+        "mime": "image/jpeg"
+      },
+      "downloaded": {
+        "width": 1280,
+        "height": 720
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23"
+    },
     "disk-test": {
       "id": "disk-test",
       "file": "disk-test.jpg",
@@ -55,6 +105,55 @@
       },
       "changes": "cropped and resized",
       "fetched": "2026-11-14"
+    },
+    "pulse-wrist": {
+      "id": "pulse-wrist",
+      "file": "pulse-wrist.jpg",
+      "src": "content/media/staying-well/pulse-wrist.jpg?v=961d6c96",
+      "width": 960,
+      "height": 720,
+      "bytes": 41567,
+      "sha256": "961d6c962f243ba45761d3e0872fda3e47ba50e32e04ccea18b2dffae840331a",
+      "small": {
+        "file": "pulse-wrist.480.jpg",
+        "src": "content/media/staying-well/pulse-wrist.480.jpg?v=514e90a4",
+        "width": 480,
+        "height": 360,
+        "bytes": 12973,
+        "sha256": "514e90a46dd7f776d5bea357dd79591446c8780ff2c91a1d5ab46cd3c728ddee"
+      },
+      "title": "File:Pulse (Wrist).png",
+      "requested": "File:Pulse (Wrist).png",
+      "name": "Pulse (Wrist)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pulse_(Wrist).png",
+      "author": "BruceBlaus",
+      "authorDerived": "BruceBlaus",
+      "authorApi": "BruceBlaus",
+      "creditLabel": "Illustration",
+      "credit": "Own work",
+      "date": "2017-07-24",
+      "license": "CC BY-SA 4.0",
+      "licenseCode": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attributionRequired": true,
+      "publicDomain": false,
+      "original": {
+        "width": 1024,
+        "height": 768,
+        "mime": "image/png"
+      },
+      "downloaded": {
+        "width": 960,
+        "height": 720
+      },
+      "options": {
+        "crop": null,
+        "aspect": null,
+        "focus": null,
+        "max": 1280
+      },
+      "changes": "resized",
+      "fetched": "2026-11-23"
     },
     "snow-map": {
       "id": "snow-map",

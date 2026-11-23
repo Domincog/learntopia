@@ -19,28 +19,6 @@ const CENTRES = [
   { place: 'eastern-woodlands', ask: 'where sunflowers were first farmed', about: 'sunflowers were first grown in eastern North America, about 4,000 to 5,000 years ago.', label: 'sunflower', pos: 'top' },
 ];
 
-// A row of mud-brick houses seen from the side: no doors, a hatch in each roof and a ladder below it.
-function houses() {
-  const rows = [[26, 62, 74], [88, 70, 58], [158, 58, 80], [216, 66, 64], [282, 52, 84]];
-  let out = '<line class="stroke-ink" x1="10" y1="152" x2="350" y2="152" stroke-width="2.5" stroke-linecap="round"/>';
-  for (const [x, w, top] of rows) {
-    const hx = x + w * 0.62;
-    out += `<rect class="fill-orange-soft stroke-ink" stroke-width="2.5" x="${x}" y="${top}" width="${w}" height="${152 - top}"/>`;
-    out += `<rect class="fill-surface" x="${hx - 8}" y="${top - 2}" width="16" height="4"/>`;
-    out += `<g class="stroke-ink" stroke-width="2" stroke-linecap="round"><line x1="${hx - 4}" y1="${top - 8}" x2="${hx - 20}" y2="150"/><line x1="${hx + 6}" y1="${top - 8}" x2="${hx - 10}" y2="150"/>`;
-    for (let k = 1; k <= 4; k++) {
-      const y = top + ((150 - top) * k) / 5;
-      const dx = (-16 * (y - (top - 8))) / (150 - (top - 8));
-      out += `<line x1="${(hx - 4 + dx).toFixed(1)}" y1="${y.toFixed(1)}" x2="${(hx + 6 + dx).toFixed(1)}" y2="${y.toFixed(1)}"/>`;
-    }
-    out += '</g>';
-  }
-  out += '<text class="fig-label-sm text-muted" x="180" y="170" text-anchor="middle">shared walls, no streets, no doors</text>';
-  out += '<text class="fig-label-sm" x="52" y="48" text-anchor="middle">roof hatch</text>';
-  out += '<line class="stroke-ink" x1="56" y1="52" x2="63" y2="70" stroke-width="1.5" stroke-linecap="round"/>';
-  return out;
-}
-
 // An arrow from (x1, y1) to (x2, y2), drawn as three strokes.
 function arrow(x1, y1, x2, y2, cls = 'stroke-ink') {
   const a = Math.atan2(y2 - y1, x2 - x1);
@@ -280,24 +258,26 @@ export default {
       text: `
         Some two thousand years later farming had produced something new: the town.
         At **Çatalhöyük** in Turkey, from about 7100 BCE, hundreds of mud-brick
-        houses were built wall to wall, like cells in a honeycomb.
+        houses were built wall to wall, like cells in a honeycomb, with no
+        streets between them.
 
-        The drawing shows how the houses were built. **How did people get home?**
+        A museum has rebuilt the inside of one of them. **How did people get home?**
       `,
-      figure: {
-        type: 'svg', viewBox: '0 0 360 178', maxWidth: 460,
-        alt: 'A side view of five flat-roofed houses of different heights built against each other with no gaps. None has a door. Each has an opening in its roof with a ladder leading down inside.',
-        content: houses(),
-      },
+      figure: photo(MEDIA['catalhoyuk-house'], {
+        alt: 'The inside of a rebuilt mud-brick house with smooth white plastered walls; none of the walls in view has a door. In the left corner a wooden ladder leans from beside a domed clay oven up to the timber roof. Low platforms line the floor, and clay bull heads with horns are fixed to the far wall.',
+        caption: 'A Çatalhöyük house rebuilt in a museum in Ankara',
+      }),
       options: [
         { text: 'Across the roofs, then down a ladder', correct: true },
-        { text: 'Through a front door on the street', why: 'There are no streets and no doors: every house touches its neighbours.' },
-        { text: 'Through tunnels under the floors', why: 'Nothing leads in from below. Look at the roofs.' },
+        { text: 'Through a front door on the street', why: 'There were no streets, and the walls have no doors: every house touched its neighbours.' },
+        { text: 'Through tunnels under the floors', why: 'Nothing leads in from below. Look at where the ladder goes.' },
       ],
       explain: `
-        The roofs were the streets. Inside, the houses are much alike: no palace,
-        no great temple, no rich quarter. Çatalhöyük seems to have been a town of
-        rough equals, with walls painted with hunting scenes.
+        The roofs were the streets, and the hole you climbed through also let
+        out the smoke of the oven below it. Inside, the houses are much alike:
+        no palace, no great temple, no rich quarter. Çatalhöyük seems to have
+        been a town of rough equals, with walls painted with hunting scenes and
+        set with the horns of wild cattle.
 
         The grain stores and the crowding were new. So was staying in one place
         for a whole lifetime.

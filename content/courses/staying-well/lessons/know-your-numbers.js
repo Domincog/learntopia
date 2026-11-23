@@ -4,24 +4,17 @@
 // Every calculation is for an example person. Thresholds that differ between guidelines are shown, never graded.
 // Sources for the facts are noted in ../helpers.js.
 import { r, num } from '../../../kit.js';
+import { photo } from '../../../media.js';
+import { MEDIA } from '../../../media/staying-well/index.js';
 import { PEOPLE, NCD, HYPERTENSION, BP_GUIDELINES, UNITS, DIABETES, BMI_BANDS, bmi, RESTING_HR, RISK_MODEL } from '../helpers.js';
 
-// An artery in three states: open, narrowed by plaque, blocked by a clot on a torn plaque.
-const ARTERY = (() => {
-  // the wall is a ring; inside it either blood alone, or a plaque (yellow) that leaves a narrower, off-centre channel
-  const wall = (cx) => `<circle class="fill-pink-soft stroke-ink" stroke-width="3" cx="${cx}" cy="56" r="46"/>`;
-  const label = (cx, text) => `<text class="fig-label-sm" x="${cx}" y="122" text-anchor="middle">${text}</text>`;
-  const plaque = (cx) => `<circle class="fill-yellow stroke-ink" stroke-width="2" cx="${cx}" cy="56" r="35"/>`;
-  return {
-    type: 'svg', viewBox: '0 0 360 130', maxWidth: 430,
-    alt: 'Three cross-sections of an artery. In the first, blood fills a wide round channel. In the second, a yellow fatty plaque has grown inside the wall, leaving a narrower channel pushed to one side. In the third, a dark clot plugs the narrowed channel.',
-    content:
-      wall(60) + '<circle class="fill-red stroke-ink" stroke-width="2" cx="60" cy="56" r="35"/>' + label(60, 'healthy artery')
-      + wall(180) + plaque(180) + '<circle class="fill-red stroke-ink" stroke-width="2" cx="189" cy="47" r="20"/>' + label(180, 'plaque in the wall')
-      + wall(300) + plaque(300) + '<circle class="fill-violet stroke-ink" stroke-width="2" cx="309" cy="47" r="20"/>'
-      + '<path class="stroke-ink fill-none" stroke-width="2" stroke-linecap="round" d="M296 60 l-7 7 M301 64 l-5 8"/>' + label(300, 'torn plaque and clot'),
-  };
-})();
+// The middle stage of atherosclerosis in a published illustration: an artery of the heart, enlarged and cut
+// open, narrowed by fatty plaque. The rings name the parts the teaching screen talks about.
+const ARTERY_SPOTS = [
+  { id: 'plaque', x: 0.53, y: 0.67, r: 0.05, label: 'Fatty plaque in the wall', alt: 'the thick yellow layer between the lining and the outer wall' },
+  { id: 'channel', x: 0.82, y: 0.3, r: 0.05, label: 'Narrowed channel', alt: 'the narrow passage where the red blood cells flow' },
+  { id: 'heart', x: 0.322, y: 0.605, r: 0.05, label: 'Artery on the heart', alt: 'a dashed circle on the surface of the heart' },
+];
 
 /** The two guidelines' bands for the upper (systolic) number, as two bars over one axis. */
 const BP_BARS = (() => {
@@ -99,13 +92,18 @@ export default {
       tone: 'sober',
       title: 'Inside an artery',
       text: `
-        Most heart attacks and strokes are the last step of one slow process, called **atherosclerosis**. The picture shows three stages of it.
+        Most heart attacks and strokes are the last step of one slow process, called **atherosclerosis**. The picture shows its middle stage, in an artery of the heart.
 
         - **LDL cholesterol**, carried in the blood, seeps into the wall of an artery.
         - Over decades, a fatty **plaque** builds up in the wall. The channel narrows, and nothing is felt.
         - One day the surface of the plaque tears. A **blood clot** forms on the tear, as it would on a wound, and the clot blocks the artery.
       `,
-      figure: ARTERY,
+      figure: photo(MEDIA['artery-plaque'], {
+        alt: 'A heart with a dashed circle on one of the arteries on its surface. Beside it, that artery is shown enlarged and cut open: a thick yellow layer of fatty plaque lines its wall on both sides, and red blood cells squeeze through the narrowed channel in the middle.',
+        caption: 'An artery of the heart, narrowed by plaque',
+        mode: 'label',
+        hotspots: ARTERY_SPOTS,
+      }),
     },
     {
       id: 'artery',
@@ -113,7 +111,6 @@ export default {
       tone: 'sober',
       title: 'Inside an artery',
       text: 'Most heart attacks and strokes are the last step of one slow process, called **atherosclerosis**. **Put the steps in order.**',
-      figure: ARTERY,
       items: [
         'LDL cholesterol seeps into the artery wall',
         'Over decades, a fatty plaque builds up in the wall',
@@ -427,7 +424,7 @@ export default {
       type: 'info',
       title: 'Something to try this week',
       text: `
-        One number you can find in a minute, if you like: your **resting pulse**. Sit quietly for a few minutes, rest two fingertips on the inside of your wrist below the thumb, and count the beats for 30 seconds. Double it.
+        One number you can find in a minute, if you like: your **resting pulse**. Sit quietly for a few minutes, rest two fingertips on the inside of your wrist below the thumb, as in the picture, and count the beats for 30 seconds. Double it.
 
         For adults at rest, ${RESTING_HR[0]} to ${RESTING_HR[1]} beats a minute is typical, and fit people are often lower. It varies from day to day, and nobody needs to write it down.
 
@@ -435,11 +432,10 @@ export default {
         A routine check-up usually covers blood pressure, a blood test for cholesterol and glucose, weight and waist, and questions about smoking and family history. Who is invited, and how often, differs between countries. Many pharmacies will measure blood pressure on the spot.
         :::
       `,
-      figure: {
-        type: 'body-map', view: 'body', bounds: [262, 318, 398, 580], show: [], zoom: false,
-        markers: [{ id: 'pulse', at: 'pulse-wrist:left', label: 'Feel for the pulse here', color: 'red', shape: 'ring', size: 'l', labelPos: 'left' }],
-        alt: 'The forearm and hand of a figure, palm forward, with a ring marking the thumb side of the wrist, where the pulse can be felt.',
-      },
+      figure: photo(MEDIA['pulse-wrist'], {
+        alt: 'Two hands. One is held palm up; the tips of the index and middle fingers of the other rest on the inside of its wrist, just below the base of the thumb. Underneath is the title "On the Wrist".',
+        caption: 'Feeling for the pulse at the wrist',
+      }),
       cta: 'Finish',
     },
   ],

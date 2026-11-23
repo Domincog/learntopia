@@ -1,6 +1,6 @@
 // Sleep, Stress and Mental Health · Lesson 4 · Fight, Flight and the Long Haul
 // Driving question: why does an alarm system that can save your life wear you down when it never switches off?
-import { STRESS, STRESS_CURVES, ALARM_NOTES, STRESSORS, BREATH_PATTERNS, WHITEHALL } from '../helpers.js';
+import { STRESS, STRESS_CURVES, ALARM_NOTES, STRESSORS, BREATH_PATTERNS, WHITEHALL, pic } from '../helpers.js';
 
 const HORMONES = {
   type: 'decay-curve', clock: false, xUnit: 'min', yTick: 50, yLabel: 'above resting level',
@@ -145,12 +145,20 @@ export default {
           messenger travels in the blood from the **pituitary gland**,
           just under the brain, to the adrenal glands, and they make
           cortisol.
+
+        The picture is an MRI scan, seen from the side: the pituitary
+        hangs on a short stalk under the hypothalamus.
       `,
-      figure: {
-        type: 'body-map', view: 'head', show: ['brain', 'cerebrum', 'cerebellum', 'brainstem', 'hypothalamus', 'pituitary', 'skull'], static: true, zoom: false,
-        labels: [{ id: 'hypothalamus', text: 'Hypothalamus' }, { id: 'pituitary', text: 'Pituitary gland' }], labelStyle: 'side',
-        alt: 'A head seen from the side, cut open. Two small structures deep in the middle of the head are named: the hypothalamus, at the base of the brain, and the pituitary gland, hanging just beneath it.',
-      },
+      figure: pic('pituitary-mri', {
+        alt: 'A black-and-white MRI scan through the middle of a head, seen from the side, front to the left. A pale arch curves through the middle of the brain, and the thick stem of the brain runs down towards the back. Under the brain, in a small pocket of bone above a black air space, a pea-sized gland hangs on a thin stalk; two red arrows point at it.',
+        caption: 'MRI scan through the middle of a head',
+        creditLabel: 'Scan',
+        mode: 'label',
+        hotspots: [
+          { id: 'hypothalamus', x: 0.525, y: 0.5, r: 0.04, label: 'Hypothalamus', alt: 'grey tissue at the base of the brain, above the stalk' },
+          { id: 'pituitary', x: 0.478, y: 0.68, r: 0.04, label: 'Pituitary gland', alt: 'a small gland in a pocket of bone, on a thin stalk' },
+        ],
+      }),
     },
     {
       id: 'chain',

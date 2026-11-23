@@ -7,6 +7,8 @@
 // (resistance training for children and adolescents). Numbers live in ../helpers.js.
 import { WHO, PEOPLE, TENNIS_ARM, NONAGENARIANS, STRENGTHENING } from '../helpers.js';
 import { overload } from '../../../../src/widgets/training-sim.js';
+import { photo } from '../../../media.js';
+import { MEDIA } from '../../../media/fitness/index.js';
 
 const SAME = overload(['same', 'same', 'same', 'same']);
 const UP = overload(['up', 'up', 'up', 'up']);
@@ -259,18 +261,24 @@ export default {
       title: 'Not only muscle',
       text: `
         Professional tennis players hit thousands of balls a week with one
-        arm. X-rays compared the upper-arm bone of the **racket arm** with
-        the same bone in the other arm. In the racket arm the wall of the
-        bone was about **${TENNIS_ARM.men}% thicker** in the men and ${TENNIS_ARM.women}% in the women
+        arm. X-rays like the one in the picture compared the upper-arm bone
+        of the **racket arm** with the same bone in the other arm. In the
+        racket arm the wall of the bone, which shows up bright white on an
+        X-ray, was about **${TENNIS_ARM.men}% thicker** in the men and ${TENNIS_ARM.women}% in the women
         (Jones and colleagues, ${TENNIS_ARM.year}).
 
         Both arms belong to one person, with the same food and the same
         hormones. **What does the difference show?**
       `,
-      figure: {
-        type: 'body-map', view: 'body', bounds: [20, 150, 380, 470], show: ['skeleton'], groups: [{ ids: ['humerus'], color: 'orange', label: 'Upper-arm bone (humerus)' }],
-        zoom: false, static: true, alt: 'The skeleton of the upper body from the front. The upper-arm bone on each side, between shoulder and elbow, is highlighted.',
-      },
+      figure: photo(MEDIA['upper-arm-xray'], {
+        alt: 'An X-ray of a shoulder and upper arm: ribs at the left edge, the collarbone across the top, and the ball at the top of the upper-arm bone sitting in the shoulder socket. Below it the bone runs down as a long tube, with a bright white wall on each side around a darker centre.',
+        caption: 'An upper-arm bone (humerus) on an X-ray',
+        creditLabel: 'X-ray',
+        mode: 'label',
+        hotspots: [
+          { id: 'wall', x: 0.61, y: 0.62, r: 0.04, label: 'Bone wall', alt: 'the bright white edge of the long bone' },
+        ],
+      }),
       options: [
         { text: 'Bone is built up where it is loaded', correct: true },
         { text: 'People born with thick bones become tennis players', why: 'Then both arms would be thick. Only the arm that takes the load differs.' },

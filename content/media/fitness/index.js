@@ -8,6 +8,7 @@
  */
 export const MEDIA = {
   "spine-mri": {"id":"spine-mri","src":"content/media/fitness/spine-mri.jpg?v=88f4872a","thumb":"content/media/fitness/spine-mri.480.jpg?v=5407ac58","width":500,"height":586,"name":"MRI of a lower back, seen from the side","author":"Stillwaterising","license":"CC0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","sourceUrl":"https://commons.wikimedia.org/wiki/File:Lumbar_MRI_t2-tse-rst-sagittal_06.jpg","publicDomain":true,"attributionRequired":false,"changes":"resized"},
+  "upper-arm-xray": {"id":"upper-arm-xray","src":"content/media/fitness/upper-arm-xray.jpg?v=a4bf8b54","thumb":"content/media/fitness/upper-arm-xray.480.jpg?v=4f0f2caf","width":960,"height":1139,"name":"Prominent deltoid tuberosity of the upper-arm bone, X-ray","author":"Hellerhoff","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0","sourceUrl":"https://commons.wikimedia.org/wiki/File:Prominente_Tuberositas_deltoidea_Humeri_48M_-_CR_-_001.jpg","publicDomain":false,"attributionRequired":true,"changes":"resized"},
 };
 
 export default MEDIA;
