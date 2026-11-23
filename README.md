@@ -5,7 +5,7 @@
 - **Lessons that teach, then ask** — each idea is shown on a short screen with a picture or a worked example, then used at once: drag points, balance scales, run simulations, order code
 - **Built on learning research** — retrieval practice, spacing, interleaving, explanatory feedback, calibration ([the evidence](docs/LEARNING-SCIENCE.md))
 - **Maps, timelines and photographs** — an interactive world map drawn from public-domain data, and freely licensed pictures that carry their credit ([maps](docs/MAPS.md), [images](docs/IMAGES.md), [picture credits](content/media/CREDITS.md))
-- **The human body** — an original, interactive anatomy diagram drawn in code: systems, organs, the heart, the airways, the skin and a cell ([guide](docs/BODY.md))
+- **The human body** — an original, interactive anatomy diagram drawn in code (systems, organs, the heart, the airways, the skin and a cell), and real micrographs, scans and medical illustrations wherever the real thing teaches better ([guide](docs/BODY.md))
 - **Health and money courses written with care** — sourced to current guidance, each checked by a second reviewer, never asking for your own health or financial data; general education, not medical or financial advice ([how they are written](docs/HEALTH.md))
 - **Spaced review** with an open memory model (FSRS) and regenerated problems, so you practise the skill rather than recall an answer
 - **Private by construction** — no accounts, no tracking, no cookies, no server; progress lives in the learner's browser and can be exported
@@ -104,7 +104,7 @@ Every push then deploys automatically, and nothing has to be downloaded or uploa
 npx wrangler pages deploy . --project-name learntopia
 ```
 
-Dragging the folder or a zip into the dashboard (*Upload assets*) does **not** work for this project: that route accepts at most 1,000 files, and the site has more (every lesson is its own file, plus about 300 pictures). Git and Wrangler allow 20,000.
+Dragging the folder or a zip into the dashboard (*Upload assets*) does **not** work for this project: that route accepts at most 1,000 files, and the site has more (every lesson is its own file, plus about 350 picture files). Git and Wrangler allow 20,000.
 
 The included [`_headers`](_headers) file sets a strict Content-Security-Policy and sensible caching on Cloudflare Pages. Routing uses the URL hash (`#/courses`), so no redirect rules are needed and the site also works unchanged on GitHub Pages, Netlify or any other static host.
 
