@@ -1,0 +1,35 @@
+# Publishes a GitHub release when a version tag (v1.2.3) is pushed. The release
+# notes are the message of the annotated tag, in Markdown; keep its "#" headings
+# with --cleanup=verbatim:
+#
+#   git tag -a v1.2.0 --cleanup=verbatim -F notes.md
+#   git push origin v1.2.0
+#
+# Tag a commit whose src/config.js and package.json carry the same version.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the tag itself (checkout keeps only the commit it points to)
+        run: git fetch --force origin "refs/tags/${GITHUB_REF_NAME}:refs/tags/${GITHUB_REF_NAME}"
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(git cat-file -t "refs/tags/${GITHUB_REF_NAME}")" != tag ]; then
+            echo "::error::${GITHUB_REF_NAME} is not an annotated tag; its message becomes the release notes."
+            exit 1
+          fi
+          git tag --list "${GITHUB_REF_NAME}" --format='%(contents:subject)%0a%0a%(contents:body)' > notes.md
+          gh release create "${GITHUB_REF_NAME}" --repo "${GITHUB_REPOSITORY}" --verify-tag \
+            --title "Learntopia ${GITHUB_REF_NAME#v}" --notes-file notes.md

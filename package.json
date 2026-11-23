@@ -1,6 +1,6 @@
 {
   "name": "learntopia",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open-source interactive learning: bite-sized, hands-on lessons with spaced review. Static site, zero dependencies, no build step.",
   "private": true,
   "type": "module",

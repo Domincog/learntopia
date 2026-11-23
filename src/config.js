@@ -39,7 +39,7 @@ export const config = {
     monthlyCost: 200,
   },
   /** Semantic version of the app shell. */
-  version: '1.0.0',
+  version: '1.1.0',
   /**
    * localStorage key for all learner data. Bump only with a migration. (It
    * keeps the project's working name so that progress saved before the site
